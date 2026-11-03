@@ -1,0 +1,20 @@
+# WhatsApp chat log — personal content, kept locally only.
+sessions/inputs/whatsapp log.txt
+
+# Per-session audio+transcript archive — regenerable via .claude/skills/transcribe/archive_session.sh
+sessions/outputs/archive/
+
+# Per-session production inputs. Contain real-world voice content and personal data.
+sessions/session-*/inputs/
+
+# WotC-licensed adventure PDF — not redistributable.
+/campaign/Tyranny of Dragons.pdf
+
+# Local environment variables (API keys, tokens).
+.env
+
+# macOS Finder metadata.
+.DS_Store
+
+# Personal Claude Code overrides for this project.
+.claude/settings.local.json

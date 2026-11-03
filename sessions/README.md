@@ -1,0 +1,97 @@
+# Sessions and recaps
+
+This folder holds session-by-session output. **The recap pipeline is the project's main function.**
+
+This README is layout-and-orientation only. Each file's full spec — format, content rules, exclusions, acceptance criteria — lives in the relevant skill `SKILL.md`.
+
+## Cross-session inputs
+
+`sessions/inputs/` holds resources shared across the recap pipeline rather than tied to a single session:
+
+- [`inputs/calendar.md`](inputs/calendar.md) — authoritative real-world date ↔ session-number mapping, with per-month plot hooks distilled from primary evidence (mostly WhatsApp). Source of truth when reconciling session frontmatter dates and PC `joined_at` fields.
+- [`inputs/external-resumes/`](inputs/external-resumes/) — unreliable player-written resumes / diaries, kept verbatim for cross-reference during recaps.
+
+## File schemas (templates)
+
+`sessions/templates/` holds the authoritative schemas for the per-session canon artifacts — commented skeletons that name every section, format rule, exclusion, and example inline. Producer skills, future verifiers, and the GM at glance-check all read the same template, so each file has a single source of truth.
+
+- [`templates/minutes-template.md`](templates/minutes-template.md) — schema for `minutes-<NN>.md`. Consumed by `/draft` (producer in both write and audit modes).
+- [`templates/triage-template.md`](templates/triage-template.md) — schema for `inputs/triage-<NN>.md`. Consumed by `/draft` (producer and consumer of GM-handoff items).
+- [`templates/gm-template.md`](templates/gm-template.md) — schema for `gm-<NN>.md`. Consumed by `/gm` (producer).
+
+When a `SKILL.md` references "the schema" or "the template" for one of these files, it means the file under `sessions/templates/`. The skill files cover *procedure* (what to read, what to ask the GM, when to error, self-verify checks); the templates cover *format* (sections, rules per section, examples, exclusions).
+
+## Per-session files
+
+Each session lives in its own folder: `session-<NN>/`. Three canonical artifacts at the root, an `inputs/` folder for production materials, and an `outputs/` folder for files derived from the canon (rendered PDFs). **Every per-session file is suffixed with `-<NN>`** (matching the parent folder) so files stay disambiguable when several sessions are open in the editor at once.
+
+| Path | Audience | Lifetime |
+|---|---|---|
+| `saga-<NN>.md` | GM (Homebrewery v3 markdown; render via [`.claude/skills/render_pdf.py`](../.claude/skills/render_pdf.py)) | Canon — archived |
+| `gm-<NN>.md` | GM | Canon — archived |
+| `minutes-<NN>.md` | AI (input for `/saga`) + Players (GM-shared as a detailed reference) | Working — kept for record |
+| `inputs/triage-<NN>.md` | GM | Working — cleared, then archived |
+| `inputs/transcripts/` | `/draft` input | Cleaned outputs at root, raw inputs in subfolders — see *Input transcripts* below |
+| `inputs/audios/` | `/transcribe` source | Raw recordings + intermediates (audio gitignored, whisperx JSONs committed) |
+| `outputs/S<NN> - {Saga,GM,Minutes}.pdf` | Players (rendered) | Derived — regenerate via [`.claude/skills/render_pdf.py`](../.claude/skills/render_pdf.py) (POSTs an anonymous brew to Homebrewery, renders the PDF, deletes the brew; no state persisted) |
+
+## Pipeline
+
+```
+/transcribe → /draft (write) → /draft (audit, fresh context, repeatable) → [manual GM review] → (GM bumps to accepted) → /gm  ∥  /saga
+                  (drafted)                  (still drafted)                    (still drafted)        (accepted)
+```
+
+| Step | Skill | Output |
+|---|---|---|
+| 1 | [`/transcribe`](../.claude/skills/transcribe/SKILL.md) | Three independent paths the GM picks explicitly: **A** (multi-track audio) → `raw/session-<NN>.txt` + `transcript-<NN>.txt`; **B** (merged single-track audio) → `raw/dia-<NN>.txt` + `transcript-dia-<NN>.txt`; **C** (external dia witness) → `raw/dia-<NN>.txt` + `transcript-dia-<NN>.txt`. A session typically runs A + C. |
+| 2 | [`/draft`](../.claude/skills/draft/SKILL.md) **write mode** | `minutes-<NN>.md` (written with `status: drafted`) and `inputs/triage-<NN>.md`. Loads PC/NPC digests + state + homebrew context, drafts with per-bullet citations, runs in-context audit passes 0+1+2 plus the trace-audit subagent (Pass 3), snapshots, stops. Unattended — no GM in the loop. |
+| 3 | [`/draft`](../.claude/skills/draft/SKILL.md) **audit mode** (fresh context, GM present) | Same skill, re-invoked on an existing drafted file. Walks the GM handoff (prior-session audit, Spanish dispositions, NPC files, date / continuity references), applies dispositions, re-runs Pass 0 + 1 + 2 + 3, propagates §8 *File updates needed* to canon files. Idempotent. Status stays at `drafted` — GM bumps to `accepted` manually after their review. |
+| 3.5 | manual GM review | The GM reads the drafted minutes, edits anything that needs touching by hand, and bumps `status: drafted` → `status: accepted` when satisfied. Transcript anchors stay in the file as the audit trail. |
+| 4 | [`/gm`](../.claude/skills/gm/SKILL.md) | `gm-<NN>.md` — structural digest of the accepted minutes; no transcript reads. Runs only on `status: accepted` minutes; parallelisable with `/saga`. If `gm-<NN>.md` already exists, switches to audit mode (compare-and-report; never overwrites). |
+| 5 | [`/saga`](../.claude/skills/saga/SKILL.md) | `saga-<NN>.md` — player-facing recap. Runs only on `status: accepted` minutes. |
+
+The minutes file's `status` field is the gate that sequences the pipeline: `drafted` (every `/draft` invocation, write or audit mode) → `accepted` (GM sets manually). See [`templates/minutes-template.md`](templates/minutes-template.md) for the field spec.
+
+Each skill's `SKILL.md` carries its own behavior, inputs, and outputs in detail. The canon file schemas live in [`templates/`](templates/) — those are the authoritative spec, the SKILL files cover only procedure. During `/draft`'s audit-mode runs, the downstream "File updates needed" checklist propagates session changes into the campaign's living canon files (PC state, timeline, NPCs, locations, factions, calendar) — see `/draft`'s *Audit mode* section.
+
+## File naming
+
+Folder: `session-<NN>/` where `<NN>` is the session number, zero-padded (e.g., `01`, `12`). Files inside the folder repeat the same `-<NN>` suffix — the redundancy is intentional, so any single file is unambiguous when opened on its own (no two sessions share a `gm.md` tab in the editor).
+
+Example for session 12:
+
+```
+sessions/session-12/
+├── saga-12.md          # player-facing Spanish saga (Homebrewery v3 markdown — render to PDF)
+├── minutes-12.md       # session minutes (carries session metadata in YAML frontmatter)
+├── gm-12.md            # GM event log
+├── inputs/
+│   ├── triage-12.md    # production artifacts; cleared during /draft audit-mode GM-handoff
+│   ├── transcripts/
+│   │   ├── transcript-12.txt       # /transcribe Path A canonicalisation output — primary witness for /draft
+│   │   ├── transcript-dia-12.txt   # /transcribe Path B or Path C canonicalisation output — secondary witness
+│   │   ├── raw/                    # /transcribe merge/split output (session-12.txt for Path A, dia-12.txt for Paths B and C)
+│   │   └── external/               # player-supplied raw transcripts (dia 12.{json,txt,tsv,srt,vtt}); input for Path C
+│   └── audios/      # raw recording + tracks/, clean/, whisperx/
+└── outputs/            # derived artifacts (regenerable / re-exportable)
+    └── S12 - *.pdf     # rendered PDFs (via .claude/skills/render_pdf.py — Saga, GM, Minutes)
+```
+
+The session number is canonical and lives in the folder name; the per-file suffix mirrors it. **Session metadata** (real-world date, in-fiction date, party present, locations) lives in the **YAML frontmatter of `minutes-<NN>.md`**. The authoritative date↔session mapping is [`inputs/calendar.md`](inputs/calendar.md) — if the minutes' frontmatter and `inputs/calendar.md` disagree, **flag the contradiction for the GM** rather than auto-reconciling. Reconciliation is a GM decision.
+
+## Input transcripts
+
+Each session's `inputs/transcripts/` folder is laid out in three tiers:
+
+- **Root** — the cleaned outputs that `/draft` reads (write mode and audit mode):
+  - `transcript-<NN>.txt` — canonicalised `/transcribe` Path A output (speaker labels are character names; PC/NPC/location variants normalised; hallucination loops already removed at the merge step). **Primary witness.**
+  - `transcript-dia-<NN>.txt` — canonicalised dia transcript, produced by `/transcribe` Path B (from merged-track audio) or Path C (from player-supplied `external/dia <NN>.json` or `.txt + .tsv`). Raw `SPEAKER_NN` labels kept verbatim. **Secondary witness.**
+- `raw/` — `/transcribe`'s merge/split output (`session-<NN>.txt` for Path A, `dia-<NN>.txt` for Paths B and C). Preserved as the immutable record after hallucination filtering; the canonicalisation step reads it; `/draft` only falls back to it if canonicalisation didn't run.
+- `external/` — player-supplied raw transcripts. Typically one player records via a separate STT pipeline (output named `dia <NN>.txt`) and shares it; companion files (`dia <NN>.tsv`, `.srt`, `.vtt`, `.json`) carry timing data the bare `.txt` lacks. `/transcribe` Path C reads `dia <NN>.json` (preferred, full WhisperX schema with confidence scores) or `dia <NN>.txt` + `.tsv` (fallback) to produce the secondary cleaned witness; `/draft` falls back to these only if canonicalisation didn't run.
+
+The pipeline `/transcribe` → `/draft` (write) → `/draft` (audit) is the standard path. `/draft` reads only the root-level cleaned files; the `raw/` and `external/` folders are inputs to `/transcribe`'s canonicalisation step and are otherwise immutable history.
+
+**Current STT quality is poor** — both witnesses carry STT artifacts. `/transcribe` handles mechanical cleanup (hallucination filter at merge/split, name canonicalisation at the final step of each path); `/draft` cross-references the two cleaned witnesses to resolve passages where one is garbled, both at drafting and during the in-context Pass 1 audit. If a specific event remains unreadable across both, ask the GM rather than invent narrative.
+
+Avoid concatenating the witnesses into a single linear narrative. Treat them as two noisy views of the same events; synthesize the consensus.
