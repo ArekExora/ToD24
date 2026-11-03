@@ -1,6 +1,6 @@
 ---
 status: accepted
-date: 2026-03-01 17:00 - ?
+date: 2026-03-01 17:00 - 21:00
 in_fiction_date: 15 Hammer 1490 DR, ~08:00 → ~15:00?
 party_present:
   - Eguzkilore

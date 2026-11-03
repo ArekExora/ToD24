@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tyranny of Dragons — Session Recaps</title>
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --fg: #2a2520;
+      --dim: #86807a;
+      --card-bg: #ffffff;
+      --card-border: #e6e1d8;
+      --accent: #7c3a2a;
+      --accent-dark: #5e2d21;
+      --accent-tint: #fff8f1;
+      --full: #4a9d4a;
+      --partial: #d6a53c;
+      --empty: #c84a4a;
+      --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.4;
+      padding: 2rem 1rem 4rem;
+    }
+    header { max-width: 1200px; margin: 0 auto 1.5rem; }
+    header h1 {
+      margin: 0 0 .25rem;
+      font-size: 1.6rem;
+      color: var(--accent);
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    header p { margin: 0; color: var(--dim); font-size: .9rem; }
+    .legend {
+      max-width: 1200px; margin: 0 auto 1.25rem;
+      display: flex; gap: 1.25rem; flex-wrap: wrap;
+      font-size: .78rem; color: var(--dim);
+    }
+    .legend span { display: inline-flex; align-items: center; gap: .4rem; }
+    .legend i {
+      display: inline-block; width: .55rem; height: .55rem;
+      border-radius: 50%;
+    }
+    .legend i.full { background: var(--full); }
+    .legend i.partial { background: var(--partial); }
+    .legend i.empty { background: var(--empty); }
+    main#grid {
+      max-width: 1200px; margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+      gap: 0.7rem;
+    }
+    .loading, .error {
+      grid-column: 1 / -1;
+      padding: 2rem; text-align: center; color: var(--dim);
+    }
+    .error { color: var(--empty); }
+    .error code { background: #eee; padding: .1rem .4rem; border-radius: 3px; }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 6px;
+      padding: 0.75rem 0.9rem 0.8rem;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+      position: relative;
+      user-select: none;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+    }
+    .card.global {
+      border-color: var(--accent);
+      background: var(--accent-tint);
+    }
+    .card .num {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .card.global .num {
+      font-size: 1.05rem;
+      letter-spacing: 0.05em;
+    }
+    .card .dates { margin-top: .55rem; }
+    .card .real {
+      font-size: .82rem;
+      color: var(--fg);
+      font-variant-numeric: tabular-nums;
+    }
+    .card .fiction {
+      font-size: .75rem;
+      color: var(--dim);
+      font-style: italic;
+      margin-top: .15rem;
+    }
+    .card .dot {
+      position: absolute;
+      top: 0.65rem; right: 0.75rem;
+      width: 0.6rem; height: 0.6rem;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .card .dot.full { background: var(--full); }
+    .card .dot.partial { background: var(--partial); }
+    .card .dot.empty { background: var(--empty); }
+    .card .links {
+      display: none;
+      margin-top: .7rem; padding-top: .55rem;
+      border-top: 1px solid var(--card-border);
+      gap: .35rem; flex-wrap: wrap;
+    }
+    .card.expanded .links { display: flex; }
+    .card .links a, .card .links span {
+      font-size: .72rem;
+      padding: .25rem .55rem;
+      border-radius: 3px;
+      text-decoration: none;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+    .card .links a {
+      background: var(--accent);
+      color: white;
+    }
+    .card .links a:hover { background: var(--accent-dark); }
+    .card .links span {
+      background: #efede8;
+      color: var(--dim);
+      text-decoration: line-through;
+      cursor: not-allowed;
+    }
+    footer {
+      max-width: 1200px; margin: 2rem auto 0;
+      font-size: .72rem; color: var(--dim); text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tyranny of Dragons</h1>
+    <p>Session recaps — click a card to see available PDFs.</p>
+  </header>
+  <div class="legend">
+    <span><i class="full"></i>Saga + GM + Minutes</span>
+    <span><i class="partial"></i>Some PDFs</span>
+    <span><i class="empty"></i>No PDFs yet</span>
+  </div>
+  <main id="grid"><div class="loading">Loading…</div></main>
+  <footer id="footer"></footer>
+
+  <script>
+  (async function () {
+    const grid = document.getElementById('grid');
+    const footer = document.getElementById('footer');
+
+    let data;
+    try {
+      const r = await fetch('./manifest.json', { cache: 'no-cache' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      data = await r.json();
+    } catch (e) {
+      grid.innerHTML = `<div class="error">
+        Could not load <code>manifest.json</code> (${escapeHtml(e.message)}).
+        If testing locally, serve with <code>python3 -m http.server</code> rather than opening via <code>file://</code>.
+      </div>`;
+      return;
+    }
+
+    const cards = document.createDocumentFragment();
+
+    cards.appendChild(renderCard({
+      isGlobal: true,
+      numText: 'ALL',
+      real: `Through S${data.sessions.length}`,
+      fiction: 'Campaign compilation',
+      pdfs: data.campaign.pdfs,
+    }));
+
+    for (const s of data.sessions) {
+      cards.appendChild(renderCard({
+        isGlobal: false,
+        numText: String(s.n),
+        real: s.real_date || '—',
+        fiction: s.in_fiction_date || '—',
+        pdfs: s.pdfs,
+      }));
+    }
+
+    grid.innerHTML = '';
+    grid.appendChild(cards);
+
+    grid.addEventListener('click', (e) => {
+      if (e.target.closest('a')) return;
+      const card = e.target.closest('.card');
+      if (!card) return;
+      card.classList.toggle('expanded');
+    });
+
+    footer.textContent = `Generated ${data.generated_at} · ${data.sessions.length} sessions`;
+
+    function renderCard(s) {
+      const got = ['saga', 'gm', 'minutes'].filter((k) => s.pdfs[k]).length;
+      const state = got === 3 ? 'full' : got === 0 ? 'empty' : 'partial';
+      const stateLabel = state === 'full'
+        ? 'Saga, GM, and Minutes available'
+        : state === 'empty'
+          ? 'No PDFs yet'
+          : `${got}/3 PDFs available`;
+      const card = document.createElement('div');
+      card.className = 'card' + (s.isGlobal ? ' global' : '');
+      card.innerHTML = `
+        <div class="dot ${state}" title="${stateLabel}" aria-label="${stateLabel}"></div>
+        <div class="num">${escapeHtml(s.numText)}</div>
+        <div class="dates">
+          <div class="real">${escapeHtml(s.real)}</div>
+          <div class="fiction">${escapeHtml(s.fiction)}</div>
+        </div>
+        <div class="links">
+          ${linkOrSpan('Saga', s.pdfs.saga)}
+          ${linkOrSpan('GM', s.pdfs.gm)}
+          ${linkOrSpan('Minutes', s.pdfs.minutes)}
+        </div>`;
+      return card;
+    }
+
+    function linkOrSpan(label, url) {
+      return url
+        ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener">${label}</a>`
+        : `<span>${label}</span>`;
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"]/g, (c) =>
+        ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    }
+  })();
+  </script>
+</body>
+</html>
