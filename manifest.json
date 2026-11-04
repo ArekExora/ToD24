@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T22:56:47Z",
+  "generated_at": "2026-11-04T10:56:01Z",
   "campaign": {
     "pdfs": {
       "saga": "sessions/outputs/Saga.pdf",
@@ -9,518 +9,28 @@
   },
   "sessions": [
     {
-      "n": 1,
-      "real_date": "2025-01-26",
-      "in_fiction_date": "22 Marpenoth 1489 DR",
+      "n": 56,
+      "real_date": "2026-10-25",
+      "in_fiction_date": "17 Hammer 1490 DR",
       "pdfs": {
-        "saga": "sessions/session-01/outputs/S1 - Saga.pdf",
-        "gm": "sessions/session-01/outputs/S1 - GM.pdf",
-        "minutes": "sessions/session-01/outputs/S1 - Minutes.pdf"
+        "saga": "sessions/session-56/outputs/S56 - Saga.pdf",
+        "gm": "sessions/session-56/outputs/S56 - GM.pdf",
+        "minutes": "sessions/session-56/outputs/S56 - Minutes.pdf"
       }
     },
     {
-      "n": 2,
-      "real_date": "2025-02-02",
-      "in_fiction_date": "22 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-02/outputs/S2 - Saga.pdf",
-        "gm": "sessions/session-02/outputs/S2 - GM.pdf",
-        "minutes": "sessions/session-02/outputs/S2 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 3,
-      "real_date": "2025-02-09",
-      "in_fiction_date": "23 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-03/outputs/S3 - Saga.pdf",
-        "gm": "sessions/session-03/outputs/S3 - GM.pdf",
-        "minutes": "sessions/session-03/outputs/S3 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 4,
-      "real_date": "2025-02-16",
-      "in_fiction_date": "23 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-04/outputs/S4 - Saga.pdf",
-        "gm": "sessions/session-04/outputs/S4 - GM.pdf",
-        "minutes": "sessions/session-04/outputs/S4 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 5,
-      "real_date": "2025-03-02",
-      "in_fiction_date": "23 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-05/outputs/S5 - Saga.pdf",
-        "gm": "sessions/session-05/outputs/S5 - GM.pdf",
-        "minutes": "sessions/session-05/outputs/S5 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 6,
-      "real_date": "2025-03-09",
-      "in_fiction_date": "24 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-06/outputs/S6 - Saga.pdf",
-        "gm": "sessions/session-06/outputs/S6 - GM.pdf",
-        "minutes": "sessions/session-06/outputs/S6 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 7,
-      "real_date": "2025-03-16",
-      "in_fiction_date": "25 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-07/outputs/S7 - Saga.pdf",
-        "gm": "sessions/session-07/outputs/S7 - GM.pdf",
-        "minutes": "sessions/session-07/outputs/S7 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 8,
-      "real_date": "2025-03-23",
-      "in_fiction_date": "26 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-08/outputs/S8 - Saga.pdf",
-        "gm": "sessions/session-08/outputs/S8 - GM.pdf",
-        "minutes": "sessions/session-08/outputs/S8 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 9,
-      "real_date": "2025-04-06",
-      "in_fiction_date": "26 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-09/outputs/S9 - Saga.pdf",
-        "gm": "sessions/session-09/outputs/S9 - GM.pdf",
-        "minutes": "sessions/session-09/outputs/S9 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 10,
-      "real_date": "2025-04-13",
-      "in_fiction_date": "26 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-10/outputs/S10 - Saga.pdf",
-        "gm": "sessions/session-10/outputs/S10 - GM.pdf",
-        "minutes": "sessions/session-10/outputs/S10 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 11,
-      "real_date": "2025-04-27",
-      "in_fiction_date": "27 Marpenoth 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-11/outputs/S11 - Saga.pdf",
-        "gm": "sessions/session-11/outputs/S11 - GM.pdf",
-        "minutes": "sessions/session-11/outputs/S11 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 12,
-      "real_date": "2025-05-25",
-      "in_fiction_date": "1 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-12/outputs/S12 - Saga.pdf",
-        "gm": "sessions/session-12/outputs/S12 - GM.pdf",
-        "minutes": "sessions/session-12/outputs/S12 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 13,
-      "real_date": "2025-06-01",
-      "in_fiction_date": "2 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-13/outputs/S13 - Saga.pdf",
-        "gm": "sessions/session-13/outputs/S13 - GM.pdf",
-        "minutes": "sessions/session-13/outputs/S13 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 14,
-      "real_date": "2025-06-22",
-      "in_fiction_date": "5 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-14/outputs/S14 - Saga.pdf",
-        "gm": "sessions/session-14/outputs/S14 - GM.pdf",
-        "minutes": "sessions/session-14/outputs/S14 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 15,
-      "real_date": "2025-06-29",
-      "in_fiction_date": "6 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-15/outputs/S15 - Saga.pdf",
-        "gm": "sessions/session-15/outputs/S15 - GM.pdf",
-        "minutes": "sessions/session-15/outputs/S15 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 16,
-      "real_date": "2025-07-13",
-      "in_fiction_date": "7 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-16/outputs/S16 - Saga.pdf",
-        "gm": "sessions/session-16/outputs/S16 - GM.pdf",
-        "minutes": "sessions/session-16/outputs/S16 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 17,
-      "real_date": "2025-07-20",
-      "in_fiction_date": "9 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-17/outputs/S17 - Saga.pdf",
-        "gm": "sessions/session-17/outputs/S17 - GM.pdf",
-        "minutes": "sessions/session-17/outputs/S17 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 18,
-      "real_date": "2025-08-10",
-      "in_fiction_date": "10 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-18/outputs/S18 - Saga.pdf",
-        "gm": "sessions/session-18/outputs/S18 - GM.pdf",
-        "minutes": "sessions/session-18/outputs/S18 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 19,
-      "real_date": "2025-08-19",
-      "in_fiction_date": "12 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-19/outputs/S19 - Saga.pdf",
-        "gm": "sessions/session-19/outputs/S19 - GM.pdf",
-        "minutes": "sessions/session-19/outputs/S19 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 20,
-      "real_date": "2025-08-24",
-      "in_fiction_date": "14 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-20/outputs/S20 - Saga.pdf",
-        "gm": "sessions/session-20/outputs/S20 - GM.pdf",
-        "minutes": "sessions/session-20/outputs/S20 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 21,
-      "real_date": "2025-09-07",
-      "in_fiction_date": "17 Uktar 1489 DR",
-      "pdfs": {
-        "saga": "sessions/session-21/outputs/S21 - Saga.pdf",
-        "gm": "sessions/session-21/outputs/S21 - GM.pdf",
-        "minutes": "sessions/session-21/outputs/S21 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 22,
-      "real_date": "2025-09-21",
-      "in_fiction_date": "27 Uktar 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 23,
-      "real_date": "2025-09-28",
-      "in_fiction_date": "11 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": "sessions/session-23/outputs/S23 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 24,
-      "real_date": "2025-10-05",
-      "in_fiction_date": "13 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 25,
-      "real_date": "2025-10-26",
-      "in_fiction_date": "21 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 26,
-      "real_date": "2025-11-02",
-      "in_fiction_date": "23 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 27,
-      "real_date": "2025-11-09",
-      "in_fiction_date": "25 Nightal 1489 DR?",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 28,
-      "real_date": "2025-11-16",
-      "in_fiction_date": "29 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 29,
-      "real_date": "2025-11-30",
-      "in_fiction_date": "29 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 30,
-      "real_date": "2025-12-07",
-      "in_fiction_date": "30 Nightal 1489 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 31,
-      "real_date": "2025-12-14",
-      "in_fiction_date": "2 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 32,
-      "real_date": "2025-12-21",
-      "in_fiction_date": "4 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 33,
-      "real_date": "2026-01-04",
-      "in_fiction_date": "9 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 34,
-      "real_date": "2026-01-18",
-      "in_fiction_date": "10 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 35,
-      "real_date": "2026-01-25",
-      "in_fiction_date": "11 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 36,
-      "real_date": "2026-02-01",
-      "in_fiction_date": "11 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 37,
-      "real_date": "2026-02-08",
-      "in_fiction_date": "11 Hammer? 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 38,
-      "real_date": "2026-02-15",
-      "in_fiction_date": "12 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 39,
-      "real_date": "2026-02-22",
-      "in_fiction_date": "14 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 40,
-      "real_date": "2026-03-01",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 41,
-      "real_date": "2026-03-15",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 42,
-      "real_date": "2026-03-22",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 43,
-      "real_date": "2026-03-29",
-      "in_fiction_date": "16 Hammer 1490 DR?",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 44,
-      "real_date": "2026-04-19",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": "sessions/session-44/outputs/S44 - Saga.pdf",
-        "gm": "sessions/session-44/outputs/S44 - GM.pdf",
-        "minutes": "sessions/session-44/outputs/S44 - Minutes.pdf"
-      }
-    },
-    {
-      "n": 45,
-      "real_date": "2026-05-01",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 46,
-      "real_date": "2026-06-21",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 47,
-      "real_date": "2026-07-12",
-      "in_fiction_date": "15 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 48,
-      "real_date": "2026-07-26",
+      "n": 55,
+      "real_date": "2026-10-11",
       "in_fiction_date": "16 Hammer 1490 DR",
       "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
+        "saga": "sessions/session-55/outputs/S55 - Saga.pdf",
+        "gm": "sessions/session-55/outputs/S55 - GM.pdf",
+        "minutes": "sessions/session-55/outputs/S55 - Minutes.pdf"
       }
     },
     {
-      "n": 49,
-      "real_date": "2026-08-04",
-      "in_fiction_date": "16 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 50,
-      "real_date": "2026-08-23",
-      "in_fiction_date": "16 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 51,
-      "real_date": "2026-08-30",
-      "in_fiction_date": "16 Hammer 1490 DR",
-      "pdfs": {
-        "saga": null,
-        "gm": null,
-        "minutes": null
-      }
-    },
-    {
-      "n": 52,
-      "real_date": "2026-09-20",
+      "n": 54,
+      "real_date": "2026-10-04",
       "in_fiction_date": "16 Hammer 1490 DR",
       "pdfs": {
         "saga": null,
@@ -539,8 +49,8 @@
       }
     },
     {
-      "n": 54,
-      "real_date": "2026-10-04",
+      "n": 52,
+      "real_date": "2026-09-20",
       "in_fiction_date": "16 Hammer 1490 DR",
       "pdfs": {
         "saga": null,
@@ -549,23 +59,513 @@
       }
     },
     {
-      "n": 55,
-      "real_date": "2026-10-11",
+      "n": 51,
+      "real_date": "2026-08-30",
       "in_fiction_date": "16 Hammer 1490 DR",
       "pdfs": {
-        "saga": "sessions/session-55/outputs/S55 - Saga.pdf",
-        "gm": "sessions/session-55/outputs/S55 - GM.pdf",
-        "minutes": "sessions/session-55/outputs/S55 - Minutes.pdf"
+        "saga": null,
+        "gm": null,
+        "minutes": null
       }
     },
     {
-      "n": 56,
-      "real_date": "2026-10-25",
-      "in_fiction_date": "17 Hammer 1490 DR",
+      "n": 50,
+      "real_date": "2026-08-23",
+      "in_fiction_date": "16 Hammer 1490 DR",
       "pdfs": {
-        "saga": "sessions/session-56/outputs/S56 - Saga.pdf",
-        "gm": "sessions/session-56/outputs/S56 - GM.pdf",
-        "minutes": "sessions/session-56/outputs/S56 - Minutes.pdf"
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 49,
+      "real_date": "2026-08-04",
+      "in_fiction_date": "16 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 48,
+      "real_date": "2026-07-26",
+      "in_fiction_date": "16 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 47,
+      "real_date": "2026-07-12",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 46,
+      "real_date": "2026-06-21",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 45,
+      "real_date": "2026-05-01",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 44,
+      "real_date": "2026-04-19",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": "sessions/session-44/outputs/S44 - Saga.pdf",
+        "gm": "sessions/session-44/outputs/S44 - GM.pdf",
+        "minutes": "sessions/session-44/outputs/S44 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 43,
+      "real_date": "2026-03-29",
+      "in_fiction_date": "16 Hammer 1490 DR?",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 42,
+      "real_date": "2026-03-22",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 41,
+      "real_date": "2026-03-15",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 40,
+      "real_date": "2026-03-01",
+      "in_fiction_date": "15 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 39,
+      "real_date": "2026-02-22",
+      "in_fiction_date": "14 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 38,
+      "real_date": "2026-02-15",
+      "in_fiction_date": "12 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 37,
+      "real_date": "2026-02-08",
+      "in_fiction_date": "11 Hammer? 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 36,
+      "real_date": "2026-02-01",
+      "in_fiction_date": "11 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 35,
+      "real_date": "2026-01-25",
+      "in_fiction_date": "11 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 34,
+      "real_date": "2026-01-18",
+      "in_fiction_date": "10 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 33,
+      "real_date": "2026-01-04",
+      "in_fiction_date": "9 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 32,
+      "real_date": "2025-12-21",
+      "in_fiction_date": "4 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 31,
+      "real_date": "2025-12-14",
+      "in_fiction_date": "2 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 30,
+      "real_date": "2025-12-07",
+      "in_fiction_date": "30 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 29,
+      "real_date": "2025-11-30",
+      "in_fiction_date": "29 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 28,
+      "real_date": "2025-11-16",
+      "in_fiction_date": "29 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 27,
+      "real_date": "2025-11-09",
+      "in_fiction_date": "25 Nightal 1489 DR?",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 26,
+      "real_date": "2025-11-02",
+      "in_fiction_date": "23 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 25,
+      "real_date": "2025-10-26",
+      "in_fiction_date": "21 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 24,
+      "real_date": "2025-10-05",
+      "in_fiction_date": "13 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 23,
+      "real_date": "2025-09-28",
+      "in_fiction_date": "11 Nightal 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": "sessions/session-23/outputs/S23 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 22,
+      "real_date": "2025-09-21",
+      "in_fiction_date": "27 Uktar 1489 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
+    {
+      "n": 21,
+      "real_date": "2025-09-07",
+      "in_fiction_date": "17 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-21/outputs/S21 - Saga.pdf",
+        "gm": "sessions/session-21/outputs/S21 - GM.pdf",
+        "minutes": "sessions/session-21/outputs/S21 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 20,
+      "real_date": "2025-08-24",
+      "in_fiction_date": "14 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-20/outputs/S20 - Saga.pdf",
+        "gm": "sessions/session-20/outputs/S20 - GM.pdf",
+        "minutes": "sessions/session-20/outputs/S20 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 19,
+      "real_date": "2025-08-19",
+      "in_fiction_date": "12 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-19/outputs/S19 - Saga.pdf",
+        "gm": "sessions/session-19/outputs/S19 - GM.pdf",
+        "minutes": "sessions/session-19/outputs/S19 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 18,
+      "real_date": "2025-08-10",
+      "in_fiction_date": "10 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-18/outputs/S18 - Saga.pdf",
+        "gm": "sessions/session-18/outputs/S18 - GM.pdf",
+        "minutes": "sessions/session-18/outputs/S18 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 17,
+      "real_date": "2025-07-20",
+      "in_fiction_date": "9 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-17/outputs/S17 - Saga.pdf",
+        "gm": "sessions/session-17/outputs/S17 - GM.pdf",
+        "minutes": "sessions/session-17/outputs/S17 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 16,
+      "real_date": "2025-07-13",
+      "in_fiction_date": "7 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-16/outputs/S16 - Saga.pdf",
+        "gm": "sessions/session-16/outputs/S16 - GM.pdf",
+        "minutes": "sessions/session-16/outputs/S16 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 15,
+      "real_date": "2025-06-29",
+      "in_fiction_date": "6 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-15/outputs/S15 - Saga.pdf",
+        "gm": "sessions/session-15/outputs/S15 - GM.pdf",
+        "minutes": "sessions/session-15/outputs/S15 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 14,
+      "real_date": "2025-06-22",
+      "in_fiction_date": "5 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-14/outputs/S14 - Saga.pdf",
+        "gm": "sessions/session-14/outputs/S14 - GM.pdf",
+        "minutes": "sessions/session-14/outputs/S14 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 13,
+      "real_date": "2025-06-01",
+      "in_fiction_date": "2 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-13/outputs/S13 - Saga.pdf",
+        "gm": "sessions/session-13/outputs/S13 - GM.pdf",
+        "minutes": "sessions/session-13/outputs/S13 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 12,
+      "real_date": "2025-05-25",
+      "in_fiction_date": "1 Uktar 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-12/outputs/S12 - Saga.pdf",
+        "gm": "sessions/session-12/outputs/S12 - GM.pdf",
+        "minutes": "sessions/session-12/outputs/S12 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 11,
+      "real_date": "2025-04-27",
+      "in_fiction_date": "27 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-11/outputs/S11 - Saga.pdf",
+        "gm": "sessions/session-11/outputs/S11 - GM.pdf",
+        "minutes": "sessions/session-11/outputs/S11 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 10,
+      "real_date": "2025-04-13",
+      "in_fiction_date": "26 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-10/outputs/S10 - Saga.pdf",
+        "gm": "sessions/session-10/outputs/S10 - GM.pdf",
+        "minutes": "sessions/session-10/outputs/S10 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 9,
+      "real_date": "2025-04-06",
+      "in_fiction_date": "26 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-09/outputs/S9 - Saga.pdf",
+        "gm": "sessions/session-09/outputs/S9 - GM.pdf",
+        "minutes": "sessions/session-09/outputs/S9 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 8,
+      "real_date": "2025-03-23",
+      "in_fiction_date": "26 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-08/outputs/S8 - Saga.pdf",
+        "gm": "sessions/session-08/outputs/S8 - GM.pdf",
+        "minutes": "sessions/session-08/outputs/S8 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 7,
+      "real_date": "2025-03-16",
+      "in_fiction_date": "25 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-07/outputs/S7 - Saga.pdf",
+        "gm": "sessions/session-07/outputs/S7 - GM.pdf",
+        "minutes": "sessions/session-07/outputs/S7 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 6,
+      "real_date": "2025-03-09",
+      "in_fiction_date": "24 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-06/outputs/S6 - Saga.pdf",
+        "gm": "sessions/session-06/outputs/S6 - GM.pdf",
+        "minutes": "sessions/session-06/outputs/S6 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 5,
+      "real_date": "2025-03-02",
+      "in_fiction_date": "23 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-05/outputs/S5 - Saga.pdf",
+        "gm": "sessions/session-05/outputs/S5 - GM.pdf",
+        "minutes": "sessions/session-05/outputs/S5 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 4,
+      "real_date": "2025-02-16",
+      "in_fiction_date": "23 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-04/outputs/S4 - Saga.pdf",
+        "gm": "sessions/session-04/outputs/S4 - GM.pdf",
+        "minutes": "sessions/session-04/outputs/S4 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 3,
+      "real_date": "2025-02-09",
+      "in_fiction_date": "23 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-03/outputs/S3 - Saga.pdf",
+        "gm": "sessions/session-03/outputs/S3 - GM.pdf",
+        "minutes": "sessions/session-03/outputs/S3 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 2,
+      "real_date": "2025-02-02",
+      "in_fiction_date": "22 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-02/outputs/S2 - Saga.pdf",
+        "gm": "sessions/session-02/outputs/S2 - GM.pdf",
+        "minutes": "sessions/session-02/outputs/S2 - Minutes.pdf"
+      }
+    },
+    {
+      "n": 1,
+      "real_date": "2025-01-26",
+      "in_fiction_date": "22 Marpenoth 1489 DR",
+      "pdfs": {
+        "saga": "sessions/session-01/outputs/S1 - Saga.pdf",
+        "gm": "sessions/session-01/outputs/S1 - GM.pdf",
+        "minutes": "sessions/session-01/outputs/S1 - Minutes.pdf"
       }
     }
   ]

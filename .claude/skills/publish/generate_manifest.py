@@ -70,9 +70,12 @@ def build_session(n: int) -> dict:
 
 def main() -> None:
     session_nums = sorted(
-        int(m.group(1))
-        for d in SESSIONS_DIR.iterdir()
-        if d.is_dir() and (m := SESSION_DIR_PATTERN.match(d.name))
+        (
+            int(m.group(1))
+            for d in SESSIONS_DIR.iterdir()
+            if d.is_dir() and (m := SESSION_DIR_PATTERN.match(d.name))
+        ),
+        reverse=True,
     )
 
     manifest = {

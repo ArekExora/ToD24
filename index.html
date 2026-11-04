@@ -19,6 +19,7 @@
       --empty: #c84a4a;
       --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.05);
       --shadow-hover: 0 4px 12px rgba(0,0,0,0.08);
+      --tab-inactive: #7a7066;
     }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; }
@@ -27,42 +28,71 @@
       background: var(--bg);
       color: var(--fg);
       line-height: 1.4;
-      padding: 2rem 1rem 4rem;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
     }
-    header { max-width: 1200px; margin: 0 auto 1.5rem; }
-    header h1 {
-      margin: 0 0 .25rem;
+    .wrap { max-width: 1200px; margin: 0 auto; width: 100%; padding: 0 1rem; }
+
+    /* Header */
+    header {
+      border-bottom: 1px solid var(--card-border);
+      padding: 1.5rem 0 0;
+      flex-shrink: 0;
+      background: var(--bg);
+    }
+    header .title {
+      margin: 0 0 1rem;
       font-size: 1.6rem;
       color: var(--accent);
       font-weight: 600;
       letter-spacing: 0.01em;
     }
-    header p { margin: 0; color: var(--dim); font-size: .9rem; }
-    .legend {
-      max-width: 1200px; margin: 0 auto 1.25rem;
-      display: flex; gap: 1.25rem; flex-wrap: wrap;
-      font-size: .78rem; color: var(--dim);
+    nav.tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: -1px;
     }
-    .legend span { display: inline-flex; align-items: center; gap: .4rem; }
-    .legend i {
-      display: inline-block; width: .55rem; height: .55rem;
-      border-radius: 50%;
+    nav.tabs button {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--tab-inactive);
+      font-size: 0.95rem;
+      font-weight: 500;
+      padding: 0.6rem 1rem;
+      cursor: pointer;
+      font-family: inherit;
+      letter-spacing: 0.01em;
+      transition: color 0.15s;
     }
-    .legend i.full { background: var(--full); }
-    .legend i.partial { background: var(--partial); }
-    .legend i.empty { background: var(--empty); }
-    main#grid {
-      max-width: 1200px; margin: 0 auto;
+    nav.tabs button:hover { color: var(--fg); }
+    nav.tabs button.active {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    /* Main (body) */
+    main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.75rem 0 2rem;
+    }
+    .view { display: none; }
+    .view.active { display: block; }
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
       gap: 0.7rem;
     }
-    .loading, .error {
-      grid-column: 1 / -1;
-      padding: 2rem; text-align: center; color: var(--dim);
+    .loading, .error, .placeholder {
+      padding: 2.5rem; text-align: center; color: var(--dim);
     }
     .error { color: var(--empty); }
     .error code { background: #eee; padding: .1rem .4rem; border-radius: 3px; }
+
+    /* Session cards */
     .card {
       background: var(--card-bg);
       border: 1px solid var(--card-border);
@@ -78,21 +108,19 @@
       transform: translateY(-2px);
       box-shadow: var(--shadow-hover);
     }
-    .card.global {
-      border-color: var(--accent);
-      background: var(--accent-tint);
+    .card .row {
+      display: flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      padding-right: 0.9rem; /* leave room for the dot */
     }
     .card .num {
-      font-size: 1.5rem;
+      font-size: 1.05rem;
       font-weight: 600;
       color: var(--accent);
       line-height: 1;
+      letter-spacing: 0.02em;
     }
-    .card.global .num {
-      font-size: 1.05rem;
-      letter-spacing: 0.05em;
-    }
-    .card .dates { margin-top: .55rem; }
     .card .real {
       font-size: .82rem;
       color: var(--fg);
@@ -102,7 +130,7 @@
       font-size: .75rem;
       color: var(--dim);
       font-style: italic;
-      margin-top: .15rem;
+      margin-top: .25rem;
     }
     .card .dot {
       position: absolute;
@@ -140,29 +168,128 @@
       text-decoration: line-through;
       cursor: not-allowed;
     }
+
+    /* Compiled-view cards: simpler, click-through to PDF */
+    .compiled-card {
+      background: var(--card-bg);
+      border: 1px solid var(--accent);
+      background: var(--accent-tint);
+      border-radius: 6px;
+      padding: 1.2rem 1rem;
+      box-shadow: var(--shadow);
+      text-align: center;
+      text-decoration: none;
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: 0.04em;
+      transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+      display: block;
+    }
+    .compiled-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-hover);
+      background: #fff;
+    }
+    .compiled-card .sub {
+      display: block;
+      margin-top: .25rem;
+      font-size: .7rem;
+      color: var(--dim);
+      font-weight: 400;
+      letter-spacing: 0.02em;
+    }
+    .compiled-card.missing {
+      background: #efede8;
+      border-color: var(--card-border);
+      color: var(--dim);
+      pointer-events: none;
+    }
+
+    /* Footer */
     footer {
-      max-width: 1200px; margin: 2rem auto 0;
-      font-size: .72rem; color: var(--dim); text-align: right;
+      border-top: 1px solid var(--card-border);
+      padding: 0.9rem 0;
+      font-size: 0.75rem;
+      color: var(--dim);
+      flex-shrink: 0;
+      background: var(--bg);
+    }
+    footer .wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .legend {
+      display: none;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .legend.visible { display: flex; }
+    .legend span { display: inline-flex; align-items: center; gap: .4rem; }
+    .legend i {
+      display: inline-block;
+      width: .55rem; height: .55rem;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+    .legend i.full { background: var(--full); }
+    .legend i.partial { background: var(--partial); }
+    .legend i.empty { background: var(--empty); }
+    #generated-at {
+      font-variant-numeric: tabular-nums;
+      margin-left: auto;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Tyranny of Dragons</h1>
-    <p>Session recaps — click a card to see available PDFs.</p>
+    <div class="wrap">
+      <h1 class="title">Tyranny of Dragons</h1>
+      <nav class="tabs" id="tabs">
+        <button data-tab="compiled">Compiled</button>
+        <button data-tab="sessions" class="active">Sessions</button>
+        <button data-tab="timeline">Timeline</button>
+      </nav>
+    </div>
   </header>
-  <div class="legend">
-    <span><i class="full"></i>Saga + GM + Minutes</span>
-    <span><i class="partial"></i>Some PDFs</span>
-    <span><i class="empty"></i>No PDFs yet</span>
-  </div>
-  <main id="grid"><div class="loading">Loading…</div></main>
-  <footer id="footer"></footer>
+
+  <main>
+    <div class="wrap">
+      <div class="view" id="view-compiled">
+        <div class="grid" id="compiled-grid"></div>
+      </div>
+      <div class="view active" id="view-sessions">
+        <div class="grid" id="sessions-grid">
+          <div class="loading">Loading…</div>
+        </div>
+      </div>
+      <div class="view" id="view-timeline">
+        <div class="placeholder">Timeline coming soon.</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="legend visible" id="legend">
+        <span><i class="full"></i>All PDFs</span>
+        <span><i class="partial"></i>Some</span>
+        <span><i class="empty"></i>None</span>
+      </div>
+      <div id="generated-at"></div>
+    </div>
+  </footer>
 
   <script>
   (async function () {
-    const grid = document.getElementById('grid');
-    const footer = document.getElementById('footer');
+    const sessionsGrid = document.getElementById('sessions-grid');
+    const compiledGrid = document.getElementById('compiled-grid');
+    const legend = document.getElementById('legend');
+    const generatedAt = document.getElementById('generated-at');
+    const tabs = document.getElementById('tabs');
 
     let data;
     try {
@@ -170,46 +297,63 @@
       if (!r.ok) throw new Error('HTTP ' + r.status);
       data = await r.json();
     } catch (e) {
-      grid.innerHTML = `<div class="error">
+      sessionsGrid.innerHTML = `<div class="error">
         Could not load <code>manifest.json</code> (${escapeHtml(e.message)}).
         If testing locally, serve with <code>python3 -m http.server</code> rather than opening via <code>file://</code>.
       </div>`;
       return;
     }
 
-    const cards = document.createDocumentFragment();
-
-    cards.appendChild(renderCard({
-      isGlobal: true,
-      numText: 'ALL',
-      real: `Through S${data.sessions.length}`,
-      fiction: 'Campaign compilation',
-      pdfs: data.campaign.pdfs,
-    }));
-
+    // Sessions view
+    const sessionsFrag = document.createDocumentFragment();
     for (const s of data.sessions) {
-      cards.appendChild(renderCard({
-        isGlobal: false,
-        numText: String(s.n),
-        real: s.real_date || '—',
-        fiction: s.in_fiction_date || '—',
-        pdfs: s.pdfs,
-      }));
+      sessionsFrag.appendChild(renderSessionCard(s));
     }
+    sessionsGrid.innerHTML = '';
+    sessionsGrid.appendChild(sessionsFrag);
 
-    grid.innerHTML = '';
-    grid.appendChild(cards);
+    // Compiled view — one card per PDF, direct link
+    const compiledFrag = document.createDocumentFragment();
+    for (const kind of ['saga', 'gm', 'minutes']) {
+      compiledFrag.appendChild(renderCompiledCard(kind, data.campaign.pdfs[kind]));
+    }
+    compiledGrid.innerHTML = '';
+    compiledGrid.appendChild(compiledFrag);
 
-    grid.addEventListener('click', (e) => {
+    // Footer date
+    generatedAt.textContent = `Generated ${formatDate(data.generated_at)}`;
+
+    // Accordion within Sessions tab
+    sessionsGrid.addEventListener('click', (e) => {
       if (e.target.closest('a')) return;
       const card = e.target.closest('.card');
       if (!card) return;
-      card.classList.toggle('expanded');
+      const wasExpanded = card.classList.contains('expanded');
+      // Collapse all
+      sessionsGrid.querySelectorAll('.card.expanded').forEach((c) => c.classList.remove('expanded'));
+      // Open this unless it was the one already open
+      if (!wasExpanded) card.classList.add('expanded');
     });
 
-    footer.textContent = `Generated ${data.generated_at} · ${data.sessions.length} sessions`;
+    // Tab switching
+    tabs.addEventListener('click', (e) => {
+      const btn = e.target.closest('button[data-tab]');
+      if (!btn) return;
+      const name = btn.dataset.tab;
+      tabs.querySelectorAll('button').forEach((b) =>
+        b.classList.toggle('active', b === btn));
+      document.querySelectorAll('.view').forEach((v) =>
+        v.classList.toggle('active', v.id === `view-${name}`));
+      legend.classList.toggle('visible', name === 'sessions');
+      // Collapse any expanded session cards when leaving the sessions tab
+      if (name !== 'sessions') {
+        sessionsGrid.querySelectorAll('.card.expanded').forEach((c) => c.classList.remove('expanded'));
+      }
+    });
 
-    function renderCard(s) {
+    // --- helpers ---
+
+    function renderSessionCard(s) {
       const got = ['saga', 'gm', 'minutes'].filter((k) => s.pdfs[k]).length;
       const state = got === 3 ? 'full' : got === 0 ? 'empty' : 'partial';
       const stateLabel = state === 'full'
@@ -218,14 +362,15 @@
           ? 'No PDFs yet'
           : `${got}/3 PDFs available`;
       const card = document.createElement('div');
-      card.className = 'card' + (s.isGlobal ? ' global' : '');
+      card.className = 'card';
+      const label = 'S' + String(s.n).padStart(2, '0');
       card.innerHTML = `
         <div class="dot ${state}" title="${stateLabel}" aria-label="${stateLabel}"></div>
-        <div class="num">${escapeHtml(s.numText)}</div>
-        <div class="dates">
-          <div class="real">${escapeHtml(s.real)}</div>
-          <div class="fiction">${escapeHtml(s.fiction)}</div>
+        <div class="row">
+          <span class="num">${label}</span>
+          <span class="real">${escapeHtml(s.real_date || '—')}</span>
         </div>
+        <div class="fiction">${escapeHtml(s.in_fiction_date || '—')}</div>
         <div class="links">
           ${linkOrSpan('Saga', s.pdfs.saga)}
           ${linkOrSpan('GM', s.pdfs.gm)}
@@ -234,10 +379,34 @@
       return card;
     }
 
+    function renderCompiledCard(kind, url) {
+      const label = kind === 'gm' ? 'GM' : kind.charAt(0).toUpperCase() + kind.slice(1);
+      if (!url) {
+        const div = document.createElement('div');
+        div.className = 'compiled-card missing';
+        div.innerHTML = `${label}<span class="sub">not generated</span>`;
+        return div;
+      }
+      const a = document.createElement('a');
+      a.className = 'compiled-card';
+      a.href = encodeURI(url);
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.innerHTML = `${label}<span class="sub">All sessions compilation</span>`;
+      return a;
+    }
+
     function linkOrSpan(label, url) {
       return url
         ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener">${label}</a>`
         : `<span>${label}</span>`;
+    }
+
+    function formatDate(isoStr) {
+      const d = new Date(isoStr);
+      if (isNaN(d.getTime())) return isoStr;
+      const pad = (n) => String(n).padStart(2, '0');
+      return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
     }
 
     function escapeHtml(s) {
