@@ -287,27 +287,38 @@
     .viewer-nav-btn {
       font-size: 0.72rem; color: #f8f6f1;
       text-decoration: none;
-      background: transparent;
-      border: 1px solid rgba(255,255,255,0.25);
-      padding: 0.25rem 0.55rem; border-radius: 3px;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.56);
+      padding: 0 0.55rem; border-radius: 3px;
       font-family: inherit; font-weight: 500;
       cursor: pointer; letter-spacing: 0.02em;
-      line-height: 1.2;
+      line-height: 1;
+      height: 1.7rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.1s ease, border-color 0.1s ease;
     }
     .viewer-actions a:hover,
-    .viewer-nav-btn:hover:not(:disabled) { background: rgba(255,255,255,0.08); }
-    .viewer-nav-btn.arrow {
-      padding: 0.2rem 0.5rem;
-      min-width: 1.9rem;
-      font-size: 0.9rem;
+    .viewer-nav-btn:hover:not(:disabled) {
+      background: rgba(255,255,255,0.32);
+      border-color: rgba(255,255,255,1);
     }
-    .viewer-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .viewer-nav-btn.arrow { min-width: 2rem; padding: 0 0.45rem; }
+    .viewer-nav-btn.arrow svg { width: 0.95rem; height: 0.95rem; display: block; }
+    #viewer-prev svg { position: relative; left: -1px; }
+    .viewer-nav-btn:disabled { opacity: 0.35; cursor: not-allowed; }
     .viewer-close {
       background: transparent; border: none;
-      color: #f8f6f1; font-size: 1.6rem;
-      cursor: pointer; padding: 0 0.3rem; line-height: 1;
+      color: #f8f6f1;
+      cursor: pointer; padding: 0 0.4rem;
       font-family: inherit;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 1.7rem;
     }
+    .viewer-close svg { width: 1.1rem; height: 1.1rem; display: block; }
     .viewer-body {
       flex: 1; overflow-y: auto;
       padding: 0.9rem 0.6rem;
@@ -360,14 +371,20 @@
   <div id="viewer-modal" class="viewer-modal" hidden aria-modal="true" role="dialog" aria-label="PDF viewer">
     <div class="viewer-header">
       <div class="viewer-nav">
-        <button class="viewer-nav-btn arrow" id="viewer-prev" aria-label="Previous session, same file">←</button>
+        <button class="viewer-nav-btn arrow" id="viewer-prev" aria-label="Previous session, same file">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
         <button class="viewer-nav-btn" id="viewer-kind-1" aria-label="Switch to other file"></button>
         <button class="viewer-nav-btn" id="viewer-kind-2" aria-label="Switch to other file"></button>
-        <button class="viewer-nav-btn arrow" id="viewer-next" aria-label="Next session, same file">→</button>
+        <button class="viewer-nav-btn arrow" id="viewer-next" aria-label="Next session, same file">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
       </div>
       <div class="viewer-actions">
         <a id="viewer-open-tab" target="_blank" rel="noopener noreferrer">Open in tab</a>
-        <button class="viewer-close" id="viewer-close" aria-label="Close PDF">×</button>
+        <button class="viewer-close" id="viewer-close" aria-label="Close PDF">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
       </div>
     </div>
     <div class="viewer-body" id="viewer-body"></div>
