@@ -484,20 +484,27 @@
         const dpr = Math.min(window.devicePixelRatio || 1, 2);
         const bodyStyle = getComputedStyle(modalBody);
         const paddingX = parseFloat(bodyStyle.paddingLeft) + parseFloat(bodyStyle.paddingRight);
-        const cssWidth = Math.max(240, modalBody.clientWidth - paddingX - 12 /* scrollbar buffer */);
+        // On mobile, use what we have; on desktop, cap so pages stay comfortably readable.
+        const MAX_PAGE_WIDTH = 900;
+        const cssWidth = Math.min(
+          Math.max(240, modalBody.clientWidth - paddingX - 12 /* scrollbar buffer */),
+          MAX_PAGE_WIDTH,
+        );
+        // Oversample the rasterisation so the browser's high-quality downsample sharpens edges & text.
+        const SUPERSAMPLE = 2;
 
         const canvases = [];
         for (let n = 1; n <= pdf.numPages; n++) {
           const page = await pdf.getPage(n);
           if (token !== pdfRenderToken) return;
           const base = page.getViewport({ scale: 1 });
-          const scale = (cssWidth / base.width) * dpr;
+          const scale = (cssWidth / base.width) * dpr * SUPERSAMPLE;
           const viewport = page.getViewport({ scale });
           const canvas = document.createElement('canvas');
           canvas.width = viewport.width;
           canvas.height = viewport.height;
-          canvas.style.width = (viewport.width / dpr) + 'px';
-          canvas.style.height = (viewport.height / dpr) + 'px';
+          canvas.style.width = cssWidth + 'px';
+          canvas.style.height = (cssWidth * (viewport.height / viewport.width)) + 'px';
           canvas.dataset.pageN = String(n);
           modalBody.appendChild(canvas);
           canvases.push({ canvas, page, viewport });
@@ -583,7 +590,7 @@
       card.className = 'card compilation';
       card.innerHTML = `
         <div class="row">
-          <span class="num">Compilation</span>
+          <span class="num">Campaign</span>
         </div>
         <div class="links">
           ${linkOrSpan('Minutes', pdfs.minutes, '', 'minutes')}
