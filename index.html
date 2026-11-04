@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="./favicon.png">
   <title>Heroes of Mansken</title>
+
+  <!-- Open Graph / Twitter Card — PLACEHOLDER URLs, edit the host to match your Pages URL. -->
+  <meta property="og:type"        content="website">
+  <meta property="og:title"       content="Heroes of Mansken">
+  <meta property="og:description" content="A Tyranny of Dragons campaign">
+  <meta property="og:url"         content="https://arekexora.github.io/ToD24/">
+  <meta property="og:image"       content="https://arekexora.github.io/ToD24/favicon.png">
+  <meta name="twitter:card"       content="summary">
+  <meta name="twitter:title"      content="Heroes of Mansken">
+  <meta name="twitter:description" content="A Tyranny of Dragons campaign">
+  <meta name="twitter:image"      content="https://arekexora.github.io/ToD24/favicon.png">
   <style>
     :root {
       --bg: #f8f6f1;
@@ -13,7 +24,6 @@
       --card-bg: #ffffff;
       --card-border: #e6e1d8;
       --accent: #7c3a2a;
-      --accent-dark: #5e2d21;
       --accent-tint: #fff8f1;
       --full: #4a9d4a;
       --partial: #d6a53c;
@@ -149,7 +159,6 @@
       margin-top: .55rem; padding-top: .45rem;
       border-top: 1px solid var(--card-border);
       gap: 0.3rem;
-      flex-wrap: nowrap;
     }
     .card.expanded .links { display: flex; }
     .card .links a, .card .links span {
@@ -294,7 +303,6 @@
     }
     .viewer-body canvas {
       max-width: 100%;
-      height: auto;
       background: white;
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
       display: block;
@@ -342,7 +350,7 @@
         <button class="viewer-nav-btn arrow" id="viewer-next" aria-label="Next session, same file">→</button>
       </div>
       <div class="viewer-actions">
-        <a id="viewer-open-tab" target="_blank" rel="noopener">Open in tab</a>
+        <a id="viewer-open-tab" target="_blank" rel="noopener noreferrer">Open in tab</a>
         <button class="viewer-close" id="viewer-close" aria-label="Close PDF">×</button>
       </div>
     </div>
@@ -387,8 +395,14 @@
       const card = e.target.closest('.card');
       if (!card) return;
       const wasExpanded = card.classList.contains('expanded');
-      grid.querySelectorAll('.card.expanded').forEach((c) => c.classList.remove('expanded'));
-      if (!wasExpanded) card.classList.add('expanded');
+      grid.querySelectorAll('.card.expanded').forEach((c) => {
+        c.classList.remove('expanded');
+        c.setAttribute('aria-expanded', 'false');
+      });
+      if (!wasExpanded) {
+        card.classList.add('expanded');
+        card.setAttribute('aria-expanded', 'true');
+      }
     });
 
     // PDF viewer modal
@@ -401,6 +415,7 @@
     const navKind1 = document.getElementById('viewer-kind-1');
     const navKind2 = document.getElementById('viewer-kind-2');
     let pdfRenderToken = 0; // invalidates in-flight render if user closes / opens another
+    let currentPdf = null;  // active PDFDocumentProxy — destroyed before switching / on close
 
     function kindLabel(k) { return k === 'gm' ? 'GM' : k.charAt(0).toUpperCase() + k.slice(1); }
 
@@ -415,8 +430,10 @@
         navNext.hidden = true;
         [navKind1, navKind2].forEach((btn, i) => {
           const k = otherKinds[i];
+          const lbl = kindLabel(k);
           btn.hidden = false;
-          btn.textContent = kindLabel(k);
+          btn.textContent = lbl;
+          btn.setAttribute('aria-label', `View ${lbl}`);
           btn.disabled = !data.campaign.pdfs[k];
           btn.onclick = () => openViewer({ session: null, kind: k });
         });
@@ -445,8 +462,10 @@
 
       [navKind1, navKind2].forEach((btn, i) => {
         const k = otherKinds[i];
+        const lbl = kindLabel(k);
         btn.hidden = false;
-        btn.textContent = kindLabel(k);
+        btn.textContent = lbl;
+        btn.setAttribute('aria-label', `View ${lbl}`);
         btn.disabled = !(current && current.pdfs[k]);
         btn.onclick = () => {
           if (current && current.pdfs[k]) openViewer({ session: current.n, kind: k });
@@ -466,7 +485,19 @@
       }
       if (!url) return;
 
+      // Reflect current context in the URL hash so the page can be shared/reloaded here.
+      const nextHash = ctxToHash(ctx);
+      if (window.location.hash !== nextHash) {
+        history.replaceState(null, '', nextHash);
+      }
+
       const token = ++pdfRenderToken;
+      // Release the previous PDF's memory (fonts, decoded images, structural trees)
+      // before starting a new load — otherwise it accumulates across navigations.
+      if (currentPdf) {
+        currentPdf.destroy();
+        currentPdf = null;
+      }
       modalOpenTab.href = url;
       updateNavButtons(ctx);
       modalBody.innerHTML = '<div class="status">Loading PDF…</div>';
@@ -475,7 +506,11 @@
 
       try {
         const pdf = await pdfjsLib.getDocument(url).promise;
-        if (token !== pdfRenderToken) return;
+        if (token !== pdfRenderToken) {
+          pdf.destroy();
+          return;
+        }
+        currentPdf = pdf;
         modalBody.innerHTML = '';
 
         // Match canvas device pixels to the actual on-screen pixels: scale PDF so that
@@ -530,9 +565,17 @@
 
     function closeViewer() {
       pdfRenderToken++; // invalidate any in-flight renders
+      if (currentPdf) {
+        currentPdf.destroy();
+        currentPdf = null;
+      }
       modal.hidden = true;
       modalBody.innerHTML = '';
       document.documentElement.style.overflow = '';
+      // Drop the deep-link hash so refreshing doesn't re-open the viewer.
+      if (window.location.hash) {
+        history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
     }
 
     modalClose.addEventListener('click', closeViewer);
@@ -555,7 +598,47 @@
       openViewer({ session: isNaN(session) ? null : session, kind });
     });
 
+    // Deep-link via URL hash.
+    //   #s23/gm     → session 23, GM
+    //   #s01/saga   → session 1, Saga
+    //   #c/minutes  → compilation, Minutes
+    // Shared URL on cold load opens the viewer directly; manual hash edits & browser
+    // Back/Forward (which both fire 'hashchange') open/close the viewer accordingly.
+    window.addEventListener('hashchange', () => {
+      const ctx = parseHash();
+      if (ctx) openViewer(ctx);
+      else if (!modal.hidden) closeViewer();
+    });
+    // Open the viewer on initial load if arrived with a valid hash.
+    // Invalid/unknown hash → strip it so a refresh doesn't keep sending us here.
+    const initialCtx = parseHash();
+    if (initialCtx) {
+      openViewer(initialCtx);
+    } else if (window.location.hash) {
+      history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
+
     // --- helpers ---
+
+    function ctxToHash(ctx) {
+      if (ctx.session == null) return `#c/${ctx.kind}`;
+      return `#s${String(ctx.session).padStart(2, '0')}/${ctx.kind}`;
+    }
+
+    function parseHash() {
+      const raw = window.location.hash.slice(1);
+      if (!raw) return null;
+      const parts = raw.split('/');
+      if (parts.length !== 2) return null;
+      const [who, kind] = parts;
+      if (!['saga', 'gm', 'minutes'].includes(kind)) return null;
+      if (who === 'c' || who === 'compilation') return { session: null, kind };
+      const m = /^s(\d+)$/i.exec(who);
+      if (!m) return null;
+      const n = parseInt(m[1], 10);
+      if (!data.sessions.some((s) => s.n === n)) return null;
+      return { session: n, kind };
+    }
 
     function renderSessionCard(s) {
       const got = ['saga', 'gm', 'minutes'].filter((k) => s.pdfs[k]).length;
@@ -567,6 +650,7 @@
           : `${got}/3 PDFs available`;
       const card = document.createElement('div');
       card.className = 'card';
+      card.setAttribute('aria-expanded', 'false');
       const label = 'S' + String(s.n).padStart(2, '0');
       card.innerHTML = `
         <div class="dot ${state}" title="${stateLabel}" aria-label="${stateLabel}"></div>
@@ -588,6 +672,7 @@
       // Four buttons: Saga / GM / Minutes (open the campaign-wide PDF) + Timeline (disabled for now).
       const card = document.createElement('div');
       card.className = 'card compilation';
+      card.setAttribute('aria-expanded', 'false');
       card.innerHTML = `
         <div class="row">
           <span class="num">Campaign</span>
@@ -603,7 +688,7 @@
 
     function linkOrSpan(label, url, sessionN, kind) {
       return url
-        ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener" data-session="${sessionN}" data-kind="${kind}">${label}</a>`
+        ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener noreferrer" data-session="${sessionN}" data-kind="${kind}">${label}</a>`
         : `<span>${label}</span>`;
     }
 
