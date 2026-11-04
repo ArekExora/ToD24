@@ -12,7 +12,7 @@ party_absent:
   - Kaelthar
   - Sinsong
 locations:
-  - Barlon's tavern
+  - Trade Way
 ---
 
 # Session 23 {{float:"right" 2025-09-28}}

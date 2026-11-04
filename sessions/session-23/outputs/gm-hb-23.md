@@ -1,7 +1,7 @@
 ## Session 23 GM {{float:"right" 2025-09-28}}
 {wide}
 
-{{wide **Barlon's tavern** {{float:"right" _11 Nightal 1489 DR, ~13:30 → 13 Nightal, ~12:00_}} }}
+{{wide **Trade Way** {{float:"right" _11 Nightal 1489 DR, ~13:30 → 13 Nightal, ~12:00_}} }}
 
 {{note
 **Party present:** _Amidamaru, Eguzkilore, Mialee, Nuberroca, Nyx_
@@ -12,9 +12,9 @@
 {{descriptive
 #### Summary
 - **Barred from Barlon's inn** — Lord Zelan's party has paid out the whole house.
-- **Duel breaks on mind-magic** — Nuberroca routs a guard, then collapses under a phantasmal attack.
+- **Duel breaks on mind-magic** — Nuberroca downs a guard, then collapses under a phantasmal attack.
 - **Blue lamp heist** — Mialee lifts it unseen; the freed sage ices the party and climbs back inside.
-- **Red cloaks among the undead** — Nuberroca's village reports bald, tattooed figures walking with the attacks.
+- **Wizards among the undead** — Nuberroca's village reports Red Wizards walking with the attacks.
 
 }}
 
@@ -30,7 +30,7 @@
 - ~09:00 — Sinsong's reply from Nuberroca's village names bald, red-cloaked, tattooed men walking among the undead.
 - Caravan rolls out — Lord Zelan's party stays; the Innevar sisters join the caravan.
 
-:::::::::::
+::::::::
 
 \column
 
@@ -46,10 +46,9 @@
 
 
 ### NPCs
-- **Barlon** — Innkeeper. Politely tells the caravan the full inn is paid for.
 - **Lord Zelan** — Red-capped noble. Carries a tiny blue man in a lamp.
-- **Arietta Innevar** — Twin sister bound for Waterdeep. Usually silent; joined the caravan to Waterdeep.
-- **Zelina Innevar** — Twin sister bound for Waterdeep. Probed the party for details; joined the caravan to Waterdeep.
+- **Zelina Innevar** — Twin sister bound for Waterdeep. Probed the party for details; joined the caravan.
+- **Arietta Innevar** — Silent twin bound for Waterdeep. Joined the caravan.
 
 ### Knowledge gained
 - **The lamp sage.** Blue-skinned, tiny, apparently mute; burst a sphere of cold when freed, then climbed back into the room of his own will.
