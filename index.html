@@ -38,7 +38,8 @@
       background: var(--bg);
       color: var(--fg);
       line-height: 1.4;
-      height: 100vh;
+      height: 100vh;  /* fallback for older browsers */
+      height: 100svh; /* smallest viewport — keeps the footer above any persistent browser chrome (Brave, etc.) */
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -386,8 +387,8 @@
     grid.innerHTML = '';
     grid.appendChild(frag);
 
-    // Footer date
-    generatedAt.textContent = `Generated ${formatDate(data.generated_at)}`;
+    // Footer date (manifest already carries it preformatted in DD/MM/YYYY)
+    generatedAt.textContent = `Generated ${data.generated_at}`;
 
     // Card accordion — click to expand, click again (or click another card) to collapse.
     grid.addEventListener('click', (e) => {
@@ -690,13 +691,6 @@
       return url
         ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener noreferrer" data-session="${sessionN}" data-kind="${kind}">${label}</a>`
         : `<span>${label}</span>`;
-    }
-
-    function formatDate(isoStr) {
-      const d = new Date(isoStr);
-      if (isNaN(d.getTime())) return isoStr;
-      const pad = (n) => String(n).padStart(2, '0');
-      return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
     }
 
     function escapeHtml(s) {

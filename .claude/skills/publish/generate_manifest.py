@@ -39,8 +39,14 @@ def read_frontmatter(md_path: Path) -> dict:
 
 
 def pretty_real_date(raw: str) -> str:
-    # "2025-09-28 17:50 - 20:30" → "2025-09-28"
-    return raw.split()[0] if raw else ""
+    # "2025-09-28 17:50 - 20:30" → "28/09/2025" (Spanish display format)
+    if not raw:
+        return ""
+    ymd = raw.split()[0]
+    parts = ymd.split("-")
+    if len(parts) != 3:
+        return ymd
+    return f"{parts[2]}/{parts[1]}/{parts[0]}"
 
 
 def pretty_fiction_date(raw: str) -> str:
@@ -79,7 +85,7 @@ def main() -> None:
     )
 
     manifest = {
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.now(timezone.utc).strftime("%d/%m/%Y"),
         "campaign": {
             "pdfs": {
                 "saga": rel_pdf(CAMPAIGN_OUTPUTS / "Saga.pdf"),
