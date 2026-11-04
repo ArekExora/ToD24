@@ -144,14 +144,15 @@
     .card .dot.empty { background: var(--empty); }
     .card .links {
       display: none;
-      margin-top: .7rem; padding-top: .55rem;
+      margin-top: .55rem; padding-top: .45rem;
       border-top: 1px solid var(--card-border);
-      gap: .35rem; flex-wrap: wrap;
+      gap: .25rem; flex-wrap: wrap;
+      justify-content: center;
     }
     .card.expanded .links { display: flex; }
     .card .links a, .card .links span {
-      font-size: .72rem;
-      padding: .25rem .55rem;
+      font-size: .68rem;
+      padding: .2rem .42rem;
       border-radius: 3px;
       text-decoration: none;
       font-weight: 500;
@@ -165,7 +166,6 @@
     .card .links span {
       background: #efede8;
       color: var(--dim);
-      text-decoration: line-through;
       cursor: not-allowed;
     }
 
@@ -242,6 +242,77 @@
       font-variant-numeric: tabular-nums;
       margin-left: auto;
     }
+
+    /* PDF viewer modal */
+    .viewer-modal {
+      position: fixed; inset: 0; z-index: 1000;
+      background: rgba(20, 15, 10, 0.94);
+      display: flex; flex-direction: column;
+    }
+    .viewer-modal[hidden] { display: none; }
+    .viewer-header {
+      background: #2a2520; color: #f8f6f1;
+      padding: 0.55rem 0.9rem;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 0.6rem;
+      flex-shrink: 0;
+      min-height: 2.4rem;
+    }
+    .viewer-title {
+      flex: 1;
+      font-size: 0.85rem; font-weight: 500;
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      text-align: center;
+      padding: 0 0.4rem;
+    }
+    .viewer-nav, .viewer-actions {
+      display: flex; gap: 0.35rem; align-items: center;
+      flex-shrink: 0; flex-wrap: wrap;
+    }
+    .viewer-actions a,
+    .viewer-nav-btn {
+      font-size: 0.72rem; color: #f8f6f1;
+      text-decoration: none;
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 0.25rem 0.55rem; border-radius: 3px;
+      font-family: inherit; font-weight: 500;
+      cursor: pointer; letter-spacing: 0.02em;
+      line-height: 1.2;
+    }
+    .viewer-actions a:hover,
+    .viewer-nav-btn:hover:not(:disabled) { background: rgba(255,255,255,0.08); }
+    .viewer-nav-btn.arrow {
+      padding: 0.2rem 0.5rem;
+      min-width: 1.9rem;
+      font-size: 0.9rem;
+    }
+    .viewer-nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .viewer-close {
+      background: transparent; border: none;
+      color: #f8f6f1; font-size: 1.6rem;
+      cursor: pointer; padding: 0 0.3rem; line-height: 1;
+      font-family: inherit;
+    }
+    .viewer-body {
+      flex: 1; overflow-y: auto;
+      padding: 0.9rem 0.6rem;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 0.5rem;
+      -webkit-overflow-scrolling: touch;
+    }
+    .viewer-body canvas {
+      max-width: 100%;
+      height: auto;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      display: block;
+    }
+    .viewer-body .status {
+      color: #d6cfc5; text-align: center; padding: 2rem;
+      font-size: 0.85rem;
+    }
+    .viewer-body .status.error { color: var(--empty); }
   </style>
 </head>
 <body>
@@ -283,7 +354,28 @@
     </div>
   </footer>
 
-  <script>
+  <div id="viewer-modal" class="viewer-modal" hidden aria-modal="true" role="dialog" aria-labelledby="viewer-title">
+    <div class="viewer-header">
+      <div class="viewer-nav">
+        <button class="viewer-nav-btn arrow" id="viewer-prev" aria-label="Previous session, same file">←</button>
+        <button class="viewer-nav-btn" id="viewer-kind-1" aria-label="Switch to other file"></button>
+        <button class="viewer-nav-btn" id="viewer-kind-2" aria-label="Switch to other file"></button>
+        <button class="viewer-nav-btn arrow" id="viewer-next" aria-label="Next session, same file">→</button>
+      </div>
+      <span class="viewer-title" id="viewer-title"></span>
+      <div class="viewer-actions">
+        <a id="viewer-open-tab" target="_blank" rel="noopener">Open in tab</a>
+        <button class="viewer-close" id="viewer-close" aria-label="Close PDF">×</button>
+      </div>
+    </div>
+    <div class="viewer-body" id="viewer-body"></div>
+  </div>
+
+  <script type="module">
+  import * as pdfjsLib from 'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.min.mjs';
+  pdfjsLib.GlobalWorkerOptions.workerSrc =
+    'https://cdn.jsdelivr.net/npm/pdfjs-dist@4.0.379/build/pdf.worker.min.mjs';
+
   (async function () {
     const sessionsGrid = document.getElementById('sessions-grid');
     const compiledGrid = document.getElementById('compiled-grid');
@@ -351,6 +443,159 @@
       }
     });
 
+    // PDF viewer modal
+    const modal = document.getElementById('viewer-modal');
+    const modalTitle = document.getElementById('viewer-title');
+    const modalOpenTab = document.getElementById('viewer-open-tab');
+    const modalBody = document.getElementById('viewer-body');
+    const modalClose = document.getElementById('viewer-close');
+    const navPrev = document.getElementById('viewer-prev');
+    const navNext = document.getElementById('viewer-next');
+    const navKind1 = document.getElementById('viewer-kind-1');
+    const navKind2 = document.getElementById('viewer-kind-2');
+    let pdfRenderToken = 0; // invalidates in-flight render if user closes / opens another
+
+    function kindLabel(k) { return k === 'gm' ? 'GM' : k.charAt(0).toUpperCase() + k.slice(1); }
+
+    function updateNavButtons(ctx) {
+      // ctx: { session: number|null, kind: 'saga'|'gm'|'minutes' }
+      const otherKinds = ['saga', 'gm', 'minutes'].filter((k) => k !== ctx.kind);
+
+      if (ctx.session == null) {
+        // Compiled PDF — no prev/next session navigation; the two "other" buttons
+        // hop between the campaign-wide PDFs.
+        navPrev.hidden = true;
+        navNext.hidden = true;
+        [navKind1, navKind2].forEach((btn, i) => {
+          const k = otherKinds[i];
+          btn.hidden = false;
+          btn.textContent = kindLabel(k);
+          btn.disabled = !data.campaign.pdfs[k];
+          btn.onclick = () => openViewer({ session: null, kind: k });
+        });
+        return;
+      }
+
+      navPrev.hidden = false;
+      navNext.hidden = false;
+
+      // Sessions are in descending order in the manifest (latest first).
+      // Previous session = lower session number = NEXT index. Next session = PREVIOUS index.
+      const idx = data.sessions.findIndex((s) => s.n === ctx.session);
+      const prevSession = idx >= 0 ? data.sessions[idx + 1] : null;
+      const nextSession = idx > 0 ? data.sessions[idx - 1] : null;
+      const current = idx >= 0 ? data.sessions[idx] : null;
+
+      navPrev.disabled = !(prevSession && prevSession.pdfs[ctx.kind]);
+      navPrev.onclick = () => {
+        if (prevSession) openViewer({ session: prevSession.n, kind: ctx.kind });
+      };
+
+      navNext.disabled = !(nextSession && nextSession.pdfs[ctx.kind]);
+      navNext.onclick = () => {
+        if (nextSession) openViewer({ session: nextSession.n, kind: ctx.kind });
+      };
+
+      [navKind1, navKind2].forEach((btn, i) => {
+        const k = otherKinds[i];
+        btn.hidden = false;
+        btn.textContent = kindLabel(k);
+        btn.disabled = !(current && current.pdfs[k]);
+        btn.onclick = () => {
+          if (current && current.pdfs[k]) openViewer({ session: current.n, kind: k });
+        };
+      });
+    }
+
+    async function openViewer(ctx) {
+      // Resolve URL + title from context (session or compiled) via manifest.
+      let url, title;
+      if (ctx.session == null) {
+        url = data.campaign.pdfs[ctx.kind];
+        title = `Compilation · ${kindLabel(ctx.kind)}`;
+      } else {
+        const s = data.sessions.find((x) => x.n === ctx.session);
+        if (!s) return;
+        url = s.pdfs[ctx.kind];
+        title = `S${String(s.n).padStart(2, '0')} · ${kindLabel(ctx.kind)}`;
+      }
+      if (!url) return;
+
+      const token = ++pdfRenderToken;
+      modalTitle.textContent = title;
+      modalOpenTab.href = url;
+      updateNavButtons(ctx);
+      modalBody.innerHTML = '<div class="status">Loading PDF…</div>';
+      modal.hidden = false;
+      document.documentElement.style.overflow = 'hidden';
+
+      try {
+        const pdf = await pdfjsLib.getDocument(url).promise;
+        if (token !== pdfRenderToken) return;
+        modalBody.innerHTML = '';
+
+        // Device-pixel-ratio-aware scale, capped so very wide pages don't blow out memory.
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        const scale = 1.4 * dpr;
+
+        const canvases = [];
+        for (let n = 1; n <= pdf.numPages; n++) {
+          const page = await pdf.getPage(n);
+          if (token !== pdfRenderToken) return;
+          const viewport = page.getViewport({ scale });
+          const canvas = document.createElement('canvas');
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          canvas.dataset.pageN = String(n);
+          modalBody.appendChild(canvas);
+          canvases.push({ canvas, page, viewport });
+        }
+
+        // Lazy render as pages scroll into view.
+        const observer = new IntersectionObserver((entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting || entry.target.dataset.rendered) continue;
+            const idx = parseInt(entry.target.dataset.pageN, 10) - 1;
+            const { page, viewport } = canvases[idx];
+            entry.target.dataset.rendered = '1';
+            page.render({ canvasContext: entry.target.getContext('2d'), viewport });
+            observer.unobserve(entry.target);
+          }
+        }, { root: modalBody, rootMargin: '400px 0px' });
+        for (const { canvas } of canvases) observer.observe(canvas);
+      } catch (e) {
+        if (token !== pdfRenderToken) return;
+        modalBody.innerHTML = `<div class="status error">Could not render PDF (${escapeHtml(e.message)}). Try <strong>Open in tab</strong> above.</div>`;
+      }
+    }
+
+    function closeViewer() {
+      pdfRenderToken++; // invalidate any in-flight renders
+      modal.hidden = true;
+      modalBody.innerHTML = '';
+      document.documentElement.style.overflow = '';
+    }
+
+    modalClose.addEventListener('click', closeViewer);
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.hidden) closeViewer();
+    });
+
+    // Intercept PDF link clicks anywhere in the UI (but NOT links inside the modal itself,
+    // so the "Open in tab" fallback actually opens a new tab).
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href]');
+      if (!a || a.closest('#viewer-modal')) return;
+      const href = a.getAttribute('href');
+      if (!href || !/\.pdf($|\?|#)/i.test(href)) return;
+      const kind = a.dataset.kind;
+      if (!kind) return;
+      e.preventDefault();
+      const sessionAttr = a.dataset.session;
+      const session = sessionAttr ? parseInt(sessionAttr, 10) : null;
+      openViewer({ session: isNaN(session) ? null : session, kind });
+    });
+
     // --- helpers ---
 
     function renderSessionCard(s) {
@@ -372,15 +617,15 @@
         </div>
         <div class="fiction">${escapeHtml(s.in_fiction_date || '—')}</div>
         <div class="links">
-          ${linkOrSpan('Saga', s.pdfs.saga)}
-          ${linkOrSpan('GM', s.pdfs.gm)}
-          ${linkOrSpan('Minutes', s.pdfs.minutes)}
+          ${linkOrSpan('Saga', s.pdfs.saga, s.n, 'saga')}
+          ${linkOrSpan('GM', s.pdfs.gm, s.n, 'gm')}
+          ${linkOrSpan('Minutes', s.pdfs.minutes, s.n, 'minutes')}
         </div>`;
       return card;
     }
 
     function renderCompiledCard(kind, url) {
-      const label = kind === 'gm' ? 'GM' : kind.charAt(0).toUpperCase() + kind.slice(1);
+      const label = kindLabel(kind);
       if (!url) {
         const div = document.createElement('div');
         div.className = 'compiled-card missing';
@@ -392,13 +637,14 @@
       a.href = encodeURI(url);
       a.target = '_blank';
       a.rel = 'noopener';
+      a.dataset.kind = kind;
       a.innerHTML = `${label}<span class="sub">All sessions compilation</span>`;
       return a;
     }
 
-    function linkOrSpan(label, url) {
+    function linkOrSpan(label, url, sessionN, kind) {
       return url
-        ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener">${label}</a>`
+        ? `<a href="${encodeURI(url)}" target="_blank" rel="noopener" data-session="${sessionN}" data-kind="${kind}">${label}</a>`
         : `<span>${label}</span>`;
     }
 
