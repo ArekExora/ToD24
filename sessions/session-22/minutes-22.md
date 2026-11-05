@@ -1,5 +1,5 @@
 ---
-status: drafted
+status: accepted
 date: 2025-09-21 17:00 - 21:20
 in_fiction_date: 27 Uktar 1489 DR, ~12:00 → 11 Nightal, ~13:30
 party_present:
@@ -79,11 +79,12 @@ _~11:00, Feast of the Moon 1489 DR_
 ## 5 - Heroes of Mansken
 _~13:00, 1 Nightal 1489 DR_
 
-First time the party is named. Missing details... AIUDAAAAAAA!!
-<!-- 1. The first day of Nightal opens cold and grey, and the caravan is slow to leave — the Feast night has run its wake, and the merchants have agreed to take a midday meal at the tavern before the road. The common room fills with caravaners and tavern-locals over bowls of stew and warm bread, and Amidamaru stands up at the long table and asks for a word.
-2. He has thought about this a long time, and with the whole of the room listening — caravan folk and tavern locals — he tells them one story only: the hunt into the forest the afternoon before, the mist that split the hunters from the party, the moss-grown ruin at the end of the trail, and the stag at the stones who spoke in Sylvan and left a longbow behind. He names Nyx and Mialee by their part in it, and keeps the rest to himself.
-3. When the story runs to its edge, Amidamaru names the party itself for the first time in the open — *"The Heroes of Mansken"* — and the name lands outside their own mouths at last. The caravan folk pound the table with their cups; the tavern-locals follow because the caravan has; someone starts a song before the bowls are cleared.
-4. Before the carts roll out into the afternoon, he writes it down. On a square of paper he lays out a short account of the forest-god and the bow — the first of their deeds set to writing — signs the whole party under the banner of *"The Heroes of Mansken"*, and pins the paper to the beam by the hearth, so that whoever passes this way after them will have a name to go with the story. -->
+1. The first day of Nightal opens cold and grey, and the caravan is slow to leave — the Feast night has run its wake, and the merchants have agreed to take a midday meal at the tavern before the road. The common room fills with caravaners and tavern-locals over bowls of stew and warm bread, and Amidamaru stands up at the long table and asks for a word.
+2. He tells the locals the long road behind the caravan: the fungus-field with its black spores that pinned the carts until the way was cut open; the lone troll Nuberroca talked down in the marshes of the Trollclaws with a handful of rations; the night the other trolls came at the camp out of the dark and the pyres on both sides the next morning — and here his voice turns cold with hate at the **Company of the Boar**, paid in coin to guard that very camp and gone from it before the first blade fell, taking four horses and the caravan's trust with them. He closes on yesterday — the golden stag at the ruined stones and the Sylvan voice on the wind — and names each of the party in their turn by what they did.
+3. When the story runs to its edge, Amidamaru names the party itself for the first time — ***"The Heroes of Mansken"*** — and the name lands outside their own mouths at last. The caravan folk pound the table with their cups; the tavern-locals follow because the caravan has; someone starts a song before the bowls are cleared.
+4. Before the carts roll out into the afternoon, Amidamaru pulls a square of paper from his pack and spreads it on the table in front of him. The locals lean in. In a careful hand he writes down the shape of what he has just told — the long road, the trolls fought, the forest-god met at the end — and one by one each of the party puts their mark under the banner of *"The Heroes of Mansken"*. He pins the paper to the beam above the hearth, so that the next traveller to stop here will have a name to put to the tale.
+
+\column
 
 ## 6 - Sinsong flies north
 _~16:00, 1 Nightal 1489 DR_
@@ -94,14 +95,16 @@ _~16:00, 1 Nightal 1489 DR_
 4. He frees Targutai from the harness and talks him down one last time; the griffon settles the moment he is out of the line of horses, farther from his preferred prey. Sinsong packs for several days on the wing — rations enough to last him until he can hunt his own, a bedroll, water-skins and his stones, every last thing he carries on the road — and straps the saddle to the griffon's back. Nyx offers to come. He refuses her — this is his to do, and the caravan still has need of a scout.
 5. He swings up into the saddle and Targutai goes. One long run of the claws on the wet verge, one great beat of the wings, and the griffon is rising over the treeline with Sinsong black against the grey sky. The party watch him climb north along the line of the Trade Way until he is a shape no bigger than a bird. The road carries on, and the rest of them with it, under the promise to meet again soon.
 
-\column
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 22}}
+\page
 
 ## 7 - No room at the inn
 _~13:00, 11 Nightal 1489 DR_
 
 1. The first tenday of Nightal ran cold and wet through deepening winter — rain on and off since the second day, no stretch of dry road for more than a morning at a time, the merchants' cloaks never quite drying between halts. Nothing on the road worth the telling.
 2. By midday of the eleventh the caravan draws up to a large roadside inn standing alone on the grey land, smoke from its chimney the only thing moving in the rain. Two women are already outside under the awning, drenched and out of options — twin sisters **Arietta** and **Zelina Innevar**, bound for Waterdeep themselves and turned away from the door.
-3. Eguzkilore draws alongside them with a general greeting, and the sisters pick him up with a cordial flirtation; Nyx joins the circle and Amoffel stands with them under the awning. Names are exchanged, and the shared destination of Waterdeep.
+3. Eguzkilore draws alongside them with a general greeting, and the sisters pick him up with a cordial flirtation; Nyx joins the circle and Amidamaru stands with them under the awning. Names are exchanged, and the shared destination of Waterdeep.
 4. Nuberroca stops at the awning long enough for the sisters to catch his eye before Mialee pulls him through the door. The common room is empty but for four men at the one lit table — three swordsmen with blades at their hips and the build of men who use them, and at their head a noble in rich clothes and an elegant red cap, plainly the one carrying the voice. On the table between them sits a strange **lamp** that emits a soft blue light.
 5. **Barlon** the innkeeper bows to the newcomers, polite and apologetic: the noble has paid for the *whole* inn — the common room and every room upstairs. When Nuberroca asks about the stables, one of the guards at the table calls over, loud enough to be heard across the room: his master's horses are high-bred, and will not rest anywhere near the filthy animals from the caravan. They have had to rent out the whole stable too, he says, to keep the two apart.
 6. The four at the table laugh at the goliath and drop the next jibe at his expense, then settle back to their hands of cards around the blue lamp.

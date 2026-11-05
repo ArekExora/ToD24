@@ -1,7 +1,7 @@
 ---
 status: drafted
 date: 2026-05-01 16:00 - 20:20
-in_fiction_date: 15 Hammer 1490 DR, ~15:00 - ~16:20
+in_fiction_date: 15 Hammer 1490 DR, ~15:00 → ~16:20
 party_present:
   - Amidamaru
   - Eguzkilore
