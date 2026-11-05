@@ -14,7 +14,7 @@ languages:
   - Dwarvish
 factions: []
 status: alive
-source: Homebrew
+source: ToD
 ---
 
 # Eldkin Agetul
@@ -42,6 +42,7 @@ Shield-dwarf woman; caravan-veteran build.
 ## Campaign notes
 
 - 6 Uktar 1489 (S15) — First on-camera on the caravan out of Baldur's Gate. Introduced herself to Nyx and voiced that her road experience should have earned her the sergeant slot instead.
+- 21 Nightal 1489 (S24) — Tried to grapple Kaelthar unarmed during the mountain-pass fight; drew her weapon and engaged against the party with the rest of the caravan guards once Sulesdeg was wounded.
 
 ## Notes
 

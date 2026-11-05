@@ -54,7 +54,7 @@ _16:00, 30 Uktar 1489 DR_
 6. The stag is already standing there when they arrive, light still on his coat though the sun has fallen below the trees. He turns at the stones and speaks — Sylvan, carrying across the clearing. Nyx takes it in as a Fey-speaker. Mialee hears it through a spell for the understanding of tongues.
 7. Behind the shape of the stag both of them feel the hand of **Silvanus** — god of wild places, of what grows and keeps watch. Neither of them speaks the name aloud. Both of them lower their bows.
 8. ***[EPIC]*** The stag confirms they are on the right track, and leaves the prophecy on them: ***"Follow the river of gold until you reach the castle in the sky. Your path will be filled with hardship and blood. Not all will survive..."***
-9. When the voice goes silent a longbow is lying at their feet — a deer head carved into the grip, its antlers forming the bow itself. The stag fades into the trees between one breath and the next. Nyx takes up the bow.
+9. When the voice goes silent a longbow is lying at their feet — the **Forest Longbow**, a deer head carved into the grip, its antlers forming the bow itself. The stag fades into the trees between one breath and the next. Nyx, reverent, takes up the bow.
 10. In the silence of the clearing the two of them stand a long moment with the prophecy still in the air between them. Then the last of the daylight goes out of the trees and they turn back the way they came, to find Nuberroca on the back-trail and the caravan still halted on the road.
 
 \column

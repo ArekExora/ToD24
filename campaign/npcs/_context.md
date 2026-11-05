@@ -102,6 +102,21 @@ factions: []
 status: hidden
 ---
 
+## Carlon
+
+---
+name: Carlon
+full_name: Carlon Amoffel
+nicknames: []
+gender: Male
+species: Human
+background:
+class: Rogue
+factions:
+  - Harpers
+status: alive
+---
+
 ## Dralmorrer
 
 ---
@@ -114,20 +129,6 @@ background:
 class:
 factions:
   - Cult of the Dragon
-status: alive
----
-
-## Echo
-
----
-name: Echo
-full_name: Echo
-nicknames: []
-gender:
-species: Bat
-background:
-class:
-factions: []
 status: alive
 ---
 
@@ -397,6 +398,20 @@ factions:
 status: alive
 ---
 
+## Sigurd
+
+---
+name: Sigurd
+full_name: Sigurd
+nicknames: []
+gender: Male
+species: Human
+background: Scribe
+class: Wizard
+factions: []
+status: alive
+---
+
 ## Sohey
 
 ---
@@ -500,6 +515,20 @@ class:
 factions:
   - Cult of the Dragon
 status: dead
+---
+
+## Lord Zelan
+
+---
+name: Lord Zelan
+full_name: Lord Zelan
+nicknames: []
+gender: Male
+species: Human
+background:
+class:
+factions: []
+status: alive
 ---
 
 ## Zelina

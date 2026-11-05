@@ -12,7 +12,7 @@ alignment:
 languages: []
 factions: []
 status: alive
-source:
+source: ToD
 ---
 
 # Zelina Innevar
@@ -38,8 +38,8 @@ Not defined.
 
 ## Campaign notes
 
-- 11 Nightal 1489 DR (S22) — First met at the inn beside the castle on the Trade Way; introduced herself and her silent sister **Arietta**. Cordially flirted with the party while asking pointed questions — where from, where to, who else on the caravan, who was paired with whom.
-- 11–12 Nightal 1489 DR (S23) — Camped alongside the caravan outside the tavern. Afternoon spent with **Nyx** and **Eguzkilore** trading sketches of lives. Confirmed to **Amidamaru** that she had seen three riders matching the Jabalí's description come through fast on the main road a while back. Turned down **Amidamaru**'s paid-protection offer — the sisters had no coin. Attached to the caravan for the departure to Waterdeep at midday on 12 Nightal.
+- 11 Nightal 1489 DR (S22) — First met at the inn beside the Trade Way; introduced herself and her silent sister **Arietta**. Cordially flirted with the party while asking pointed questions — where from, where to, who else on the caravan, who was paired with whom.
+- 11–12 Nightal 1489 DR (S23) — Camped alongside the caravan outside the tavern. Afternoon spent with **Nyx** and **Eguzkilore** trading sketches of lives. Confirmed to **Amidamaru** that she had seen three riders matching the Jabalí's description come through fast on the main road a while back. Turned down **Amidamaru**'s paid-protection offer — the sisters had no coin. Attached to the caravan for the departure to Waterdeep at midday on 13 Nightal.
 
 ## Notes
 

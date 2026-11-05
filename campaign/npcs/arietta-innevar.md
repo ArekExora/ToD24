@@ -12,7 +12,7 @@ alignment:
 languages: []
 factions: []
 status: alive
-source:
+source: ToD
 ---
 
 # Arietta Innevar
@@ -38,8 +38,8 @@ Not defined.
 
 ## Campaign notes
 
-- 11 Nightal 1489 DR (S22) — First met at the inn beside the castle on the Trade Way; outside under the eaves, drenched and locked out of lodging alongside the party. Flirted cordially with the party while asking detailed questions.
-- 11–12 Nightal 1489 DR (S23) — Camped alongside the caravan outside the tavern after Barlon's apology failed to become a bed. Afternoon spent with **Nyx** and **Eguzkilore** trading sketches of lives. **Mialee** kept a careful distance — a greeting, no more — and flagged the sisters afterwards as not sitting right with her. Attached to the caravan for the departure to Waterdeep at midday on 12 Nightal.
+- 11 Nightal 1489 DR (S22) — First met at the inn beside the Trade Way; outside under the eaves, drenched and locked out of lodging alongside the party. Flirted cordially with the party while asking detailed questions.
+- 11–12 Nightal 1489 DR (S23) — Camped alongside the caravan outside the tavern after Barlon's apology failed to become a bed. Afternoon spent with **Nyx** and **Eguzkilore** trading sketches of lives. **Mialee** kept a careful distance — a greeting, no more — and flagged the sisters afterwards as not sitting right with her. Attached to the caravan for the departure to Waterdeep at midday on 13 Nightal.
 
 ## Notes
 

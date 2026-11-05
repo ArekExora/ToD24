@@ -15,7 +15,7 @@ languages:
   - Common
 factions: []
 status: alive
-source: Homebrew
+source: ToD
 ---
 
 # Sulesdeg
@@ -41,6 +41,7 @@ Human; approximately 7'5" tall (~230 cm); from an unfamiliar, exotic-looking ori
 ## Campaign notes
 
 - 6 Uktar 1489 (S15) — First on-camera on the caravan out of Baldur's Gate. Real name given to Mialee by Beyd when she remarked on his height.
+- 21 Nightal 1489 (S24) — Tried to arrest Nuberroca unarmed during the mountain-pass fight after the party attacked the cultist carts; took Nuberroca's halberd through the shoulder and drew his sword and engaged against the party in response.
 
 ## Notes
 

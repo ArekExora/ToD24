@@ -13,7 +13,7 @@ languages:
   - Common
 factions: []
 status: alive
-source: Homebrew
+source: ToD
 ---
 
 # Beyd Sechepol

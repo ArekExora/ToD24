@@ -8,7 +8,7 @@ When creating or editing NPC files in `campaign/npcs/`:
 
 ## File location and identity
 
-**Filename:** lowercase given-name and surname joined with a hyphen (e.g., `tarbaw-nighthill.md`, `ontharr-frume.md`, `lai-angesstun.md`). Include the surname whenever the NPC has one. NPCs with a single name use just that name (`miguel.md`, `recaredo.md`, `echo.md`). Do NOT include epithets in the filename (`escobert.md` for *Escobert the Red*, `rezmir.md` for *Rezmir the Black*). Module-canonical names use the published spelling.
+**Filename:** lowercase given-name and surname joined with a hyphen (e.g., `tarbaw-nighthill.md`, `ontharr-frume.md`, `lai-angesstun.md`). Include the surname whenever the NPC has one. NPCs with a single name use just that name (`miguel.md`, `recaredo.md`). Do NOT include epithets in the filename (`escobert.md` for *Escobert the Red*, `rezmir.md` for *Rezmir the Black*). Module-canonical names use the published spelling.
 
 **Frontmatter fields (in order):** `name`, `full_name`, `nicknames` (list), `gender`, `species`, `subspecies`, `background`, `class`, `subclass`, `alignment`, `languages` (list), `factions` (list), `status`, `source`.
 

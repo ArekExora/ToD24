@@ -92,34 +92,21 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |---|---|---|---|
 | 2025-09-07 (Sun) | 21 | 17:10 - 20:30 | 17 Uktar 1489 DR (dia 20) |
 | 2025-09-14 (Sun) | - | No game | - |
-| 2025-09-21 (Sun) | 22 | 17:00 - ? | **no audio** |
+| 2025-09-21 (Sun) | 22 | 17:00 - 21:20 | 27 Uktar 1489 DR; **no audio** |
 | 2025-09-28 (Sun) | 23 | 17:50 - 20:30 | 11 Nightal 1489 DR (dia 21) |
-
-#### September 2025 Events
-
-- **2025-09-21** (S22) — 17:00–~21:20
-  - Missing: Kaelthar (Javi confirmed unavailable at 18:50: "pensé que me daría tiempo pero no es así. No puedo conectarme hoy")
-  - Pablo arrived 10–15 min late; Sergio at 17:45; everyone else on time
-  - Party name **"Los héroes de Mansken"** (chosen out-of-session via 4-2-1 vote on 2025-09-08) enters the fiction — first act attributed to the name is the ciervo-dorado encounter
-  - Encounter at a **tavern beside a castillo**; two attractive women at the door in rain/cold — Nuberroca went prone on the ground on seeing them ("caí prone")
-  - **Ciervo dorado** (forest god) crosses the party's path — gifts Nyx a magical bow (+1, magical damage, glows for 1 hour)
-  - Forest-god prophecy: "El lago amarillo conduce a la mansión de las nubes" + omen that one of the party will die (Víctor: "Y dijo que alguien de nosotros iba a palmar")
-  - Sinsong pulls stolen cultist robes out as a prank on Nuberroca; on a 24 Insight roll tries to befriend the cultist camp — **still fails** to convert them (Simba: "sacó 24 intentando hacerse colega de los cultistas (y aún así no lo consiguió...)")
-  - Amidamaru almost breaks with Sinsong over the robes prank ("hoy casi casi conseguís enojar a Amidamaru")
-  - Session ends with Nuberroca still prone at the tavern door; Sergio flags he "empiezo en rabia la próxima partida"
 
 ### October 2025
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2025-10-05 (Sun) | 24 | 17:15 - 20:00 | **no audio** |
+| 2025-10-05 (Sun) | 24 | 17:15 - 20:40 | 13 Nightal 1489 DR; **no audio** |
 | 2025-10-12 (Sun) | - | No game | - |
 | 2025-10-19 (Sun) | - | No game | - |
 | 2025-10-26 (Sun) | 25 | 17:40 - ? | (dia 22) |
 
 #### October 2025 Events
 
-- **2025-10-05** (S24) — 17:15–~20:00
+- **2025-10-05** (S24) — 17:15–~20:40
   - Missing: Sinsong & Nyx
   - Kaelthar joined at 18:00; Pablo committed to leaving by 21:00 "vivo o muerto"
   - Big fight: **cultists vs caravan guards vs party**
