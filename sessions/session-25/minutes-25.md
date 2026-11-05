@@ -12,7 +12,7 @@ party_present:
 party_absent:
   - Sinsong
 locations:
-  - Mountain pass
+  - Trade Way
   - Daggerford
 ---
 
