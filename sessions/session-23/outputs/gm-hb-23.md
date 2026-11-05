@@ -47,8 +47,8 @@
 
 ### NPCs
 - **Lord Zelan** — Red-capped noble. Carries a tiny blue man in a lamp.
-- **Zelina Innevar** — Twin sister bound for Waterdeep. Probed the party for details; joined the caravan.
-- **Arietta Innevar** — Silent twin bound for Waterdeep. Joined the caravan.
+- **Zelina Innevar** — Probed the party for details; joined the caravan.
+- **Arietta Innevar** — Joined the caravan.
 
 ### Knowledge gained
 - **The lamp sage.** Blue-skinned, tiny, apparently mute; burst a sphere of cold when freed, then climbed back into the room of his own will.
