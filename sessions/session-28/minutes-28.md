@@ -22,7 +22,7 @@ locations:
 ## 1 - Dawn on the road
 _~09:30?, 29 Nightal 1489 DR_
 
-1. The caravan picks itself up on the road to Waterdeep [Td:1-10]. **Antón** has gone with their wagon and the horses have only just been brought in; the two prisoners are dead in their bindings; the merchants are intact and want to move. The bodies will be left on the pile the party has already been dragging behind them [Td:21-24]. Mialee levels a long glare at **Miguel** and **Fenwir**, the two Greenest guards who had been talking the day before about her stealing the cart; neither answers it [Td:13-18].
+1. The caravan picks itself up on the road to Waterdeep [Td:1-10]. **Anton** has gone with their wagon and the horses have only just been brought in; the two prisoners are dead in their bindings; the merchants are intact and want to move. The bodies will be left on the pile the party has already been dragging behind them [Td:21-24]. Mialee levels a long glare at **Miguel** and **Fenwir**, the two Greenest guards who had been talking the day before about her stealing the cart; neither answers it [Td:13-18].
 2. Nobody has horses to chase the stolen wagon with [Td:50]. Amidamaru sends his familiar **Munin** forward along the road to find where the wagon goes [Td:73-82]; when the gates are in sight later the bird is nowhere above the carts queued at the arch [Td:589-590].
 3. On the move again, the party rakes over the plan — deliver the chests to the Harpers in Waterdeep, press north to the roadhouse at **Carnath** [Td:140-165]. Mialee fumbles trying to recover the handler's name — *"Eloísi... Erosin"* — the elf monk Janma had named in S27 [Td:181-186].
 
