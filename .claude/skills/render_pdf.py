@@ -49,6 +49,15 @@ from playwright.sync_api import sync_playwright
 HOMEBREWERY_BASE = "https://homebrewery.naturalcrit.com"
 CLIENT_VERSION = "3.24.2"  # must match server's packageJSON.version
 
+# The homebrewery.naturalcrit.com editor homepage loads welcome_msg.md, whose
+# leading ```css block becomes the brew's style and trims .page padding-bottom
+# from the theme default (1.7cm) down to 1.1cm. That extra ~22px per column is
+# load-bearing for whether tight content (e.g. a long final bullet) fits in
+# column 1 or spills into column 2. An anonymous POST to /api doesn't carry
+# any style, so the resulting share page renders with less column height than
+# the editor's "Get PDF" would. Pass the style explicitly so our PDFs match.
+DEFAULT_STYLE = ".page {\n  padding-bottom : 1.1cm;\n}\n"
+
 # Filename → (role, PDF suffix, strip frontmatter?)
 ROLE_PATTERNS = [
     (re.compile(r"^saga-(\d+)\.md$"), ("saga", "Saga", False)),
@@ -142,7 +151,7 @@ def hb_create(title: str, text: str) -> tuple[str, str]:
             "Homebrewery-Version": CLIENT_VERSION,
             "Content-Type": "application/json",
         },
-        json={"text": text, "title": title, "renderer": "V3"},
+        json={"text": text, "title": title, "renderer": "V3", "style": DEFAULT_STYLE},
         timeout=30,
     )
     r.raise_for_status()
