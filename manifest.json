@@ -1,5 +1,5 @@
 {
-  "generated_at": "05/11/2026",
+  "generated_at": "07/11/2026",
   "campaign": {
     "pdfs": {
       "saga": "sessions/outputs/Saga.pdf",
@@ -334,8 +334,8 @@
       "in_fiction_date": "13 Nightal 1489 DR",
       "pdfs": {
         "saga": null,
-        "gm": null,
-        "minutes": null
+        "gm": "sessions/session-24/outputs/S24 - GM.pdf",
+        "minutes": "sessions/session-24/outputs/S24 - Minutes.pdf"
       }
     },
     {
