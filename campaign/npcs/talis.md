@@ -1,6 +1,6 @@
 ---
 name: Talis
-full_name: Talis la Blanca
+full_name: Talis the White
 nicknames: []
 gender: Female
 species: Half-elf
@@ -17,7 +17,7 @@ status: alive
 source: ToD
 ---
 
-# Talis la Blanca
+# Talis the White
 
 ## Concept
 

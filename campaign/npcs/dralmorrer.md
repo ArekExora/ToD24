@@ -22,7 +22,7 @@ source: ToD
 
 ## Concept
 
-Elegant and racist elf; lieutenant / chief of Castle Naerytar for the Cult of the Dragon. Chain-of-command node above Talis la Blanca at the Hunting Lodge; reports upward toward Rezmir.
+Elegant and racist elf; lieutenant / chief of Castle Naerytar for the Cult of the Dragon. Chain-of-command node above Talis the White at the Hunting Lodge; reports upward toward Rezmir.
 
 ## Goal
 
