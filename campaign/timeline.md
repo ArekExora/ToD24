@@ -24,3 +24,4 @@ _Authoritative chronological anchor of campaign events, populated session-by-ses
 | 11 Uktar 1489 DR | Party meets the **Company of the Boar** at *El Reposo en el Camino*. | 18 |
 | 16 Hammer 1490 DR | Party meets **Talis** at the **Hunting Lodge**. Ordered to wipe out the goblins. | 55 |
 | 17 Hammer 1490 DR | Party exposed as **Harpers** / **Order of the Gauntlet** at **Talis**'s lodge; brokered a counter-mission against **Rezmir**'s cargo and killed **Trepsin** in the Nashkag hunt with the goblin tribe as allies. | 56 |
+| 17 Hammer 1490 DR | **Talis the White** killed at the hunting lodge after ambushing the party on their return from the Nashkag hunt. | 57 |

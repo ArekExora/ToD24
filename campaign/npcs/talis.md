@@ -13,7 +13,7 @@ languages:
   - Common
 factions:
   - Cult of the Dragon
-status: alive
+status: dead
 source: ToD
 ---
 
@@ -44,6 +44,7 @@ Clear the Nashkag goblin tribe from the surrounding country and keep the lodge f
 ## Campaign notes
 
 - 16 Hammer 1490 DR (S55) — First met by the party at the Hunting Lodge; posed as cult reinforcements sent by Dralmorrer, briefed on the Nashkag goblin problem, and tasked with wiping out the tribe by morning. Flicker of surprise when the lodge's gargoyles failed to subdue Nuberroca on first command.
+- 17 Hammer 1490 DR (S57) — Killed at the hunting lodge after ambushing the party on their return; Nuberroca recovered his Dragongleam lightspear from her corpse.
 
 ## Notes
 
