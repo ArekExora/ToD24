@@ -42,7 +42,11 @@ _~14:00, 17 Hammer 1490 DR_
 1. Eguzkilore pleads with Sinsong for a touch of healing and shows him the ache on his chest [T:453-486]. Sinsong lays a hand there and begins the spell — as the magic reaches in, a red welt the size of a fist blooms where the cleric touches, then rapid-blooming blisters crawl across his chest faster than he can refuse to scratch [T:488-492].
 2. Reading the condition as some kind of curse, Sinsong sits Eguzkilore down with his back turned, lays a hand on his head, and begins to weave the counter-magic [T:503-506]. As its threads draw close a lock of hair drops and fresh blisters bloom across the elf's scalp; the cleric presses on regardless, waving off Mialee's dry question about his cosmetic intentions and admitting with a grin that he rather likes the look [T:507-515].
 3. After a long moment Sinsong remembers the old tales: certain people's flesh simply rejects the touch of magic, convulsing or killing them outright under enough of it. The affliction's origin was never traced, it did not spread from one sufferer to the next, and the symptoms cleared on their own after about a week — though some forms of healing still worked on them, despite the agony of first contact [T:518-544].
-4. Sinsong retreats behind a tree and sends a disembodied hand onto Eguzkilore's scalp [T:541-568]. The earlier welts on his chest and head fade on their own as the new magic lands; fresh blisters rise where the hand touches, and a few more locks of hair drop [T:568-570]. Half-bald and stinging, Eguzkilore chases Sinsong down and hauls him up by the collar: *"¿Y ahora cómo voy a ligar?"* [T:594-597]
+4. Sinsong retreats behind a tree and sends a disembodied hand onto Eguzkilore's scalp [T:541-568]. The earlier welts on his chest and head fade on their own as the new magic lands; fresh blisters rise where the hand touches, and a few more locks of hair drop [T:568-570]. Half-bald and stinging, Eguzkilore chases Sinsong down and hauls him up by the collar: *"¿Y ahora cómo voy a ligar?"* [T:594-597].
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 57}}
+\page
 
 ## 4 - Rum and powder
 _~15:00, 17 Hammer 1490 DR_
@@ -55,9 +59,7 @@ _~15:00, 17 Hammer 1490 DR_
 6. Mialee adds a box of carved figurines from her bag in tribute for the totem; Sohey weighs it at a glance and nods [T:1180-1196]. His tribe has eyes in the trees, so he will come up there himself to fight the whole party when they are ready. He asks whether they know the magical stones for sending messages — he will use one to start the friendly duel. Then he turns and heads west toward the village [T:1206-1232].
 7. Rejoining the others, Nuberroca turns the duel into a lecture — the fight was not a lesson for him, he says, but a lesson for them about how badly they cramp him by standing at his elbow in combat [T:1242-1259]. He then channels his god's fury and his wounds start closing with a blue glow [T:1266-1272].
 
-{{pageNumber,auto}}
-{{footnote Tyranny of Dragons | Session 57}}
-\page
+\column
 
 ## 5 - Through the snow
 _~16:00, 17 Hammer 1490 DR_
@@ -67,47 +69,48 @@ _~16:00, 17 Hammer 1490 DR_
 3. The second hour is harder. Snow settles over the path and the way all but disappears; night presses in heavier, and even eyes used to the dark struggle against the blowing white [T:1315-1322]. Nyx excuses her stumbles complaining that the blizzard is in her eyes; Kaelthar offers to turn back, but she waves him off and keeps her feet on what she can see [T:1323-1327].
 4. By the third hour Eguzkilore suggests Kaelthar take wing and spot the lodge from above; Mialee counsels trust in Nyx instead [T:1328-1330]. The halfling finds her own markers — branches she had broken on the way out — and walks them from one to the next until the lodge's cooking-smoke rises out of the pines ahead [T:1331-1339].
 
-## 6 - A door that should not have opened
+## 6 - Talis appears
 _~19:00, 17 Hammer 1490 DR_
 
-1. In the clearing outside the lodge the party plans: Kaelthar will present the totem and Trepsin's moss cloak and announce both missions complete; Mialee will not enter at all [T:1349-1507]. Sinsong holds back a charge of guiding magic for the moment Kaelthar steps in [T:1457-1480].
-2. A kobold spots them from the eastern windows, turns on its heel and sprints back inside [T:1570-1620]. Every kobold the party has seen in this house has been dressed for scrubbing pots; this one is armed [T:1590-1598]. Through the walls they catch doors opening and voices pitched loud enough to carry clearly outside [T:1621-1627].
-3. Nuberroca argues for the back door and a pre-emptive knockout; the rest hold to Sinsong's parley plan [T:1633-1715]. Sinsong knocks: *"Talis — Nyx wanted a word with you."* [T:1720-1727] Talis opens the door, weapon stowed, and invites them in with their arms left outside [T:1713-1776].
-4. Nyx will not cross without a matched gesture: *"No vamos a entrar aquí a que nos apuñalen."* [T:1777-1778] Talis touches her fingers to her mouth and whistles [T:1779-1783].
-
-## 7 - Talis's whistle
-_~19:15?, 17 Hammer 1490 DR_
-
-1. Crossbow bolts burst out of wall-loops the party had never noticed; one strikes Nyx deep in the ribs, another thumps into Eguzkilore [T:1794-1808]. Talis raises a short wand and throws a mote of frost that swells into a snow-ball before it slams Kaelthar in the chest, cold crawling across his armour where it lands [T:1816-1823].
-2. The two mercenaries — **Sorvic** [T:2097] and **Wessic the Wizened** [T:2699], a grey-bearded old human with sixty hard years of war on him [GM] — drive forward and seize Kaelthar and Sinsong at the wrists; Sinsong lets himself be taken, by design [T:1831-1859].
-3. Nyx lifts her hand and casts a dome of silence across the centre of the room — Talis's spoken words, and Sinsong's, both die inside it [T:1870-1884].
-4. Eguzkilore's readied shot pins a kobold against the far wall, feet off the ground [T:1917-1935]. **Kushpia** cuts in at his back with her scimitar [T:1936-1946].
-5. From a woodpile at the room's edge Mialee works arrows into Kushpia and vanishes again [T:1985-2016].
-6. Nuberroca charges in raging and lands a hammer-blow on Kushpia, pulling the strike at the last moment to keep her breathing [T:2022-2042]. Kaelthar pivots in the grapple and breathes a cone of fire into three kobolds crowding the corner — two die on the spot, the third walks away burning; his follow-up spell dies in his throat in the silence [T:2059-2167].
-
-\column
-
-## 8 - The wasps and Talis's fall
-
-1. Sinsong, bound to his party by shared sigils of peace, feels Nyx about to take a magical spear through the chest and appears beside her at the moment of impact; the cold takes him in her stead and she stares, uncomprehending, at the empty air [T:2272-2328].
-2. Mialee drives her short sword into Kushpia from behind and the cultist's eyes go out, scimitar bouncing uselessly off the elf's armour as she falls [T:2416-2424]. Mialee then throws her dagger at Talis; it misses and bounces soundlessly along the floorboards inside the silence [T:2425-2436].
-3. Nuberroca shoves Eguzkilore aside and closes on Talis: *"Talis! Drop your spear — hand it over and I'll spare your life."* [T:2488-2492] He strikes true — his lance bites deep into her flank and a pommel strike rounds it off [T:2495-2528].
-4. Finding herself bleeding and ringed, Talis presses the spear tighter and steps a pace outside the silence to incant [T:2529-2534]. Black motes stream from her mouth and bloom into a dense swarm of wasps that fills the chamber and blots out sight [T:2594-2604].
-5. The swarm catches Sinsong and Eguzkilore at full strength and both go down; Mialee is left stiff and wounded but on her feet; Nuberroca and Kaelthar grind their teeth and endure [T:2609-2655, T:2716-2731].
-6. Talis breaks for the door, bleeding both from the party's strikes and from the swarm she herself conjured; she falls short of it and the wasps evaporate as her concentration goes with her [T:2733-2749].
-7. Mialee drops one of Nyx's berries into Eguzkilore's mouth [T:2776-2791].
-8. ***[EPIC]*** Nuberroca catches up his own halberd and hurls it like a javelin at Sorvic across the room. The polearm punches clean through visor and skull both and pins the mercenary against the east wall [T:2869-2890]. In the same breath he stoops and takes up Talis's lightspear from where it has fallen — his own Dragongleam, the draconic-runed weapon she had reclaimed from him that morning, now his again [T:2905-2914].
-9. Eguzkilore opens his eyes, drags himself over to Sinsong, and gives him one of the same with a disgusted face; he catches a second wind of his own on the way back up [T:2985-2998, T:3016-3019].
-10. ***[EPIC]*** Sinsong rises in a crown of radiant guardians and walks a straight path through the kobold reinforcements boiling in at the doorways — eleven of them drop where he passes, with no sound but his footfalls in the silence; he throws himself prone behind a banister at the end of it [T:3053-3151].
+1. In the clearing outside the lodge the party settles their roles. Kaelthar will carry the totem forward as proof and announce the mission complete; Amidamaru hangs back well out of sight so that Trepsin's cloak stays unseen, and Mialee will not enter at all [T:1349-1507]. Sinsong primes a touch of guiding magic to ride on Kaelthar when he starts talking [T:1457-1480].
+2. A kobold spots them from the east and turns on its heel for the lodge; Nuberroca gives chase and finds more of them on that side of the house. Every kobold the party has seen here until now has been dressed for scrubbing pots; now they all carry steel [T:1570-1620]. Through the walls, doors open and voices rise in what sound like orders [T:1621-1627].
+3. Nuberroca argues for the back door and a pre-emptive knockout, but Mialee pushes for dialogue and nominates Sinsong to carry it [T:1633-1710]. Before the cleric can decide how to call out, the front door opens — Talis steps out with Kushpia at her shoulder, and in the hall just behind them a pair of mercenaries wait with swords drawn [T:1711-1721]. Talis asks what they are doing; Sinsong steps up: *"Talis — Nyx wanted a word with you."* Her own weapon stowed, Talis invites them in — provided they leave their arms outside [T:1722-1776].
+4. At Talis's invitation Sinsong and Kaelthar step inside [T:1727-1744]. Nyx will come only as far as the antechamber — she will not cross into the hall unless Talis's people lay down their weapons too: *"No vamos a entrar aquí a que nos apuñalen."* [T:1776-1778] Eguzkilore sighs and steps in beside her [T:1780]. Talis brings her fingers to her mouth, and whistles [T:1781-1783].
 
 {{pageNumber,auto}}
 {{footnote Tyranny of Dragons | Session 57}}
 \page
 
-## 9 - The east wall breaks
-_~19:30?, 17 Hammer 1490 DR_
+## 7 - Talis's whistle
+_~19:30, 17 Hammer 1490 DR_
 
-1. From the east wall glass bursts and masonry rains. In the same instant a second troll's claw finds its way toward Kaelthar's wolf — the connection breaks in the paladin's chest and Fenrir vanishes into vapour [T:2838-2853].
+1. Crossbow bolts burst out of murder holes in the antechamber's east wall; one strikes Nyx deep in the ribs, another thumps into Eguzkilore [T:1794-1808]. Talis raises a short wand and throws a mote of frost that swells into an ice-ball before it slams Kaelthar in the chest, cold crawling across his armour where it lands [T:1816-1823].
+2. The two mercenaries — **Sorvic** [T:2097] and **Wessic the Wizened** [T:2699], a grey-bearded old man with sixty hard years of war on him [GM] — drive forward and seize Kaelthar and Sinsong at the wrists. Sinsong lets himself be taken; Kaelthar tries to resist to no avail [T:1831-1859].
+3. Nyx lifts her hand and casts a dome of silence on the far side of the hall — Talis's spoken words, and Sinsong's, both die inside it [T:1870-1884].
+4. Eguzkilore's shot annihilates a kobold, leaving him nailed against the antechamber's west wall, feet off the ground [T:1917-1935]. **Kushpia** cuts in at his back with her scimitar, managing only glancing hits [T:1936-1946].
+5. From a woodpile in the east wing of the lodge, Mialee works arrows into Kushpia and vanishes into the shadows again [T:1985-2016].
+6. Nuberroca charges in yelling curses and lands a halberd-blow on Kushpia, avoiding vital points to keep her breathing [T:2022-2042]. Kaelthar pivots in the grapple and breathes a cone of fire into three kobolds crowding the corner — two die on the spot with soundless screams, the third scuttles away burning; his follow-up spell dies in his throat in the silence [T:2059-2167].
+7. Sinsong, bound to his party by shared sigils of peace, feels Nyx about to take Talis's magical spear through the chest and appears beside her at the moment of impact; the cold takes him in her stead and she stares, uncomprehending, at the empty air [T:2272-2328].
+8. Mialee drives her short sword into Kushpia from behind and the cultist's eyes go out, scimitar bouncing uselessly off the elf's armour as she dies [T:2416-2424]. Mialee then throws her dagger at Talis, but misses badly and the dagger bounces along the floorboards without a sound [T:2425-2436].
+9. Nuberroca shoves Eguzkilore aside and closes on Talis: *"Talis! Drop your spear — hand it over and I'll spare your life."* [T:2488-2492] He does not wait for a reply — his halberd bites deep into her flank and a shaft strike rounds it off [T:2495-2528].
+10. Finding herself bleeding and ringed, Talis presses the spear tighter and steps a pace outside the silence to incant [T:2529-2534]. Black motes stream from her mouth and bloom into a dense swarm of wasps that fills the chamber and blots out sight [T:2594-2604].
+11. The swarm catches most of them, leaving Sinsong and Eguzkilore unconscious; Mialee, Nuberroca and Kaelthar grind their teeth and endure the swarm while they can [T:2609-2655, T:2716-2731].
+12. Talis breaks for the door — still bleeding from Nuberroca's wounds — but the swarm she conjured does not spare her, and she falls short of the door and does not rise. The wasps turn into mist as her soul abandons her body [T:2733-2749].
+13. Rushing to her friend, Mialee drops one of Nyx's berries into Eguzkilore's mouth, waking him from the swarm's bite [T:2776-2791].
+14. ***[EPIC]*** Nuberroca changes the hold on his halberd and hurls it like a javelin at Sorvic across the room. The polearm punches clean through visor and skull both, throwing the mercenary through the stair railings and pinning him against the north wall [T:2869-2890].
+15. In the same breath the barbarian stoops and takes up Talis's lightspear from where it has fallen — Dragongleam, the draconic-runed weapon she had reclaimed from him that morning, now back in his hands [T:2905-2914].
+16. Eguzkilore drags himself over to Sinsong, gives him one of the berries with a disgusted face, and finds a last breath in himself to get back to his feet [T:2985-2998, T:3016-3019].
+17. ***[EPIC]*** Sinsong rises in a crown of fey guardians and walks a straight path through the kobolds in the hall — eleven of them drop where he passes, with no sound but his footfalls in the silence. From beyond the murder holes grunts of pain carry back through the slits as the fey forms reach through to the guards on the other side; Wessic, still on his feet, is left badly wounded. Sinsong throws himself behind the stairs to the second floor for cover [T:3053-3151, GM].
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 57}}
+\page
+
+REVISADO HASTA AQUI
+
+## 9 - Glass and stone
+
+1. From the east wing they hear glass bursting and masonry breaking. In the same instant a second troll's claw finds its way toward Kaelthar's wolf — the connection breaks in the paladin's chest and Fenrir vanishes into vapour [T:2838-2853].
 2. Nuberroca turns back through the thickening mist and finds Wessic still on his feet at his edge; the newly-reclaimed Dragongleam goes clean through him and a pommel-crack follows, and the old veteran is left crushed where he stands [T:3211-3230, GM].
 3. Kaelthar swallows one of his stockpiled berries to crawl back to his feet, then gives Nuberroca the room he needs and limps to Sinsong's side [T:3233-3278].
 4. From the inside Eguzkilore stands and shoots back through the wall-loops at the crossbowmen on the far side; his second arrow leaves the kobold on the other end of the slit near death [T:3289-3328].
