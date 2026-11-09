@@ -10,8 +10,6 @@ This file's purpose is to **keep track of the real-world chronology** of the cam
 
 Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `Session = -` means no session played. Per-month **Events** subsections carry the plot beats, used as cross-reference when transcripts are recapped, then removed.
 
-**Audio (`dia`) ↔ session mapping:** Audio recordings are numbered `dia 3` through `dia 40`. There are some unrecorded sessions. Consequence: from the first unrecorded session onward, `diaXX` no longer matches session `XX` — it corresponds to **session `XX + n`**, where `n` is the running count of unrecorded sessions encountered up to that point. S45+ switches to date-named audio files.
-
 ### January 2025
 
 | Date | Session | Play time | Notes |
@@ -83,17 +81,17 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | 2025-08-10 (Sun) | 18 | 17:00 - 20:20 | 10 Uktar 1489 DR |
 | 2025-08-17 (Sun) | - | No game | - |
 | 2025-08-19 (Tue) | 19 | 17:00 - 19:30 | 12 Uktar 1489 DR; off-cadence; **no audio** |
-| 2025-08-24 (Sun) | 20 | 17:00 - 20:10 | 14 Uktar 1489 DR (dia 19) |
+| 2025-08-24 (Sun) | 20 | 17:00 - 20:10 | 14 Uktar 1489 DR |
 | 2025-08-31 (Sun) | - | No game | - |
 
 ### September 2025
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2025-09-07 (Sun) | 21 | 17:10 - 20:30 | 17 Uktar 1489 DR (dia 20) |
+| 2025-09-07 (Sun) | 21 | 17:10 - 20:30 | 17 Uktar 1489 DR |
 | 2025-09-14 (Sun) | - | No game | - |
 | 2025-09-21 (Sun) | 22 | 17:00 - 21:20 | 27 Uktar 1489 DR; **no audio** |
-| 2025-09-28 (Sun) | 23 | 17:50 - 20:30 | 11 Nightal 1489 DR (dia 21) |
+| 2025-09-28 (Sun) | 23 | 17:50 - 20:30 | 11 Nightal 1489 DR |
 
 ### October 2025
 
@@ -102,7 +100,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | 2025-10-05 (Sun) | 24 | 17:15 - 20:40 | 13 Nightal 1489 DR; **no audio** |
 | 2025-10-12 (Sun) | - | No game | - |
 | 2025-10-19 (Sun) | - | No game | - |
-| 2025-10-26 (Sun) | 25 | 17:40 - ? | (dia 22) |
+| 2025-10-26 (Sun) | 25 | 17:40 - ? | - |
 
 #### October 2025 Events
 
@@ -114,7 +112,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
   - Someone sabotaged a wagon wheel (nails pulled); Kaelthar flew down and destroyed the cultist wagon in retaliation, got surrounded and beaten (Javi: "Kaelthar estaba rodeado y solo")
   - Nuberroca joined to defend Kaelthar; **Sulesdeg** (guard captain) charged Nuberroca trying to reduce/arrest him — Nuberroca impaled him with the alabarda in defence, escalating into party-vs-cultists-vs-guards melee
   - Nuberroca downed at session end (cliffhanger)
-  - **Craig failed**; Pablo recorded low-quality audio via OBS instead (matches "recorded but files unreachable — no dia audio")
+  - **Craig failed**; Pablo recorded low-quality audio via OBS instead (matches "recorded but files unreachable — no audio")
 - **2025-10-26** (S25) — 17:40
   - Missing: Sinsong. Simba confirmed later: "Coño pero podías haber jugado??!! Joder te entendí como el culo tío"
   - Kaelthar joined at 18:00; Pablo had a hard 21:00 exit
@@ -130,10 +128,10 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | Date | Session | Play time | Notes |
 |---|---|---|---|
 | 2025-11-02 (Sun) | 26 | 17:30 - ? | **no audio** |
-| 2025-11-09 (Sun) | 27 | 17:30 - ? | (dia 23) |
-| 2025-11-16 (Sun) | 28 | 17:00 - ~20:55 | (dia 24) |
+| 2025-11-09 (Sun) | 27 | 17:30 - ? | - |
+| 2025-11-16 (Sun) | 28 | 17:00 - ~20:55 | - |
 | 2025-11-23 (Sun) | - | - | No game |
-| 2025-11-30 (Sun) | 29 | 17:15 - ~21:10 | (dia 25); Simba pushed start from 17:00 to 17:15 that morning |
+| 2025-11-30 (Sun) | 29 | 17:15 - ~21:10 | Simba pushed start from 17:00 to 17:15 that morning |
 
 #### November 2025 Events
 
@@ -177,9 +175,9 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2025-12-07 (Sun) | 30 | 17:00 - ? | (dia 26) |
-| 2025-12-14 (Sun) | 31 | 18:00 - ? | (dia 27) |
-| 2025-12-21 (Sun) | 32 | 17:00 - ? | (dia 28) |
+| 2025-12-07 (Sun) | 30 | 17:00 - ? | - |
+| 2025-12-14 (Sun) | 31 | 18:00 - ? | - |
+| 2025-12-21 (Sun) | 32 | 17:00 - ? | - |
 | 2025-12-28 (Sun) | - | No game | - |
 
 #### December 2025 Events
@@ -208,10 +206,10 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2026-01-04 (Sun) | 33 | 17:30 - ? | (dia 29) |
+| 2026-01-04 (Sun) | 33 | 17:30 - ? | - |
 | 2026-01-11 (Sun) | - | No game | - |
-| 2026-01-18 (Sun) | 34 | 17:00 - ? | (dia 30) |
-| 2026-01-25 (Sun) | 35 | 17:00 - ? | (dia 31) |
+| 2026-01-18 (Sun) | 34 | 17:00 - ? | - |
+| 2026-01-25 (Sun) | 35 | 17:00 - ? | - |
 
 #### January 2026 Events
 
@@ -242,10 +240,10 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2026-02-01 (Sun) | 36 | 17:00 - ? | (dia 32) |
-| 2026-02-08 (Sun) | 37 | 17:00 - ? | (dia 33) |
-| 2026-02-15 (Sun) | 38 | 17:00 - ? | (dia 34) |
-| 2026-02-22 (Sun) | 39 | 17:00 - 21:00 | (dia 35) |
+| 2026-02-01 (Sun) | 36 | 17:00 - ? | - |
+| 2026-02-08 (Sun) | 37 | 17:00 - ? | - |
+| 2026-02-15 (Sun) | 38 | 17:00 - ? | - |
+| 2026-02-22 (Sun) | 39 | 17:00 - 21:00 | - |
 
 #### February 2026 Events
 
@@ -278,12 +276,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2026-03-01 (Sun) | 40 | 17:00 - ? | session backtracked (dia 36) |
+| 2026-03-01 (Sun) | 40 | 17:00 - ? | session backtracked |
 | 2026-03-08 (Sun) | - | No game | - |
-| 2026-03-15 (Sun) | 41 | 17:00 - ? | session backtracked (dia 37) |
+| 2026-03-15 (Sun) | 41 | 17:00 - ? | session backtracked |
 | 2026-03-17 (Tue) | ? | ? (unknown) | Off-cadence Sinsong+Kaelthar private interrogation session (has own audio + transcript); ⚠ unlogged — new-session-number decision deferred to GM |
-| 2026-03-22 (Sun) | 42 | 17:00 - ? | session backtracked (dia 38) |
-| 2026-03-29 (Sun) | 43 | 17:00 - ? | session backtracked (dia 39) |
+| 2026-03-22 (Sun) | 42 | 17:00 - ? | session backtracked |
+| 2026-03-29 (Sun) | 43 | 17:00 - ? | session backtracked |
 
 #### March 2026 Events
 
@@ -321,7 +319,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |---|---|---|---|
 | 2026-04-05 (Sun) | - | No game | - |
 | 2026-04-12 (Sun) | - | No game | - |
-| 2026-04-19 (Sun) | 44 | 17:00 - 19:40 | Gonzalo leaves the group (dia 40) |
+| 2026-04-19 (Sun) | 44 | 17:00 - 19:40 | Gonzalo leaves the group |
 | 2026-04-26 (Sun) | - | No game | - |
 
 #### April 2026 Events
@@ -338,7 +336,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2026-05-01 (Fri) | 45 | 16:00 - 20:20 | 15 Hammer 1490 DR; off-cadence; In game time (EOS): Hammer 15, 1490, 16:21 (dia 41 — confirmed from file `Dia 41 2026-05-01.m4a`) |
+| 2026-05-01 (Fri) | 45 | 16:00 - 20:20 | 15 Hammer 1490 DR; off-cadence; In game time (EOS): Hammer 15, 1490, 16:21 |
 | 2026-05-03 (Sun) | - | No game | - |
 | 2026-05-10 (Sun) | - | No game | - |
 | 2026-05-17 (Sun) | - | No game | - |
@@ -360,7 +358,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |---|---|---|---|
 | 2026-06-07 (Sun) | - | No game | - |
 | 2026-06-14 (Sun) | - | No game | - |
-| 2026-06-21 (Sun) | 46 | 17:00 - ? | 15 Hammer 1490 DR (dia 42) |
+| 2026-06-21 (Sun) | 46 | 17:00 - ? | 15 Hammer 1490 DR |
 | 2026-06-28 (Sun) | - | No game | - |
 
 #### June 2026 Events
@@ -378,9 +376,9 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | Date | Session | Play time | Notes |
 |---|---|---|---|
 | 2026-07-05 (Sun) | - | No game | - |
-| 2026-07-12 (Sun) | 47 | 17:00 - ? | 15 Hammer 1490 DR (dia 43) |
+| 2026-07-12 (Sun) | 47 | 17:00 - ? | 15 Hammer 1490 DR |
 | 2026-07-19 (Sun) | - | No game | - |
-| 2026-07-26 (Sun) | 48 | 17:00 - ? | 16 Hammer 1490 DR (dia 44) |
+| 2026-07-26 (Sun) | 48 | 17:00 - ? | 16 Hammer 1490 DR |
 
 #### July 2026 Events
 
@@ -403,11 +401,11 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | Date | Session | Play time | Notes |
 |---|---|---|---|
 | 2026-08-02 (Sun) | - | No game | - |
-| 2026-08-04 (Tue) | 49 | 18:45 - ? | 16 Hammer 1490 DR; off-cadence (dia 45) |
+| 2026-08-04 (Tue) | 49 | 18:45 - ? | 16 Hammer 1490 DR; off-cadence |
 | 2026-08-09 (Sun) | - | No game | - |
 | 2026-08-16 (Sun) | - | No game | - |
-| 2026-08-23 (Sun) | 50 | 18:30 - ? | 16 Hammer 1490 DR (dia 46) |
-| 2026-08-30 (Sun) | 51 | 17:30 - ? | 16 Hammer 1490 DR (dia 47) |
+| 2026-08-23 (Sun) | 50 | 18:30 - ? | 16 Hammer 1490 DR |
+| 2026-08-30 (Sun) | 51 | 17:30 - ? | 16 Hammer 1490 DR |
 
 #### August 2026 Events
 
@@ -437,8 +435,8 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |---|---|---|---|
 | 2026-09-06 (Sun) | - | No game | - |
 | 2026-09-13 (Sun) | - | No game | - |
-| 2026-09-20 (Sun) | 52 | 17:15 - ? | 16 Hammer 1490 DR (dia 48) |
-| 2026-09-27 (Sun) | 53 | 17:15 - ? | 16 Hammer 1490 DR (dia 49) |
+| 2026-09-20 (Sun) | 52 | 17:15 - ? | 16 Hammer 1490 DR |
+| 2026-09-27 (Sun) | 53 | 17:15 - ? | 16 Hammer 1490 DR |
 
 #### September 2026 Events
 
@@ -453,12 +451,24 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date | Session | Play time | Notes |
 |---|---|---|---|
-| 2026-10-04 (Sun) | 54 | 17:00 - ? | 16 Hammer 1490 DR (dia 50) |
-| 2026-10-11 (Sun) | 55 | 17:00 - 20:10 | 16 Hammer 1490 DR (dia 51) |
+| 2026-10-04 (Sun) | 54 | 17:00 - ? | 16 Hammer 1490 DR |
+| 2026-10-11 (Sun) | 55 | 17:00 - 20:10 | 16 Hammer 1490 DR |
 | 2026-10-18 (Sun) | - | No game | - |
-| 2026-10-25 (Sun) | 56 | 17:00 - 20:30 | 17 Hammer 1490 DR (dia 52) |
+| 2026-10-25 (Sun) | 56 | 17:00 - 20:30 | 17 Hammer 1490 DR |
 
 #### October 2026 Events
 
 - **2026-10-04** (S54)
   - **SECRET:** Bragda cured Nyx's serious wound with a Medicine check; Nuberroca only assisted
+
+### November 2026
+
+| Date | Session | Play time | Notes |
+|---|---|---|---|
+| 2026-11-01 (Sun) | - | No game | - |
+| 2026-11-08 (Sun) | 57 | 17:45 - 21:00 | TBD |
+
+#### November 2026 Events
+
+- **2026-11-08** (S57)
+  - **SECRET:** Korga and Bragda fighting 1 troll and 4 drakes in the east wing (fight noises)
