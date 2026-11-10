@@ -49,8 +49,8 @@ Tracker for the per-session pipeline state. One row per session; keep it in asce
 | 21        | ✅          | ✅       | ✅       | 17 Ukt ~06:30   | 27 Ukt ~12:00   | ✅         |
 | 22        | ⚠️          | ✅       | ⚠️       | 27 Ukt ~12:00   | 11 Nig ~13:30   | ✅         |
 | 23        | ✅          | ✅       | ⚠️       | 11 Nig ~13:30   | 13 Nig ~12:00   | ✅         |
-| 24        | ⚠️          | ⚠️       | ❌       | 13 Nig ~12:00   | 21 Nig ~14:00?  | ✅         |
-| 25        | ✅          | ⚠️       | ❌       | 21 Nig ~14:00?  | 23 Nig ~09:00?  | ✅?        |
+| 24        | ⚠️          | ✅       | ⚠️       | 13 Nig ~12:00   | 21 Nig ~14:00   | ✅         |
+| 25        | ✅          | ⚠️       | ❌       | 21 Nig ~14:00   | 23 Nig ~09:00?  | ✅         |
 | 26        | ⚠️          | ⚠️       | ❌       | 23 Nig ~09:00?  | 25 Nig ~09:00?  | ✅?        |
 | 27        | ✅          | ⚠️       | ❌       | 25 Nig ~09:00?  | 29 Nig ~09:30?  | ✅?        |
 | 28        | ✅          | ⚠️       | ❌       | 29 Nig ~09:30?  | 29 Nig ~14:30?  | ✅?        |
@@ -82,4 +82,4 @@ Tracker for the per-session pipeline state. One row per session; keep it in asce
 | 54        | ✅          | ⚠️       | ❌       | 16 Hamm ~12:40? | 16 Hamm ~22:00  | -20m?      |
 | 55        | ✅          | ✅       | ✅       | 16 Hamm ~22:00  | 17 Hamm ~08:20  | ✅         |
 | 56        | ✅          | ✅       | ✅       | 17 Hamm ~08:20  | 17 Hamm ~13:20  | ✅         |
-| 57        | ❌          | ❌       | ❌       |                 |                 | —          |
+| 57        | ✅          | ✅       | ⚠️       | 17 Hamm ~13:20  | 17 Hamm ~19:30  | ✅         |
