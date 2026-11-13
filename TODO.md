@@ -21,6 +21,7 @@ Project-wide cleanup and follow-up work that doesn't belong in a single skill or
 - **Sohey and their tribe.** Sohey is a goblin monk (12 levels monk, 1 barbarian, 1 rogue). Several linked work items:
   - **Create Sohey in Foundry.** Full statblock per the class breakdown above.
   - **Write Sohey's NPC sheet** under `campaign/npcs/` following the standard conventions.
+  - **Define Sohey's adventuring party and master.** Who he trained under and who he adventures with, so they can appear later and he can mention them in passing. Names, roles, current whereabouts, and what hooks (if any) they offer back into the campaign.
   - **Create the tribe's faction sheet** under `campaign/factions/` (pending the faction-sheet structure decision above). Include the tribe's territory, leadership, numbers, and current standing with the party.
   - **Flesh out what the tribe knows about the Cult of the Dragon.** Decide the extent and specificity of their intel — sightings, movements, named cultists, dragon-related activity in their territory — and where the knowledge came from. Anchor to what's already been established in-fiction; don't invent contradictions.
   - **Flesh out the tribe's motivation for allying (or dealing) with the party.** Core hook: a four-armed troll hunts their people for sport, and the tribe hates it for that. Decide how long this has been going on, casualties, prior attempts to deal with the troll, and what the tribe is willing to trade or risk for help against it.

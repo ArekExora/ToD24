@@ -82,4 +82,4 @@ Tracker for the per-session pipeline state. One row per session; keep it in asce
 | 54        | ✅          | ⚠️       | ❌       | 16 Hamm ~12:40? | 16 Hamm ~22:00  | -20m?      |
 | 55        | ✅          | ✅       | ✅       | 16 Hamm ~22:00  | 17 Hamm ~08:20  | ✅         |
 | 56        | ✅          | ✅       | ✅       | 17 Hamm ~08:20  | 17 Hamm ~13:20  | ✅         |
-| 57        | ✅          | ✅       | ⚠️       | 17 Hamm ~13:20  | 17 Hamm ~19:30  | ✅         |
+| 57        | ✅          | ✅       | ✅       | 17 Hamm ~13:20  | 17 Hamm ~19:30  | ✅         |

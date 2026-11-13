@@ -41,7 +41,7 @@ _~14:00, 17 Hammer 1490 DR_
 
 1. Eguzkilore pleads with Sinsong for a touch of healing and shows him the ache on his chest. Sinsong lays a hand there and begins the spell — as the magic reaches in, a red welt the size of a fist blooms where the cleric touches, then rapid-blooming blisters crawl across his chest faster than he can refuse to scratch.
 2. Reading the condition as some kind of curse, Sinsong sits Eguzkilore down with his back turned, lays a hand on his head, and begins to weave the counter-magic. As its threads draw close a lock of hair drops and fresh blisters bloom across the elf's scalp; the cleric presses on regardless, waving off Mialee's dry question about his cosmetic intentions and admitting with a grin that he rather likes the look.
-3. After a long moment Sinsong remembers the old tales: certain people's flesh simply rejects the touch of magic, convulsing or killing them outright under enough of it. The affliction's origin was never traced, it did not spread from one sufferer to the next, and the symptoms cleared on their own after about a week — though some forms of healing still worked on them, despite the agony of first contact.
+3. After a long moment Sinsong remembers the old tales: certain people's flesh simply rejects the touch of magic, convulsing or killing them outright under enough of it. The affliction's origin was never traced, it did not spread from one sufferer to the next, and the symptoms cleared on their own after some days — though some forms of healing still worked on them, despite the agony of first contact.
 4. Sinsong retreats behind a tree and sends a disembodied hand onto Eguzkilore's scalp. The earlier welts on his chest and head fade on their own as the new magic lands; fresh blisters rise where the hand touches, and a few more locks of hair drop. Half-bald and stinging, Eguzkilore chases Sinsong down and hauls him up by the collar: *"¿Y ahora cómo voy a ligar?"*
 
 {{pageNumber,auto}}
@@ -88,18 +88,18 @@ _~19:30, 17 Hammer 1490 DR_
 2. The two mercenaries — **Sorvic** and **Wessic** the Wizened, a grey-bearded old man with sixty hard years of war on him — drive forward and seize Kaelthar and Sinsong at the wrists. Sinsong lets himself be taken; Kaelthar tries to resist to no avail.
 3. Nyx lifts her hand and casts a dome of silence on the far side of the hall — Talis's spoken words, and Sinsong's, both die inside it.
 4. Eguzkilore's shot annihilates a kobold, leaving him nailed against the antechamber's west wall, feet off the ground. **Kushpia** cuts in at his back with her scimitar, managing only glancing hits.
-5. From a woodpile in the east wing of the lodge, Mialee works arrows into Kushpia and vanishes into the shadows again. Beyond the east walls a new sound carries through: the unmistakable noise of a fight outside the lodge.
+5. From a woodpile in the east wing of the lodge, Mialee works arrows into Kushpia and vanishes into the shadows again. From the east a new sound carries through: the unmistakable noise of a fight outside the lodge.
 6. Nuberroca charges in yelling curses and lands a halberd-blow on Kushpia, avoiding vital points to keep her breathing. Kaelthar pivots in the grapple and breathes a cone of fire into three kobolds crowding the corner — two die on the spot with soundless screams, the third scuttles away burning; his follow-up spell dies in his throat in the silence.
-7. Sinsong, bound to his party by shared sigils of peace, feels Nyx about to take Talis's magical spear through the chest and appears beside her at the moment of impact; the cold takes him in her stead and she stares, uncomprehending, at the empty air.
+7. Sinsong, bound to his party by shared sigils of peace, feels Nyx about to take Talis's magical spear through the chest and appears beside her at the moment of impact; the cold takes him in her stead and she stares, uncomprehending, at the dwarf.
 8. Mialee drives her short sword into Kushpia from behind and the cultist's eyes go out, scimitar bouncing uselessly off the elf's armour as she dies. Mialee then throws her dagger at Talis, but misses badly and the dagger bounces along the floorboards without a sound.
-9. Nuberroca shoves Eguzkilore aside and closes on Talis: *"Talis! Drop your spear — hand it over and I'll spare your life."* He does not wait for a reply — his halberd bites deep into her flank and a shaft strike rounds it off.
+9. Nuberroca shoves Eguzkilore aside and closes on Talis: *"Talis! Drop your spear, hand it over and I'll spare your life."* He does not wait for a reply — his halberd bites deep into her flank and a shaft strike rounds it off.
 
 \column
 
 10. Finding herself bleeding and ringed, Talis presses the spear tighter and steps a pace outside the silence to incant. Black motes stream from her mouth and bloom into a dense swarm of wasps that fills the chamber and blots out sight.
 11. The swarm catches most of them, leaving Sinsong and Eguzkilore unconscious — the scar at the back of the dwarf's neck flashing for an instant; Mialee, Nuberroca and Kaelthar grind their teeth and endure the swarm while they can.
 12. Talis breaks for the door — still bleeding from Nuberroca's wounds — but the swarm she conjured does not spare her, and she falls short of the door and does not rise. The wasps turn into mist as her soul abandons her body.
-13. Rushing to her friend, Mialee drops one of Nyx's berries into Eguzkilore's mouth, waking him from the swarm's bite. From the east, the sound from the fight beside the lodge is redoubling.
+13. Rushing to her friend, Mialee drops one of Nyx's berries into Eguzkilore's mouth, waking him from the swarm's bite. From the east, the sound of the fight beside the lodge is redoubling.
 14. ***[EPIC]*** Nuberroca changes the hold on his halberd and hurls it like a javelin at Sorvic across the room. The polearm punches clean through visor and skull both, throwing the mercenary through the stair railings and pinning him against the north wall.
 15. In the same breath the barbarian stoops and takes up Talis's spear from where it has fallen — Dragongleam, the draconic-runed weapon she had reclaimed from him that morning, now back in his hands.
 
@@ -119,13 +119,13 @@ _~19:30, 17 Hammer 1490 DR_
 
 \column
 
-## 9 - Glass and stone
+## 9 - Three trolls
 
 1. Nuberroca shoulders open the east door and comes in on the two guards readying their crossbows at the murder-hole slits. A brutal thrust with Dragongleam leaves the nearest in a heap on the floor; his comrade fires back and misses. An arrow from Eguzkilore finishes the last guard.
 2. The troll crouches through the entrance into the antechamber — too big for the frame, stooped low at a doorway built for humans — and swings at Eguzkilore in the cramped space; the elf parries the stroke away with his sword. As it crosses into Sinsong's circle of fey guardians the spirits tear into it for a punishing wound on the way in.
-3. On Nuberroca's left a second door explodes inward — splinters of timber spin through the room and a guard's corpse crushes under the weight as a third troll forces its shoulders through the splintered frame and reaches an arm at the goliath. Nuberroca twists clear of the grab; the troll pokes its head through for another clutch and finds only air.
-4. Nuberroca disengages from the grabbing arm and closes on the crouched troll in front of Eguzkilore — the cold-rune statues at the inner door loose a freezing arc as he crosses, but he carries through the cold and drives Dragongleam into its flank in a reckless charge, following with a pommel-crack that leaves the beast bleeding profusely. Eguzkilore puts an arrow through it to finish it off, then lights a torch with a word of druid-magic and hurls it onto the body so the fire catches its hide and the troll will not rise again.
-5. From the east a second troll comes up to the antechamber window, tears what is left of its frame away, and reaches through at Eguzkilore; most of the claws tear across the stonework, but one gash finds the elf.
+3. On Nuberroca's left a second door explodes inward — splinters of timber spin through the tiny room and a guard's corpse crushes under the weight as a second troll forces its shoulder through the splintered frame and reaches an arm at the goliath. Nuberroca twists clear of the grab; the troll pokes its head through for another clutch and finds only air.
+4. Nuberroca disengages from the grabbing arm and closes on the crouched troll in front of Eguzkilore — the armour-suits flanking the door loose a freezing arc as he crosses, but he carries through the cold and drives Dragongleam into the monster's flank in a reckless charge, following with a shaft blow, that leaves the beast bleeding profusely. Eguzkilore puts an arrow through it to finish it off, then lights a torch with a word of druid-magic and hurls it onto the body so the fire catches its hide and the troll will not rise again.
+5. From the east a third troll comes up to the antechamber window, tears what is left of its frame away, and reaches through at Eguzkilore; most of the claws tear across the stonework, but one gash finds the elf.
 6. Sinsong moves toward the troll in the eastern room, his fey guardians tearing at its flesh. The troll reaches for the dwarf and connects — but Kaelthar is pulled to Sinsong's side by the bond and takes the blow himself, dropping unconscious in his stead.
 7. The dragonborn's sacrifice turns meaningless when a second strike from the troll drops Sinsong on the ground, the fey guardians fading away as the cleric falls. Nuberroca pours a potion down his throat and the cleric comes back to his senses a heartbeat after.
 8. From the western corridor **Fenwick** the cook steps out at the head of a knot of kitchen staff, sharp blades in every hand, and calls across the ruined chamber: *"What the hell? Talis is dead? Get them!"* From the far side of the lodge, the sound of combat is clearly audible.
