@@ -702,7 +702,7 @@
 
     function renderCompilationCard(pdfs) {
       // Session-less compilation box pinned to top of the grid.
-      // Four buttons: Saga / GM / Minutes (open the campaign-wide PDF) + Timeline (disabled for now).
+      // Four buttons: Saga / GM / Minutes / Timeline — each opens the campaign-wide PDF.
       const card = document.createElement('div');
       card.className = 'card compilation';
       card.setAttribute('aria-expanded', 'false');
@@ -714,7 +714,7 @@
           ${linkOrSpan('Minutes', pdfs.minutes, '', 'minutes')}
           ${linkOrSpan('GM', pdfs.gm, '', 'gm')}
           ${linkOrSpan('Saga', pdfs.saga, '', 'saga')}
-          <span>Timeline</span>
+          ${linkOrSpan('Timeline', pdfs.timeline, '', 'timeline')}
         </div>`;
       return card;
     }

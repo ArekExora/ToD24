@@ -1660,6 +1660,318 @@ None this session.
 
 \page
 
+## Session 22 GM {{float:"right" 2025-09-21}}
+{wide}
+
+{{wide **Trade Way** {{float:"right" _27 Uktar 1489 DR, ~12:00 → 11 Nightal, ~13:30_}} }}
+
+{{note
+**Party present:** _Amidamaru, Eguzkilore, Mialee, Nuberroca, Nyx, Sinsong_
+
+ {{float:"left" **Party absent**: _Kaelthar_ }}
+}}
+
+{{descriptive
+#### Summary
+- **Carlon Amoffel rescued** — buried Harper exhumed from the road; joins the caravan.
+- **Golden Stag prophecy** — Silvanus delivers a river-of-gold warning and leaves Nyx the Forest Longbow.
+- **Heroes of Mansken** — Amidamaru names the party at a tavern; record pinned above the hearth.
+- **Sinsong flies north** — griffon too dangerous to horses; departs on Targutai to catch the Company of the Boar.
+
+}}
+
+
+
+### Events
+- Party rescues Carlon Amoffel from the roadway; Harper reveal follows, and he joins the caravan.
+- ~16:00 (30 Uktar) — Dragonspear Castle sighted from the Trade Way; Eldkin names it to Nyx.
+- Golden Stag chase; Nyx receives Silvanus' prophecy and the **Forest Longbow**.
+- Feast of the Moon at a roadside tavern; three rites observed, Nyx sits with Eldkin at hers.
+- ~13:00 (1 Nightal) — Amidamaru names the party "**Heroes of Mansken**" at the tavern, pinned above the hearth.
+- ~16:00 (1 Nightal) — Targutai nearly kills a carthorse; **Sinsong flies north** to catch the Company of the Boar.
+- Caravan reaches a rain-soaked inn; a noble and three swordsmen have rented it whole.
+
+::::::::::::::
+
+\column
+
+{{note
+##### Epic moments
+- **Golden Stag** delivers Nyx and Mialee the river-of-gold prophecy.
+}}
+
+::
+::::
+
+### NPCs
+- **Carlon Amoffel** — Harper agent. Unburied from roadway; joins caravan as third Harper.
+- **Zelina Innevar** — Twin sister bound for Waterdeep. Met under inn awning.
+- **Arietta Innevar** — Silent twin bound for Waterdeep. Met under inn awning.
+- **Eldkin Agetul** — Shares Dragonspear lore with Nyx.
+
+### Knowledge gained
+- **Dragonspear Castle.** Ruined dwarven hold on the High Moor, fell to fiends, its artefacts were never recovered.
+- **Harper contact.** Vauser, a half-orc reachable in Waterdeep at *The Broken Jar*.
+- **Golden Stag prophecy.** *"Follow the river of gold until you reach the castle in the sky. Your path will be filled with hardship and blood. Not all will survive..."*
+
+### Status changes
+- **Sinsong departed.** Flew north on Targutai to catch the Company of the Boar.
+- **Carlon Amoffel joined.** Harper agent, attached to the caravan.
+- **Forest Longbow.** Nyx received a longbow with a deer-head grip and antlers forming the limbs.
+- **"Heroes of Mansken."** Party acclaimed with a formal name at the roadside tavern.
+
+### Loose ends
+None this session.
+
+
+
+{{wide
+### Missions & rewards
+
+| Status | Mission | Reward | Giver | Sessions | Notes |
+|:---|:---|:---|:---|:---|:---|
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | Carlon joined the hunt. |
+}}
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons}}
+
+\page
+
+## Session 23 GM {{float:"right" 2025-09-28}}
+{wide}
+
+{{wide **Trade Way** {{float:"right" _11 Nightal 1489 DR, ~13:30 → 13 Nightal, ~12:00_}} }}
+
+{{note
+**Party present:** _Amidamaru, Eguzkilore, Mialee, Nuberroca, Nyx_
+
+ {{float:"left" **Party absent**: _Kaelthar, Sinsong_ }}
+}}
+
+{{descriptive
+#### Summary
+- **Barred from Barlon's inn** — Lord Zelan's party has paid out the whole house.
+- **Duel breaks on mind-magic** — Nuberroca downs a guard, then collapses under a phantasmal attack.
+- **Blue lamp heist** — Mialee lifts it unseen; the freed sage ices the party and climbs back inside.
+- **Wizards among the undead** — Nuberroca's village reports Red Wizards walking with the attacks.
+
+}}
+
+
+
+### Events
+- Barred from Barlon's inn — Lord Zelan's party has paid out the house; Mialee pockets a bodyguard's pouch.
+- Munin recons the upstairs rooms; Mialee loots two via grappling hook; Nuberroca taunts the guards from below.
+- ~14:30 — Nuberroca accepts a guard's duel and routs him, then collapses under Lord Zelan's phantasmal mind-magic; Nyx stabilises him.
+- Debrief with Barlon ties the hooded upstairs guest to the Company of the Boar warlock.
+- Over supper the party plans a night heist of Lord Zelan's blue lamp.
+- ~01:30 — Mialee's unseen hand lifts the lamp; the freed sage frosts the party and climbs back inside.
+- ~09:00 — Sinsong's reply from Nuberroca's village names bald, red-cloaked, tattooed men walking among the undead.
+- Caravan rolls out — Lord Zelan's party stays; the Innevar sisters join the caravan.
+
+::::::::
+
+\column
+
+{{note
+##### Epic moments
+- **Nuberroca** drops the first guard with two devastating blows, turning the blade to spare the killing stroke.
+- **Lord Zelan** utters silent words and Nuberroca shrieks as his tribe rises from the ground as undead with his friends' faces.
+- **Mialee's** unseen hand picks the window latch and lifts the blue lamp off Lord Zelan's table unheard.
+- **Amidamaru** opens the lantern; the freed sage bursts a sphere of cold on the party and climbs back inside.
+}}
+
+::::
+
+
+### NPCs
+- **Lord Zelan** — Red-capped noble. Carries a tiny blue man in a lamp.
+- **Zelina Innevar** — Probed the party for details; joined the caravan.
+- **Arietta Innevar** — Joined the caravan.
+
+### Knowledge gained
+- **The lamp sage.** Blue-skinned, tiny, apparently mute; burst a sphere of cold when freed, then climbed back into the room of his own will.
+- **Nuberroca's village.** Undead attacks have grown heavier and more frequent, Red Wizards of Thay walk among them.
+
+### Status changes
+None this session.
+
+### Loose ends
+- **Blue lamp sage** — back in Lord Zelan's possession; prisoner-or-resident status unresolved.
+- **Hooded upstairs guest** — tentatively matches the Boar warlock; party opted not to confront.
+
+
+
+{{wide
+### Missions & rewards
+
+| Status | Mission | Reward | Giver | Sessions | Notes |
+|:---|:---|:---|:---|:---|:---|
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | No progress. |
+}}
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons}}
+
+\page
+
+## Session 24 GM {{float:"right" 2025-10-05}}
+{wide}
+
+{{wide **Trade Way** {{float:"right" _13 Nightal 1489 DR, ~12:00 → 21 Nightal, ~14:00_}} }}
+
+{{note
+**Party present:** _Amidamaru, Eguzkilore, Kaelthar, Mialee, Nuberroca_
+
+ {{float:"left" **Party absent**: _Nyx, Sinsong_ }}
+}}
+
+{{descriptive
+#### Summary
+- **Greenest cargo confirmed** — jewellery spill at Way Inn, broken crate in the pass fight.
+- **Sabotaged wagon** — wheel pins pulled overnight within the caravan.
+- **Caravan turns on the party** — Nuberroca beheads a cultist guard; guards side against them.
+
+}}
+
+
+
+### Events
+- Caravan breaks camp at Barlon's and rolls north; the Innevar sisters join the convoy.
+- ~13:00, 15 Nightal — Lunch halt at The Way Inn; a cultist crate cracks open briefly revealing jewellery.
+- Over four days on the road the Innevar sisters work every cart in the caravan.
+- ~13:40, 21 Nightal — Sabotaged wheel nearly drops Nuberroca's cart in the Delimbiyr pass; the pins were pulled overnight.
+- Kaelthar attacks a cultist cart and Nuberroca beheads a cultist guard.
+- Mialee's fog cloaks the fight; Kaelthar's dragonfire kills two cultists inside it.
+- The caravan sides with the cultists; Sulesdeg and Eldkin close on Nuberroca and Kaelthar with iron cuffs.
+- Kaelthar goes down and Amidamaru heals him; the lead cultist's bolt punches into Nuberroca.
+
+:::::::::::
+
+\column
+
+{{note
+##### Epic moments
+- **Nuberroca** sets his back under the sabotaged cart and holds it off the cliff.
+- **Nuberroca** beheads a cultist guard in a single stop-stroke that overshoots.
+- **Kaelthar's** dragonfire cone through the fog burns two cultists down.
+- **Mialee's** ethereal hand lifts the crate and uncovers the Greenest cargo.
+}}
+
+::::
+
+
+### NPCs
+- **Anton** — Pulled the horses to safety as Nuberroca held the sabotaged cart.
+- **Sulesdeg** — Tried to arrest Nuberroca unarmed; took the halberd, drew his sword.
+- **Eldkin Agetul** — Tried to grapple Kaelthar unarmed; drew her weapon and engaged.
+
+### Knowledge gained
+- **Cult cargo confirmed.** Chalices, religious icons, bags of small gems and jewellery stripped from statues — in the cultist wagons.
+- **Sabotage from within.** The pins on Nuberroca's cart wheel were pulled clean by hand; the wagon was in sight of the caravan all night.
+
+### Status changes
+- **Caravan turned.** After Nuberroca beheads a cultist guard, the caravan guards and captain side against the party.
+
+### Loose ends
+- **Wagon saboteur** — Pins pulled by hand on Nuberroca's cart overnight; identity unknown.
+
+
+
+{{wide
+### Missions & rewards
+
+| Status | Mission | Reward | Giver | Sessions | Notes |
+|:---|:---|:---|:---|:---|:---|
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | Greenest cargo confirmed. |
+}}
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons}}
+
+\page
+
+## Session 25 GM {{float:"right" 2025-10-26}}
+{wide}
+
+{{wide **Trade Way, Daggerford** {{float:"right" _21 Nightal 1489 DR, ~14:00 → 23 Nightal, ~12:00_}} }}
+
+{{note
+**Party present:** _Amidamaru, Eguzkilore, Kaelthar, Mialee, Nuberroca, Nyx_
+
+ {{float:"left" **Party absent**: _Sinsong_ }}
+}}
+
+{{descriptive
+#### Summary
+- **Caravan turned** — Order of the Gauntlet reveal and Mialee's "Heroes of Mansken" ruse swing the merchants to the party.
+- **Destination named** — Carnath Roadhouse past Waterdeep; cargo is for **Rezmir** the Black.
+- **Throats cut in the night** — Two bound captives killed cleanly on Nyx's watch; no witness.
+- **Sinsong hunted** — Elf tracker **Elodin** rides in asking after a dwarf with a tree-tattoo nape.
+
+}}
+
+
+
+### Events
+- Pass fight ends — lead cultist captured; Mialee's Heroes of Mansken ruse holds the caravan undecided.
+- Chests confirm Greenest loot; Nuberroca's Gauntlet reveal turns the caravan toward Waterdeep delivery.
+- Papers name Carnath Roadhouse as destination; wagon rebuilt, prisoners sorted.
+- ~16:00 — Interrogations name **Rezmir** as the black Lady Dragon; mercenary released; corpses cremated at dusk.
+- Long rest. Cold camp off the road; watch rotation set badly.
+- Two bound cultists found with throats cut at dawn; only one captive left alive.
+- ~13:00, 22 Nightal — Daggerford arrival; errands run; prisoner paraded; three old bandit prisoners cut loose.
+- Long rest. In Daggerford.
+- ~09:00, 23 Nightal — Caravan rolls out: Innevar sisters gone, two new strangers aboard; elf **Elodin** rides in seeking Sinsong.
+
+::::::::::
+
+\column
+
+{{note
+##### Epic moments
+- **Nuberroca** grows to giant size and bares the Order of the Gauntlet's great fist on his breastplate.
+- **Mialee** and **Nyx** break the buried cultist with an illusion of scorpions and the rasp of claws on his cheek.
+}}
+
+:
+
+### NPCs
+- **Arietta Innevar** — Vanished from the caravan overnight at Daggerford.
+- **Zelina Innevar** — Vanished from the caravan overnight at Daggerford.
+- **Elodin** — Elf tracker, knife-sewn clothes. Rode up at Daggerford hunting Sinsong.
+
+### Knowledge gained
+- **Carnath Roadhouse.** Papers and two cultists name the destination as Carnath Roadhouse, past Waterdeep on the Trade Way.
+- **Lady Dragon: Rezmir the Black.** A cultist names **Rezmir** as the Lady Dragon the cargo is for; colour given as black.
+
+### Status changes
+- **Magical longbow.** Nyx gives Eguzkilore the magical longbow from the golden stag.
+- **Cultist captive.** After cremation and the overnight killings, only one cultist captive remains.
+
+### Loose ends
+- **Throat-cutter** — Two bound cultists killed cleanly in the night on Nyx's watch; traces on the ground, blood on Eguzkilore's shoe, no witness.
+- **Innevar sisters** — Vanished from the caravan overnight at Daggerford; last-seen unknown.
+- **Gnome woman with knives** — New caravan traveller; open attention on Nuberroca and his strapped prisoner.
+- **Hooded man in black** — New caravan traveller; silent, alone, speaks to no one.
+- **Sinsong pursued by Elodin.** An elf tracker named **Elodin** is hunting Sinsong — tree-tattoo nape mark, claims Sinsong "thinks he's a god."
+
+
+
+{{wide
+### Missions & rewards
+
+| Status | Mission | Reward | Giver | Sessions | Notes |
+|:---|:---|:---|:---|:---|:---|
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | Destination is Carnath Roadhouse; cargo is for **Rezmir**. |
+}}
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons}}
+
+\page
+
 ## Session 44 GM {{float:"right" 2026-04-19}}
 {wide}
 
@@ -1812,7 +2124,7 @@ None this session.
 
 | Status | Mission | Reward | Giver | Sessions | Notes |
 |:---|:---|:---|:---|:---|:---|
-| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | No further progress. |
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | No progress. |
 | Open | Exterminate goblins | None | Talis | S55 → | Not started. |
 }}
 
@@ -1864,8 +2176,8 @@ None this session.
 - **Nuberroca** cloud-steps behind Trepsin and drives his lance through the back of the neck.
 }}
 
-::::
 
+::::
 
 ### NPCs
 - **Talis the White** — truth-drugged the party and brokered the two-mission contract.
@@ -1891,7 +2203,86 @@ None this session.
 | Status | Mission | Reward | Giver | Sessions | Notes |
 |:---|:---|:---|:---|:---|:---|
 | Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | Treasure taken to the Castle in the Clouds. Talis wants it sabotaged. |
-| Open | Exterminate goblins | Cult info | Talis | S55 → | Party killed Trepsin instead. |
+| Failed | Exterminate goblins | Cult info | Talis | S55 → S56 | Party allied with Sohei and killed Trepsin instead. |
+}}
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons}}
+
+\page
+
+## Session 57 GM {{float:"right" 2026-11-08}}
+{wide}
+
+{{wide **Hunting lodge** {{float:"right" _17 Hammer 1490 DR, ~13:20 → ~19:30_}} }}
+
+{{note
+**Party present:** _Eguzkilore, Kaelthar, Mialee, Nuberroca, Nyx, Sinsong_
+
+ {{float:"left" **Party absent**: _Amidamaru_ }}
+}}
+
+{{descriptive
+#### Summary
+- **Nashkag agreement** — totem and no activity in a few days.
+- **Sohey vs Nuberroca** — exchange blows in a close match.
+- **Talis killed** — her own wasp swarm finishes her.
+- **Ambush triggered** — the full lodge rises against the party.
+
+}}
+
+
+
+### Events
+- Mialee lifts a pendant from Trepsin's pyre and consoles Sohey; the goblin then tears north at an unnatural speed.
+- ~14:00 — Sohey returns their stolen gear, magical spectacles and a magical pen; Mialee asks for proof and a delay.
+- Sinsong's healing exposes Eguzkilore's magic-rejecting affliction — blisters bloom wherever the magic touches his skin.
+- ~15:00 — The Nashkag totem is delivered, Nuberroca duels Sohey as farewell, and rum and a sealed ceramic jar change hands.
+- ~16:00 — The party treks three snowed-over hours; Nyx navigates by her own broken-branch markers back to the lodge.
+- ~19:00 — Talis greets them armed, Kushpia at her shoulder and two mercenaries in the hall; weapons stay drawn.
+- ~19:30 — **Ambush sprung** — Talis falls to her own wasp swarm; Kushpia and Sorvic killed; Nuberroca reclaims *Dragongleam*.
+- A troll crashes through the east wing, killing Fenrir; Sinsong's fey guardians scythe eleven kobolds silently; Wessic falls.
+- **Three trolls converge** — one is killed and burned; Kaelthar drops shielding Sinsong; Fenwick emerges with armed kitchen staff.
+
+::::::
+
+\column
+
+{{note
+##### Epic moments
+- **Nuberroca** and **Sohey** trade blows; the goblin reads the barbarian minute by minute until he is nearly spent.
+- **Nuberroca** hurls his halberd like a javelin, punching clean through Sorvic's visor and pinning him to the wall.
+- **Sinsong** rises with fey guardians and drops eleven kobolds silently as he walks the hall.
+}}
+
+
+::::
+
+### NPCs
+- **Sohey** — Delivered totem and gifts, duelled Nuberroca, promised a sending-stone rematch.
+- **Talis the White** — Sprung the ambush; killed by her own wasp swarm.
+
+### Knowledge gained
+- **Eguzkilore's magic-rejecting affliction.** Sinsong recalls an old condition: flesh rejects the touch of magic, blistering on contact; cleared on its own after a few days, though some form of healing should be able to remove it.
+
+### Status changes
+- **Trepsin's pendant acquired.** Mialee carries it; close kin to Nyx's own, origin unknown.
+- **Magical spectacles and pen acquired.** Gifts from Sohey.
+- **Dragongleam reclaimed.** Nuberroca lifted the draconic-runed spear from Talis's body.
+
+### Loose ends
+- **Nyx's rope** — returned tacky and feels foreign in her hand; potentially tampered with or swapped.
+- **Sinsong's scar** — flashed at the back of his neck as the wasps dropped him; trigger and meaning unexplained.
+- **Sohey's rematch** — the goblin promised a friendly fight against the whole party, to be called via messaging stone.
+
+
+
+{{wide
+### Missions & rewards
+
+| Status | Mission | Reward | Giver | Sessions | Notes |
+|:---|:---|:---|:---|:---|:---|
+| Open | Trace the cult's cargo | Not stated | Ontharr Frume | S12 → | Lodge assault; Talis dead. |
 }}
 
 {{pageNumber,auto}}

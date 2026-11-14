@@ -4,7 +4,8 @@
     "pdfs": {
       "saga": "sessions/outputs/Saga.pdf",
       "gm": "sessions/outputs/GM.pdf",
-      "minutes": "sessions/outputs/Minutes.pdf"
+      "minutes": "sessions/outputs/Minutes.pdf",
+      "timeline": "sessions/outputs/Timeline.pdf"
     }
   },
   "sessions": [
@@ -334,7 +335,7 @@
       "in_fiction_date": "21 Nightal 1489 DR",
       "pdfs": {
         "saga": null,
-        "gm": null,
+        "gm": "sessions/session-25/outputs/S25 - GM.pdf",
         "minutes": "sessions/session-25/outputs/S25 - Minutes.pdf"
       }
     },

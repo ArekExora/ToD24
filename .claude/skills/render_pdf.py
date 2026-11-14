@@ -8,6 +8,10 @@ Inputs accepted (filename pattern determines PDF name):
     sessions/session-NN/saga-NN.md           → outputs/S<NN> - Saga.pdf
     sessions/session-NN/outputs/gm-hb-NN.md  → outputs/S<NN> - GM.pdf
     sessions/session-NN/minutes-NN.md        → outputs/S<NN> - Minutes.pdf
+    sessions/outputs/full_saga.md            → sessions/outputs/Saga.pdf
+    sessions/outputs/full_gm.md              → sessions/outputs/GM.pdf
+    sessions/outputs/full_minutes.md         → sessions/outputs/Minutes.pdf
+    sessions/outputs/timeline.md             → sessions/outputs/Timeline.pdf
 
 Minutes files have their YAML frontmatter stripped before upload; saga and
 gm-hb files are uploaded verbatim.
@@ -58,12 +62,15 @@ CLIENT_VERSION = "3.24.2"  # must match server's packageJSON.version
 # the editor's "Get PDF" would. Pass the style explicitly so our PDFs match.
 DEFAULT_STYLE = ".page {\n  padding-bottom : 1.1cm;\n}\n"
 
-# Filename → (role, PDF suffix, strip frontmatter?)
+# Per-session filename → (role, PDF suffix, strip frontmatter?)
 ROLE_PATTERNS = [
     (re.compile(r"^saga-(\d+)\.md$"), ("saga", "Saga", False)),
     (re.compile(r"^gm-hb-(\d+)\.md$"), ("gm", "GM", False)),
     (re.compile(r"^minutes-(\d+)\.md$"), ("minutes", "Minutes", True)),
 ]
+
+FULL_PATTERN = re.compile(r"^full_(saga|gm|minutes)\.md$")
+TIMELINE_PATTERN = re.compile(r"^timeline\.md$")
 
 
 @dataclass
@@ -81,6 +88,33 @@ def repo_root() -> Path:
 
 
 def classify(src: Path, wip: bool = False) -> Target:
+    # Campaign timeline: sessions/outputs/timeline.md → sessions/outputs/Timeline.pdf.
+    # Timeline is never WIP — the --wip flag is ignored for this input.
+    if TIMELINE_PATTERN.match(src.name):
+        return Target(
+            session_nn="timeline",
+            role="timeline",
+            pdf_suffix="Timeline",
+            strip_frontmatter=False,
+            src_path=src,
+            pdf_path=src.parent / "Timeline.pdf",
+        )
+    # Full-campaign brew: sessions/outputs/full_<role>.md → sessions/outputs/<Role>.pdf.
+    full_m = FULL_PATTERN.match(src.name)
+    if full_m:
+        role_name = full_m.group(1)
+        _, suffix, strip = next(
+            info for _, info in ROLE_PATTERNS if info[0] == role_name
+        )
+        suffix_name = f"{suffix}_WIP" if wip else suffix
+        return Target(
+            session_nn="full",
+            role=role_name,
+            pdf_suffix=suffix,
+            strip_frontmatter=strip,
+            src_path=src,
+            pdf_path=src.parent / f"{suffix_name}.pdf",
+        )
     for pattern, (role, suffix, strip) in ROLE_PATTERNS:
         m = pattern.match(src.name)
         if not m:
@@ -99,7 +133,8 @@ def classify(src: Path, wip: bool = False) -> Target:
             pdf_path=pdf_path,
         )
     raise ValueError(
-        f"filename does not match saga-NN.md, gm-hb-NN.md, or minutes-NN.md: {src.name}"
+        f"filename does not match saga-NN.md, gm-hb-NN.md, minutes-NN.md, "
+        f"full_(saga|gm|minutes).md, or timeline.md: {src.name}"
     )
 
 
@@ -210,9 +245,11 @@ def process(src: Path, wip: bool = False) -> None:
         raise FileNotFoundError(target.src_path)
 
     body_text = load_text(target)
-    title = extract_title(
-        body_text, fallback=f"Session {int(target.session_nn)} — {target.pdf_suffix}"
-    )
+    if target.session_nn in ("full", "timeline"):
+        fallback_title = f"Tyranny of Dragons — {target.pdf_suffix}"
+    else:
+        fallback_title = f"Session {int(target.session_nn)} — {target.pdf_suffix}"
+    title = extract_title(body_text, fallback=fallback_title)
 
     share_id, edit_id = hb_create(title, body_text)
     print(f"  created brew shareId={share_id}")

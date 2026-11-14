@@ -1,7 +1,7 @@
 ---
 status: accepted
 date: 2025-10-26 17:40 - 20:40
-in_fiction_date: 21 Nightal 1489 DR, ~14:00 → 23 Nightal, ~09:00?
+in_fiction_date: 21 Nightal 1489 DR, ~14:00 → 23 Nightal, ~12:00
 party_present:
   - Amidamaru
   - Eguzkilore
@@ -88,6 +88,7 @@ _~13:00, 22 Nightal 1489 DR_
 1. The caravan makes Daggerford four hours after breakfast, where the merchants settle to lose the day in town and set out again the next morning. Sulesdeg and a knot of guards stay with the parked carts. Nuberroca has the surviving cultist tied against his chest facing outwards all the way in — like a baby in a sling, so the prisoner has to look at everything Nuberroca looks at — mouth gagged at Mialee's insistence. Mialee stays close while Nuberroca carries him into the tavern and drinks beer in his face, drool falling on him: *"you thought death was the worst thing that could happen to you"*. Every eye in the place is on them.
 2. The errands move quickly. Eguzkilore buys arrows at a stall but otherwise sticks close to the carts; Amidamaru fills Mialee's order for incense and takes a few extra for his own work; Nuberroca asks after rope and Nyx hands him hers off her belt — she has plenty. Amidamaru also asks after a smith in town for a commission he intends to settle.
 3. Nyx passes Eguzkilore the magical longbow she has carried since the golden stag crossed their path and takes his ordinary longbow in exchange; neither of them makes a fuss about it, the trade is just quietly done over a drink.
+4. The three bandits Nuberroca had kept walking tied behind the caravan since the roadside ambush weeks back — the leader, his captain, and one of their men, the band that had come at the convoy with the strange metal pistols — are cut loose and left in Daggerford.
 
 {{pageNumber,auto}}
 {{footnote Tyranny of Dragons | Session 25}}

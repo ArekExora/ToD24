@@ -91,6 +91,7 @@ def main() -> None:
                 "saga": rel_pdf(CAMPAIGN_OUTPUTS / "Saga.pdf"),
                 "gm": rel_pdf(CAMPAIGN_OUTPUTS / "GM.pdf"),
                 "minutes": rel_pdf(CAMPAIGN_OUTPUTS / "Minutes.pdf"),
+                "timeline": rel_pdf(CAMPAIGN_OUTPUTS / "Timeline.pdf"),
             },
         },
         "sessions": [build_session(n) for n in session_nums],
@@ -110,7 +111,7 @@ def main() -> None:
     print(
         f"manifest.json: {len(session_nums)} sessions "
         f"({counts['full']} full, {counts['partial']} partial, {counts['empty']} empty) "
-        f"+ campaign ({campaign_got}/3)"
+        f"+ campaign ({campaign_got}/4)"
     )
 
 

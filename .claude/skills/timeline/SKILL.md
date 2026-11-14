@@ -18,6 +18,7 @@ The file is an audit-trail artifact: a per-session chronicle, read by the GM lat
 - **Session number** (NN).
 - `sessions/session-<NN>/minutes-<NN>.md` — must carry `status: accepted` in its frontmatter. **If the file does not exist, or the `status` field is missing / not `accepted`, surface a clear error and stop.**
 - `sessions/session-<N-1>/timeline-<N-1>.md` — read-only, consulted for the arc-continuity handoff. **If N > 1 and this file is missing**, surface a clear note and treat the handoff as if no prior arc were active.
+- [`campaign/arcs.md`](../../../campaign/arcs.md) — arc registry (title, description, open / close dates). Read-only here; the GM maintains it by hand. Used to validate arc names referenced from per-session files.
 - `campaign/npcs/` — read the directory listing to know which NPCs have sheets. Only NPCs with a sheet qualify for the *Named recurring NPCs* event category. No sheet bodies are read; just filenames.
 
 ## If `timeline-<NN>.md` already exists
@@ -28,34 +29,57 @@ In audit mode:
 
 1. Read the existing file.
 2. Walk the same *Before writing* inputs.
-3. Re-derive the expected arc state (carry-forward title / description / start-date, or the GM-declared opening / closing) and the expected event list under the event-inclusion rules. Compare.
-4. Surface a numbered finding for each divergence: arc title or description mismatch, arc date-range inconsistency, missing event, surplus event (present in file but with no minutes support), event that misrepresents the cited scene, out-of-order events, NPC-named event where the NPC has no sheet.
+3. Re-derive the expected arc title(s) (carry-forward from `timeline-<N-1>.md`, or the GM-declared opening / closing) and the expected event list under the event-inclusion rules. Compare.
+4. Surface a numbered finding for each divergence: arc title mismatch, arc title not present in `campaign/arcs.md`, missing event, surplus event (present in file but with no minutes support), event that misrepresents the cited scene, out-of-order events, NPC-named event where the NPC has no sheet.
 5. Stop and hand the list to the GM. Iterate per-finding — the GM decides which to address; `/timeline` does not auto-edit in audit mode.
 
 ## Before writing
 
 1. **Read accepted minutes end-to-end.** The minutes are the only content source for events. Note: scene structure, titles, in-fiction date lines, named NPCs, party location shifts, mission / faction references, PC state changes.
-2. **Read `sessions/session-<N-1>/timeline-<N-1>.md`** (if N > 1) — extract the **last arc section** in full: title, date-range line, description. This is the arc the party enters session NN under unless the GM declares otherwise.
-3. **List `campaign/npcs/`** — the filename stems are the set of NPCs with sheets. Cache this for the event-inclusion check.
-4. **Do not read the transcript. Do not read triage. Do not consult any other canon files.** The accepted minutes are the single source of truth for events; the prior timeline file is consulted only for arc carry-forward; the NPC directory is consulted only for the sheet-existence check.
+2. **Read `sessions/session-<N-1>/timeline-<N-1>.md`** (if N > 1) — extract the **last arc title** (the last `## <Title>` H2). That's the arc the party enters session NN under unless the GM declares otherwise.
+3. **Read [`campaign/arcs.md`](../../../campaign/arcs.md)** — cache the set of known arc titles (each `## <Title>` heading). Used to validate that any arc title referenced in the per-session file exists in the registry.
+4. **List `campaign/npcs/`** — the filename stems are the set of NPCs with sheets. Cache this for the event-inclusion check.
+5. **Do not read the transcript. Do not read triage. Do not consult any other canon files.** The accepted minutes are the single source of truth for events; the prior timeline file is consulted only for arc carry-forward; `arcs.md` and `npcs/` are consulted only for registry / sheet checks.
 
 ## Arc continuity handoff
 
-After loading inputs — and only after — ask the GM about arc state, exactly once. Phrase the ask with the carry-forward as the default so a quiet answer suffices:
+**Arc transitions are rare.** Most sessions silently continue the active arc, so the skill carries the prior session's arc forward **without prompting** by default. Only prompt the GM when the session's identified events carry one or more **arc-transition signals**.
 
-> *"Prior arc (from `timeline-<N-1>.md`): **\<title\>** — opened \<start date\> (S\<N-prev-open\>).*
+### Arc-transition signals
+
+Scan the drafted event list (after applying the event inclusion rules and quote-anchoring) for any of these. If none are present, carry the prior arc forward silently and move on.
+
+- **Durable location change.** Party permanently relocates to a new settlement, region, or stronghold — not a brief visit or a dungeon delve expected to end at that session's close. *(e.g., leaving Greenest for good and arriving at Elturel, Baldur's Gate, Waterdeep.)*
+- **Major mission completion.** A multi-session objective wraps up — the driving motivation of the current arc is resolved.
+- **Major mission acceptance.** The party commits to a new multi-session objective that redefines what the party is doing *going forward*. Same-session missions do not qualify — the Tarbaw tunnel-clearing in S01 is not an arc opener.
+- **Faction oath or defection.** A PC joins or breaks from a named faction. *(e.g., Nuberroca sworn into the Order of the Gauntlet.)*
+- **Chapter-end feel.** The session reads as a clean break — *"and the party departed X"* with a clear elsewhere in view.
+
+Err toward silence. If the signals are ambiguous, carry forward and let the GM re-open the question on a later session if they want.
+
+### When one or more signals are present
+
+Ask the GM, once, with the carry-forward still the default so a quiet answer suffices:
+
+> *"This session's events suggest a possible arc shift — \<brief reason citing the signal(s)\>.*
 >
-> *Default: carry forward through session NN. Any change this session?*
-> - *No (default) → the arc continues, no state change.*
-> - *Closes this session → in-fiction close date (defaults to session end).*
-> - *New arc opens this session → title, one-line description, open date (defaults to session start), and whether it opens from the start of the session or after a specific scene.*
-> - *Prior arc closes AND a new one opens → both sets of info; name the transition point."*
+> *Default: continue the current arc **\<title\>**. Any change?*
+> - *No (default) → continue under **\<title\>**.*
+> - *Current arc closes this session — **reminder: update `campaign/arcs.md`** by hand to record the close date.*
+> - *New arc opens this session → provide the arc **title** and the transition point (start of session, or after a specific scene). **Reminder: add the new arc to `campaign/arcs.md`** by hand with description + open date.*
+> - *Both — close and open; name the transition point and update `arcs.md` for both."*
 
-If no prior timeline file exists (N == 1, or the prior file is missing), ask instead:
+### First-session exception
 
-> *"No prior timeline file found. What arc is session NN played under? Need: title, one-line description, open date (defaults to session's in-fiction start)."*
+If no prior timeline file exists (`N == 1`, or the prior file is missing), there's no arc to carry forward — always ask for the initial title, regardless of signals:
 
-The GM's answer determines the arc headers and date-range lines in the file. A session with a **mid-session arc transition** produces two H2 arc sections; events before the transition sit under the first, events from the transition onward sit under the second. Never split events across arcs without a GM transition.
+> *"No prior timeline file found. What arc is session NN played under? Provide the **title** only; add full metadata to `campaign/arcs.md` by hand afterwards."*
+
+### File-shape rules
+
+The GM's answer determines the H2 arc headers in the file. A session with a **mid-session arc transition** produces two H2 arc sections; events before the transition sit under the first, events from the transition onward sit under the second. Never split events across arcs without an explicit GM transition.
+
+The per-session file carries arc **titles only** — no description, no date-range line. Those live in [`campaign/arcs.md`](../../../campaign/arcs.md) and are picked up at campaign-render time by `build_full_timeline.py`. The skill **reminds the GM** when `arcs.md` needs a manual update; it never writes to `arcs.md` itself.
 
 ## Event inclusion rules
 
@@ -106,44 +130,58 @@ The scratchpad is throwaway — once the event is written and the trace check pa
 
 No frontmatter — all metadata lives in `minutes-<NN>.md`; duplicating it here would create a second maintenance point for no benefit.
 
+The per-session file carries the **data layer only** — arc title(s), month sub-header(s), and event table rows. No Homebrewery directives, no frontmatter, no arc description, no date-range line. All presentation / decoration lives in the build script that composes `campaign/timeline.md` from per-session files + [`campaign/arcs.md`](../../../campaign/arcs.md).
+
 ```markdown
 # Session NN timeline
 
-## Arc: <Arc Title>
-<Open date> (S<N-open>) → [<Close date> (S<N-close>)]
-<One-line description.>
+## <Arc Title>
 
-- <DD Month> (S<NN>) — <Event text. Bold main actor / central noun only.>
-- <DD - DD Month> (S<NN>) — <Event that spans several in-fiction days.>
-- …
+### <Month> <YYYY> DR
+| Date    | Session  | Event                      |
+|:--------|:---------|:---------------------------|
+| <DD>    | S<NN>    | <Event text. Bold main actor / central noun only.> |
+| <DD - DD> | S<NN>  | <Event that spans several in-fiction days.> |
 
-## Arc: <Second Arc Title>    # only when a mid-session arc transition occurred
-<Open date> (S<NN>) →
-<One-line description.>
+### <Next Month> <YYYY> DR    <!-- only when the session crosses a month boundary -->
+| Date    | Session  | Event                      |
+|:--------|:---------|:---------------------------|
+| <DD>    | S<NN>    | <First event in the new month.> |
 
-- <DD Month> (S<NN>) — <First event under the new arc.>
-- …
+## <Second Arc Title>    <!-- only when a mid-session arc transition occurred -->
+
+### <Month> <YYYY> DR
+| Date    | Session  | Event                      |
+|:--------|:---------|:---------------------------|
+| <DD>    | S<NN>    | <First event under the new arc.> |
 ```
 
 **Rules:**
 
-- **Arc header: `## Arc: <Title>`.** The `Arc:` prefix makes files searchable across sessions.
-- **Date-range line directly below the arc header.** Format: `<Open date> (S<N-open>) → <Close date> (S<N-close>)`. When the arc has not yet closed, the right-hand side is empty — just the trailing `→ ` with no close date. Open and close dates use the **full** FR calendar form (`DD <FullMonth> YYYY DR`, e.g. `22 Marpenoth 1489 DR`) — month names from the `Full` column of [`campaign/calendar.md`](../../../campaign/calendar.md). This is the single place the year appears in the file, so the arc date-range line always carries it.
-- **Description on the next line.** One short sentence, in the GM's words, carried forward verbatim from the file that opened the arc. Do not rewrite or elaborate.
-- **Blank line, then events.** Events are a flat ordered list under each arc, chronological by in-fiction time at the table. Never regroup thematically.
-- **Event line format:** `- <date> (<session>) — <event text>`.
-  - **Date** uses the **abbreviated** FR month names from [`campaign/calendar.md`](../../../campaign/calendar.md) (the `Abbr` column — e.g. `Marp`, `Ukta`, `Nigh`, `Hamm`). Full month names are reserved for the arc date-range line and for minutes-file prose. Forms:
-    - single day: `22 Marp`
-    - range within one month: `22 - 24 Marp`
-    - range crossing months: `30 Marp - 2 Ukta`
-    - **intercalary day** (no day number): render with the **full name** per `calendar.md`'s example — `- Feast of the Moon (S22) — <event>`. The calendar file also lists an intercalary abbreviation column for use in `sessions/status.md`, but event lines keep the full name because intercalaries are rare and read more clearly spelled out.
-  - **No time prefix.** Date granularity only — the arc date-range line and the per-event date together give enough chronology; clocks belong in minutes.
-  - **No year, no `DR`** on event lines — the year is on the arc date-range line above; repeating it on every event adds noise for no information.
-  - **Session column** takes `(S<NN>)` for events that happened entirely in one session, or `(S<N1> - S<N2>)` for events that spanned sessions (a multi-session travel leg, a dungeon delve resolved across two sessions). The session range mirrors the date range.
-  - `— ` (em-dash + space) separates the date / session prefix from the event text.
-- **Event text is terse.** One short clause, not a sentence with multiple clauses. Prefer merging a death and its same-session resurrection into a single clause over splitting. If the event text runs to more than ~20 words, re-grain it: either it bundles distinct events (split and reconsider which qualify), or it carries tactical colour that belongs in the minutes (trim).
+- **H1 title:** `# Session NN timeline` — single H1, zero-padded `NN`, blank line after.
+- **Arc title.** `## <Title>` (H2). Must match a `##` heading in [`campaign/arcs.md`](../../../campaign/arcs.md) exactly. No "Arc:" prefix. No description, no date-range line, no Homebrewery frame — those live in `arcs.md` and are added by the build script when rendering the campaign timeline. One arc section per arc the session touches (usually one).
+- **Month sub-header.** `### <FullMonth> <YYYY> DR` — month name from the `Full` column of [`campaign/calendar.md`](../../../campaign/calendar.md). One per in-fiction month the session touches; most sessions touch only one. A fresh event table starts under each sub-header.
+- **Event table.** Markdown table with three left-aligned columns directly below each month sub-header:
+
+  ```
+  | Date    | Session  | Event                      |
+  |:--------|:---------|:---------------------------|
+  | 22      | S01      | Party arrives at **Greenest** during a raid. |
+  ```
+
+  Column widths in the source may be padded for readability; they don't affect rendering. The three column headers are literally *Date*, *Session*, *Event*.
+- **Date cell.** Day number(s) only. Forms:
+  - single day: `22`
+  - range within one month: `22 - 23`
+  - range crossing months: write the crossing month explicitly on the far side of the range (`30 - 2 Uktar`). The row still sits under the earlier month's sub-header. Use sparingly.
+  - **intercalary day** (no day number): render with the **full name** per [`campaign/calendar.md`](../../../campaign/calendar.md), e.g. `Feast of the Moon`. Place the row under whichever `### <Month>` sub-header is semantically closest; when in doubt, use the month **before** the intercalary.
+  - No month name unless the range crosses months. No year. No `DR`. No `~HH:MM` time prefix.
+- **Session cell.** `S<NN>` only — no parentheses, no prefix. Zero-padded to two digits (`S01`, `S07`, `S12`). The explicit session cell lets a row be copy-pasted or merged into `campaign/timeline.md` without losing its session anchor.
+- **Event cell.** The event text. One short clause, not a sentence with multiple clauses. Prefer merging a death and its same-session resurrection into a single clause over splitting. If the event text runs to more than ~20 words, re-grain it: either it bundles distinct events (split and reconsider which qualify), or it carries tactical colour that belongs in the minutes (trim).
+- **No em dashes (`—`) in event text.** Em dashes take visible space in the rendered table cell and read as stilted prose. Use **colon** when the second clause names or elaborates (*"Cult leadership named: **Rezmir** …"*), **semicolon** when two clauses are related but independent (*"attacks the keep and withdraws wounded; parting line reveals it was hired"*), **period + new sentence** when the second clause stands on its own (*"Cult camp located in the hills south of **Greenest**. Strength roughly 200–300."*), or restructure to avoid the dash entirely. Hyphens (`-`) for compounds (*"black half-dragon"*) are fine.
 - **Bold the main actor and central noun of the event, nothing else.** A PC, sheet NPC, faction, or key location gets `**bold**` only when they are the **main actor** performing the event, or the **central noun** the event is about (a location arrived at, a faction joined, an NPC killed or freed). A name appearing in a **passive role** stays plain: a sponsor in a *"by X"* construction (`sworn into the **Order of the Gauntlet** by Ontharr`), a bystander, an NPC named in passing. Rule of thumb: the event text should still read as a coherent summary if someone scans only the bolded names. No other emphasis. No `[EPIC]` markers.
 - **Neutral past tense.** No editorial spin, no in-fiction flourish, no invention beyond what the minutes support.
+- **Travel: departure, not journey.** When the party travels between locations, tag the **departure date** and phrase the event as the departure (`Party departed **X**, bound for **Y**`). The arrival belongs to its own date and is often best merged into whatever first happens on arrival (`Party arrived at **Y**, where **Z** joined them`). Prefer a single departure date over a range spanning the journey — the journey's midpoints usually carry no event and clutter the timeline.
 - **No citations.** The file is downstream of accepted canon; no `[T:…]`, `[GM]`, or `[derived:…]` tags.
 
 ## Internal self-verification (run before write)
@@ -153,18 +191,34 @@ Mechanical checks. If any fails, fix the entry or surface as a clear error — d
 1. **Every event has a verified quote-anchor.** Per the *Writing each event* section, each event line must have (a) a named supporting minutes line range, AND (b) a confirmed trace of each key noun / action-verb / named entity in the event text to a word or phrase inside that range. A bare scene.beat pointer is not enough — the words themselves must match. If a token in your event has no corresponding minutes token, cut, re-anchor, or re-word. **This is the check that catches both memory drift and level-of-description substitution** (the two failure modes documented in *Writing each event*).
 2. **Every NPC-named event's NPC has a sheet.** Cross-check against the cached `campaign/npcs/` listing. No sheet → cut the entry (or recast without naming the NPC, if the event qualifies under a different Include category). The sheet existence is a **hard filter**; everything else is a soft-include-under-doubt call that the GM will trim at review.
 3. **Event chronology is non-decreasing within each arc.** In-fiction dates and times rise or stay flat as the list proceeds. Never regroup thematically.
-4. **Arc header count matches GM input.** One `## Arc: <title>` section when no mid-session transition; two when the GM named a transition.
-5. **Arc date-range line is consistent with GM input.** If the GM said the arc continues, the line matches the carry-forward from the prior timeline file. If the GM said the arc closes, the close date and `(S<NN>)` are filled in. If the GM opened a new arc, the open date and `(S<NN>)` are filled in and the close side is empty.
-6. **Arc description carries forward verbatim.** When the arc was already open before session NN, its description reads exactly as in the prior timeline file — no rewrites.
-7. **No year, no `DR`, no clock time on event lines.** Scan every `-` event bullet; the date prefix carries day(s) + month (+ month if the range crosses months), and nothing else. A `~HH:MM`-style time prefix is a leak from minutes — strip it.
-8. **No transcript-level or triage content leaks in.** Scan for HP / AC / roll numbers, slot levels, hedges (*"presumably"*, *"possibly"*), `[T:…]` / `[Td:…]` / `[derived:…]` / `[GM]` tags, `[EPIC]` markers. All forbidden.
-9. **Named entities use the spelling from minutes.** Don't normalise or correct — accepted minutes is the canon spelling.
-10. **No frontmatter block.** The file opens directly with `# Session NN timeline`.
+4. **Arc section count matches GM input.** One `## <Title>` H2 when no mid-session transition; two when the GM named a transition. Each arc section contains one or more `### <Month> <YYYY> DR` sub-headers with their own event tables.
+5. **Every arc title exists in `campaign/arcs.md`.** For each `## <Title>` in the file, grep `campaign/arcs.md` for a matching `## <Title>` heading. If the GM declared a new arc this session and `arcs.md` hasn't been updated yet, surface a visible reminder to update `arcs.md` by hand — do not auto-add.
+6. **Event row format.** Each `|`-delimited row below a `### <Month>` sub-header matches `| <date> | S<NN> | <text> |`. Enforce:
+   - Three cells (Date / Session / Event) with leading and trailing `|`.
+   - **Date cell:** day number(s) only. No month name unless the range crosses into a new month (`30 - 2 Uktar`). No year. No `DR`. No `~HH:MM` time prefix (that's a leak from minutes — strip it).
+   - **Session cell:** exactly `S<NN>` — no parentheses, no prefix, zero-padded to two digits (`S01`, `S12`).
+   - **Event cell:** a single short clause with main-actor / central-noun bolding.
+7. **Table header + alignment row present under each `### <Month>` sub-header.** The two header lines are literally:
+
+   ```
+   | Date    | Session  | Event                      |
+   |:--------|:---------|:---------------------------|
+   ```
+
+   Column widths may be padded differently in the source for readability, but the three column headers must be named *Date*, *Session*, *Event* in that order, all left-aligned (`:---`). A fresh header pair appears under every `### <Month>` sub-header (never share a table across sub-headers).
+8. **Every row sits under the correct month sub-header.** Walk each table row; the leading day number (or the first day of a range) must belong to the month named by the preceding `### <Month> <YYYY> DR` sub-header. Cross-month ranges name the far month in the Date cell (`30 - 2 Uktar`) but still sit under the start month's table. Intercalary rows sit under the month semantically closest.
+9. **No em dashes in event cells.** Grep each Event cell for `—` (U+2014). Any hit: rewrite the clause with colon, semicolon, period, or restructured sentence per the *Event cell* rule.
+10. **No Homebrewery directives.** The per-session file must contain **no** `{{…}}` blocks, **no** `\page` or `\column`, **no** `{wide}` markers. All presentation lives in the build script.
+11. **No transcript-level or triage content leaks in.** Scan for HP / AC / roll numbers, slot levels, hedges (*"presumably"*, *"possibly"*), `[T:…]` / `[Td:…]` / `[derived:…]` / `[GM]` tags, `[EPIC]` markers. All forbidden.
+12. **Named entities use the spelling from minutes.** Don't normalise or correct — accepted minutes is the canon spelling.
+13. **No frontmatter block.** The file opens directly with `# Session NN timeline`.
 
 Print a one-line status (file written + arc count + event count) and stop.
 
 ## Reference
 
+- **Arcs registry:** [`campaign/arcs.md`](../../../campaign/arcs.md) — single source of truth for arc title, description, open date, close date. GM-maintained manually. The skill reads but never writes.
 - **Calendar:** [`campaign/calendar.md`](../../../campaign/calendar.md) — authoritative source for FR month names, abbreviations (used in event lines), and intercalary days. **Do not inline month names in this file or rely on memory — the calendar file is the single source of truth.**
 - **Minutes schema:** [`sessions/templates/minutes-template.md`](../../../sessions/templates/minutes-template.md).
-- Memory: [feedback_gloss_budget.md](../../memory/feedback_gloss_budget.md), [feedback_no_invention.md](../../memory/feedback_no_invention.md).
+- **Campaign build script:** `build_full_timeline.py` (planned sibling of `build_full_gm.py` / `build_full_saga.py`) composes `campaign/timeline.md` from per-session files + `arcs.md`. Additive by design — preserves manual GM edits to `campaign/timeline.md` (e.g. page breaks) and only inserts new events as sessions are added. Per-session files are the data layer; `arcs.md` is the arc metadata; `campaign/timeline.md` is the rendered output.
+- Memory: [feedback_gloss_budget.md](../../memory/feedback_gloss_budget.md), [feedback_no_invention.md](../../memory/feedback_no_invention.md), [feedback_quote_anchor.md](../../memory/feedback_quote_anchor.md).
