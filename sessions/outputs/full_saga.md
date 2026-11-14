@@ -769,3 +769,169 @@ Cuatro días más de camino tranquilo bastan para que el convoy divise por fin e
 
 {{pageNumber,auto}}
 {{footnote Tiranía de Dragones | Sesión 21}}
+
+\page
+
+# Sesión 23 {{float:"right" 28 Septiembre 2025}}
+{wide}
+
+{{wide _11 Nightal 1489 DR_ }}
+
+{{wide
+La caravana alcanza una taberna bajo el aguacero, y **Barlon**, el posadero, se encoge de hombros: lo tiene todo vendido a un solo cliente. Un noble ríe junto al hogar entre tres guardias, con una curiosa lámpara azul sobre el tablero, mientras dos jóvenes muy hermosas se refugian bajo el alero. Nuberroca se tumba en el banco más cercano y advierte a Barlon: *"bastante que no les parto el cuello a esos cuatro monos que tienes ahí insultándonos"*. Un guardia se acerca a imponer la orden mientras una mano invisible le vacía la bolsa. Fuera, **Zelina Innevar** y su hermana silenciosa **Arietta** aceptan la charla de Nyx, Amidamaru y Eguzkilore; dentro, el guardia aparta a Nuberroca de una patada al banco con un *"animal, fuera"*. Amidamaru lo encara desde el umbral: no es trabajo de un guardaespaldas llamar animales a otras razas.
+}}
+
+{{wide
+Expulsados de la posada, Munin sube invisible sobre el piso alto: sólo una ventana tiene inquilino, un encapuchado de hábito rico leyendo en la cama. Mialee se descuelga por las otras dos y vuelve con un puñado de monedas, mientras abajo Nuberroca pica a los de dentro como un niño cebando a un gato, llamando a los ratoncitos a asomarse de su madriguera. Nadie aguanta la burla sin apretar los dientes.
+}}
+
+{{wide
+Uno de los guardias sale con la espada larga: *"mide tus palabras, escoria"*. La furia toma al goliath; asienta la alabarda y le exige hincarse a pedir perdón o venir a por él. El primer golpe lo tumba de bruces, y el segundo lo gira a última hora para no matarlo. Se disuelve en una nube, reaparece a espaldas del segundo guardia con un *"cucú"*, y el noble — **Lord Zelan**, con una pulcra gorra roja — alza entonces la lámpara azul: *"ah, podemos usar magia... perfecto"*. Los otros dos cierran contra Nuberroca y le cruzan dos cortes por la espalda. **Entonces el noble pronuncia palabras sin mover la boca, y bajo los pies del bárbaro se abre la tierra:** su tribu asciende como no-muertos, esqueletos y zombis con los rostros de sus hermanos y amigos, tirándole de la piel y la carne. Suelta la alabarda, grita nombres que nadie reconoce, y araña fantasmas que no están. Un último salto no lo salva: cae de bruces, sangrando. Nyx está a su lado al instante y le mete una de sus bayas entre los labios; un resplandor azul le va cerrando lo peor. Zelan llama a sus guardias — ha dicho lo que había que decir —, recoge su lámpara, y cargan al compañero caído adentro.
+}}
+
+{{wide
+Barlon sale con comida y la disculpa pintada en la cara. Nuberroca lo mira a los ojos: *"la fuerza no basta contra las sombras"*. Cuando Amidamaru describe al brujo de la Compañía del Jabalí, el posadero vacila: su pinta encaja con uno de sus huéspedes. Nyx se le acerca al oído — fueron trucos de mago, nada real había sobre su aldea —, pero el bárbaro no acepta el consuelo del todo: las caras eran las de su tribu. Busca a Amidamaru por lo del guardia que ha tumbado sin matar; el tortle le roza el cinto y le pone en la palma una luz tenue: *"te lo has ganado"*. Nuberroca se la lleva a Barlon y se la enseña como un crío.
+}}
+
+{{wide
+La caravana acampa junto al camino, y las dos hermanas trasladan sus bultos al establo: la disculpa de Barlon nunca llegó a ser cama. Pasan la tarde entre los mercaderes cambiando retazos de vida — Nyx se abre sobre su tribu nómada, los demás mantienen distancia, y Mialee avisa al grupo que esas dos no le encajan. Amidamaru les ofrece la escolta por unas monedas; Zelina confirma que vio pasar a los tres jinetes del Jabalí hace tiempo, pero rechaza el pacto — van pobres como ratas — y pregunta al tortle si no les *presta* algo. Nuberroca sugiere que podrían vender sus servicios; Nyx le clava un codazo, y el goliath, ajeno, señala su taparrabos y aclara que se refería a los remiendos. Antes de dormir, manda por boca de Sinsong, a través de la piedra, un recado al poblado pidiendo noticia; luego se tumba con la familia campesina a la que protege, y los otros cuatro se quedan despiertos para el golpe de la noche.
+}}
+
+{{wide
+Pasada la medianoche, Nyx teje sobre los cuatro un manto de sigilo. Amidamaru asoma un conjuro de sueño por la ventana del noble, pero Zelan se lo sacude. La mano invisible de Mialee abre la falleba sin un rumor y trae abajo la lámpara azul, de la mano al tortle. Es un farol de cuatro paños de vidrio, y dentro un viejecito de piel azul en túnica de sabio, no mayor que un murciélago, los ojos muy abiertos como si el mundo acabara de estrenarse. Amidamaru le pregunta su nombre en común y en silvano por boca de Nyx; la boca del vejete se abre como quien grita pero no sale sonido. Mialee avisa: esto le da mala espina. El tortle duda un instante — le repugna dejarlo en manos del hombre que ha quebrado a Nuberroca —, abre la portezuela, deposita el farol en el suelo y da un paso atrás: *"eres libre, muchachito"*. El sabio alza las manos y lanza al aire un punto de luz azul que estalla en una esfera de frío. **Nyx y Mialee se zafan de lo peor; Amidamaru y Eguzkilore quedan atrapados.** El viejecito baja de su farol y vuelve a entrar por la ventana del segundo piso. El grupo se recoge bajo el manto de Nyx mientras conos de linterna barren el suelo y una voz pregunta quién anda ahí; el sigilo aguanta.
+}}
+
+{{wide
+Al desayuno, Barlon le confirma a Mialee que Lord Zelan ha pagado por dos días más. Nuberroca se aparta a oír el mensaje que Sinsong ha traído del poblado: aguantan — pérdidas de siempre, nada se quiebra —, pero los no-muertos atacan más fuerte, y últimamente hombres calvos con tatuajes en la cara y capa roja caminan entre ellos. El goliath encaja la pieza en voz alta — calvos, de rojo, crueles con la mente — y recuerda que la gorra elegante del noble es también roja. Pregunta al grupo si no es ésta su pelea. Nyx tira de un nombre: magos rojos de un lugar llamado **Thay**, gente peligrosa y sin bondad. Pero no basta para hacer del noble uno de ellos, y Amidamaru, Nyx y Mialee empujan juntos contra una segunda pelea: no todo calvo es cruel, no todo rojo es malo, y la caravana en el camino es deuda mayor que la lección. Nuberroca encierra la rabia: no arrastrará a los suyos a otra pelea, no después de ayer; crecerá fuerte hasta poder responder a esta magia la próxima vez que venga a por él o por los suyos. Entonces Amidamaru deja caer la lectura más oscura: el sabio del farol lanzó aquella esfera de frío, y quizás también fue él quien quebró a Nuberroca en el duelo. *El bárbaro cierra solo el círculo: ¿me estás diciendo que el hombre del farol fue el que me atacó?*
+}}
+
+{{pageNumber,auto}}
+{{footnote Tiranía de Dragones | Sesión 23}}
+
+\page
+
+# Sesión 44 {{float:"right" 19 Abril 2026}}
+{wide}
+
+{{wide _15 Hammer 1490 DR_ }}
+
+{{wide
+El alba encuentra al grupo en una isla medio seca del pantano, junto a los carnomorfos que mataron durante la noche. Chikonaui yace muerto a su lado, un ala a medio formar brotándole de la espalda y la garganta abierta con su propia hoja. Nuberroca deja un ramillete de hierbas sobre la cabeza de Juancho y, al notar un espasmo, le mete una de las bayas de Nyx entre los dientes; Sinsong le pone las manos encima, y el lagarto se endereza, lento pero vivo. Suben a los botes mientras varios Metagorgers, un Shambler y bultos de Boneleechers avanzan desde el sur. Sinsong impone las manos sobre cada uno: ya pueden andar sobre el agua. Media hora después los carnomorfos alcanzan la isla pero no los persiguen; se ciernen sobre los cadáveres y, desde los botes, los ven crecer y cambiar de forma.
+}}
+
+{{wide
+Dos horas después se alza frente a ellos el Castillo Naerytar: piedra vieja, techos hundidos, foso completo, un corral de lagartos al sur, pabellones de caña fuera del muro y, al norte, el barrizal de los bullywugs. Al atracar observan patrullas mixtas: bullywugs y hombres lagarto conviven aquí, y nadie se extraña de verlos llegar. Sinsong y Eguzkilore visten sus túnicas de cultista mientras Atzi y Tompu le repiten a Nuberroca que la tribu obedece a **Dralmorrer** y, por encima de él, a **Rezmir**, *la señora dragón*: pelearán contra los bullywugs, pero no contra ella. Nuberroca pide tres planes con una condición — *"uno de los planes tiene que ser violento"*. Sinsong avanza a explorar en solitario.
+}}
+
+{{wide
+El enano cruza caminando sobre el agua bajo la mirada sorprendida de todo el mundo, y luego se adentra hacia el sur. Unos minutos más tarde atisban su silueta volando sobre las almenas y cayendo entre matorrales junto al portón. Un mago bullywug sale de la torre, posa una mano sobre el arbusto más tupido y canta en una lengua extraña: la vegetación se aparta revelando al enano y varios bullywugs se lo llevan dentro antes de que los héroes puedan intervenir. Mientras tanto Nuberroca convence al cuidador del corral con un trozo de cocodrilo para quedarse con Juancho — *"creo que he hecho un amigo"* — y el grupo rodea el castillo: una sola grieta transitable al noreste.
+}}
+
+{{wide
+Al mediodía entran por el portón: Eguzkilore con la túnica echada, Mialee con el emblema del culto, Nyx con el colgante de los Arpistas bajo la capa; Nuberroca se queda fuera, demasiado grande para pasar desapercibido. Dentro, el suelo es una ciénaga de barro y mugre de bullywug. De la fragua llegan martillazos, se detienen, y diez segundos después se oye un grito corto, agonizante, de mujer. Un guerrero pálido con tatuajes en su cráneo afeitado sale del taller arrastrando el cuerpo exangüe, y **al ver a Eguzkilore vestido de cultista, le arroja el cadáver**. Un guardia los interpela; Nyx se adelanta — nueva recluta — y la mentira cuela. *"Ya sabes qué hacer con el cuerpo"*, les dice el guardia, y salen con la mujer a cuestas. Fuera, Mialee huele la nigromancia en la herida: una punción al corazón que apenas manchó la tela, la sangre drenada. Queman el cuerpo junto al río y Nyx dedica unas palabras a Yondalla.
+}}
+
+{{wide
+A media tarde vuelven Tompu y Atzi: uno de cada tres hombres lagarto se alzará contra los bullywugs, pero ninguno contra el culto. **Pharblex**, el jefe bullywug, mató al chamán más fuerte del clan, **Suncaller**, y vive en las cavernas bajo el castillo; los bullywugs se zambullen en el foso y no vuelven a asomar, así que debe de haber otra vía por el agua. Nuberroca propone atraer a los carnomorfos y dejarlos devorar la aldea bullywug mientras ellos caen sobre Pharblex, y encara a los dos hombres lagarto: los pabellones se pueden rehacer diez kilómetros al norte, y el día en que mueran en sus camas van a desear haber aceptado esta oportunidad de alzarse de sus cenizas. La arenga cuaja, pero Mialee y Nyx frenan el plan: antes de invitar a devoradores conviene ver si la ruta por el agua existe al menos.
+}}
+
+{{wide
+El foso al este, de más de cinco metros de profundidad, se ve negro por los desechos. Nyx entra a palpar en busca de la entrada cuando un cocodrilo sale a la superficie, le cierra las fauces sobre la pierna y la arrastra bajo el agua; **Nuberroca se lanza tras ella, la saca de un empujón y cercena a la criatura con la alabarda nada más llegar a tierra**. Mialee suelta raciones con una mano espectral cuando un segundo cocodrilo, gigantesco, embiste al goliath, lo tumba y lo deja ensangrentado en el barro. Eguzkilore y Nyx lo acribillan a flechas, Atzi remata con la maza a otro más pequeño, y Nuberroca abate al grande al siguiente golpe. Arrastran los cuerpos a la orilla para Juancho y Atascaburras.
+}}
+
+{{wide
+Mialee se zambulle y palpa la piedra en la oscuridad hasta dar con la hendidura — estrecha hasta para Nuberroca, con una corriente fina que tira hacia dentro. Pasa un cabo a Eguzkilore con su mano espectral, Nuberroca empalma tres cuerdas para que no les falte, y las dos se zambullen con las manos sobre la cuerda. La primera inmersión, derecha y luego izquierda, acaba en ranuras demasiado estrechas; la segunda, tres veces a la derecha, en otro muro; a la tercera, derecha, derecha, izquierda, se les acaba la cuerda antes que el túnel. Mialee ha llegado a su límite. **Nyx sigue sola, arrastrando el cabo tras ella.** Nada un palmo más allá del final de la cuerda, se aprieta por una estrechez que cede al rozarla, y emerge en un lago subterráneo donde pasan grandes renacuajos: la cámara de cría bajo el castillo, donde los hombres lagarto habían situado a Pharblex. Vuelve siguiendo la cuerda y cuenta a los suyos: la última bifurcación abre al lago, y por la estrechez podrá pasar hasta el goliath si del otro lado hay manos que tiren.
+}}
+
+{{pageNumber,auto}}
+{{footnote Tiranía de Dragones | Sesión 44}}
+
+\page
+
+# Sesión 55 {{float:"right" 11 Octubre 2026}}
+{wide}
+
+{{wide _16 Hammer 1490 DR_ }}
+
+{{wide
+En torno a la casa de caza, el grupo está disperso en varios frentes. Mialee, aún invisible por un conjuro del tortle, patrulla el perímetro mientras Nuberroca pega el oído a la ventana de la cocina y Nyx le sigue un paso detrás. De las voces del interior pescan dos nombres: Talis la Blanca espera invitados, y hay rivalidad con un tal Borngray — Amidamaru lo reconoce después como Dralmorrer Borngray, lugarteniente de Naerytar. Reunidos entre los pinos acuerdan la coartada: entrarán como refuerzos que Dralmorrer les ha mandado por un problema de goblins, con las insignias de Arpistas y Torm bien escondidas, las capas de cultista puestas y un colgante de dragón en el cuello del tortle. Nuberroca se queda fuera con el lobo invocado de Kaelthar. Dentro, el mayordomo se presenta como Gastyn y Sinsong improvisa — son escolta del Gran Tharn, el mejor cocinero del reino — y Gastyn, desconcertado pero poco dispuesto a discutir, los acomoda en dos aposentos y una sala. Nyx añade entonces el verdadero pretexto — vienen de parte de Dralmorrer con asuntos para Talis — y el mayordomo se compromete a avisarla.
+}}
+
+{{wide
+Mialee, invisible, sube las escaleras y vacía una armería. En la sala contigua encuentra, dominando el muro sur entre dos chimeneas, un tapiz de Tiamat de un valor incalculable. Deja la pieza donde está y baja. Nuberroca arranca de la pared la cabeza metálica de un toro y, por travesura, la deja caer sobre Sinsong — *"toma"* — y el enano se derrumba al suelo. Un rato después, cuando Sinsong prueba suerte con una proposición susurrada a Arlaenga — la sirvienta, una mujer madura de cabello castaño —, ella le estampa una bofetada que le deja cinco dedos marcados en la mejilla. Al recorrer con la mirada la pared de trofeos Sinsong reconoce de pronto la cabeza del grifo montado como *Targutai*, su propia montura perdida, y a partir de ese instante lo repite entre bocados durante la cena. Arlaenga, incómoda, deja caer que el señor anterior, **Lord Marsten**, murió hace meses en un accidente de caza. En cuanto ella sale a por vino el grupo actúa: Nuberroca descuelga la cabeza del grifo y, al apoyarla en la mesa, suena dentro un tintineo de cristal — mete el brazo por detrás y saca dos frascos, Amidamaru proyecta sobre el soporte una ilusión del trofeo, y el goliath lanza la verdadera al barro por la ventana. Cuando Arlaenga regresa con el vino no advierte nada fuera de lugar.
+}}
+
+{{wide
+Entrada la noche, las excentricidades se multiplican. Nuberroca prueba suerte con Arlaenga ofreciéndose a llevarla a la cama; esta vez ella no le abofetea — le teme — y sale a buscar a Gastyn, que recoge al bárbaro con un cortés *"señor azul, acompáñeme"* y lo conduce por un pasillo estrecho hasta un cuarto de baño humeante donde Mialee se cuela tras él. Lo que allí ocurrió sólo ellos dos lo saben. Y Sinsong, con la excusa del retrete, sale al escalón de la puerta, se acuclilla, defeca sobre la tierra y **ofrece el montículo en voz alta a cualquier dios que quiera escucharle**. Después, en el recibidor, el enano se arrima a los dos juegos de armadura élfica expuestos y al tocar el yelmo del primero se queda rígido como el metal mismo; Nuberroca lo arrastra a la chimenea para deshelarlo y, a la segunda tentativa, el guantelete vuelve a dejarlo igual. Mientras se descongela, el grupo examina la lanza que Mialee había robado arriba: sólo Kaelthar lee la lengua dracónica del astil — *"los ojos de Tiamat brillan"* — y la punta comienza a resplandecer. Nyx se burla desde el fondo de la sala: *"una linterna"*, mientras la cara del bárbaro se desinfla.
+}}
+
+{{wide
+Doce campanadas suenan desde el piso de arriba, y las dos estatuas de demonios que flanquean la escalera se desprenden de sus pedestales y caen sobre Nuberroca; Mialee clava una flecha en la más cercana desde el umbral y Sinsong, firme en la puerta, les ordena huir — una obedece y escapa hacia el tejado. Entonces, en lo alto del rellano, aparece una semielfa pálida con armadura blanca: alza una palma abierta y pronuncia una sola palabra en una lengua que nadie reconoce, y las dos gárgolas vuelven mansas a sus pedestales. **Es Talis**, con un bastón de mando en una mano y una lanza en la otra. Los conduce a su cámara, donde un mapa del país montañoso desaparece plegado al verlos entrar. Abre con un *"gloria a Tiamat"* que el grupo repite, y acto seguido anuncia su encargo: por la mañana han de encontrar a la tribu goblin de los Nashkag y aniquilarla, hasta el último si es posible. Su jefe de guardia, Trepsin — un ser enorme, de cuatro brazos, piel de musgo y hedor insufrible —, ya ha matado a treinta o cuarenta goblins sin que la plaga ceda. **Desde la ventana el tortle lo ve subir el escalón de la casa, y detenerse en seco a sacudirse la ofrenda de Sinsong del pie, sobre la que acaba de pisar de lleno al entrar.** La semielfa envía a **Kusphia**, la cultista de la puerta, a por armas del almacén; cuando regresa con las manos vacías, murmura algo al oído de su señora que nadie alcanza a oír. A la salida Nyx deja caer un *"todo por Tiamat"* y las miradas frías de los guardias y de la cultista le dicen cuanto hay que saber. Fuera, en voz baja, lo confirma con los suyos: **a Talis no le han gustado sus saludos.**
+}}
+
+{{wide
+Se encierran en el cuarto sur, sin más lecho que una cama doble para seis, y Amidamaru alza sobre la cámara su refugio velado hasta el alba. En la vigilia Nyx pregunta a Sinsong por la figura que se agachó junto a ella al borde de la muerte — una enana de mano firme — y por la sed de cerveza que le entró después. Al enano se le escapa el nombre **Sharindlar** antes de contenerse, y en el acto le ruega a Nyx que no vuelva a pronunciarlo: el nombre verdadero se oculta, y a ella se la llama la **Dama de la Misericordia**, diosa enana de la curación. El alba los encuentra desvelados pero descansados, *con el encargo de aniquilar a una tribu de goblins a la que ya conocen*.
+}}
+
+{{pageNumber,auto}}
+{{footnote Tiranía de Dragones | Sesión 55}}
+
+\page
+
+# Sesión 56 {{float:"right" 25 Octubre 2026}}
+{wide}
+
+{{wide _17 Hammer 1490 DR_ }}
+
+{{wide
+El alba llega sin que el grupo haya pegado ojo. En la noche el tortle ha oído puertas abrirse con sigilo y unos pasos ante la suya, y al despertar nota una presión en el pecho, una brujería cuyo origen desconoce. Fenwick les lleva el desayuno; Eguzkilore busca venenos, Nuberroca engulle el suyo sin pensárselo y el tortle alega mal cuerpo y no prueba nada. Luego llega Angrath, antiguo jefe de cazadores bajo el difunto Lord Marsten, a despedirlos: los goblins apenas daban guerra antes de los nuevos amos, los trolls salvajes del monte sirven ahora a Talis, y a los demás se los comió un dragón blanco que llega del sureste a visitar a la señora. Nuberroca suelta sin pensarlo que son cultistas y aventureros, y Mialee le cubre el desliz con un alegre *"gloria a Tiamat"* que el viejo ignora al marcharse. El goliath golpea entonces la mesa y llama a gritos a su dios: un resplandor azul le recorre las heridas del cuello y se las cierra. Luego Talis los llama desde el piso de arriba. Nuberroca sale a tomar el aire y en el umbral se desploma, despierto pero sin fuerzas para moverse; Eguzkilore cae tras él, y Mialee, con la lengua pastosa y las piernas de plomo, apenas alcanza a pronunciar un hechizo para reaparecer en las tejas. Al tortle sólo lo salva su mal estómago. Abajo, Kusphia hace cargar los cuerpos al comedor y los encadena a las sillas; la droga arranca la verdad a quien la probó, y bajo las capas aparecen el puño enguantado de **Torm** en Nuberroca y Kaelthar, y el emblema de los Arpistas al cuello de Nyx. Talis pregunta quiénes son y el goliath lo suelta de un tirón — Greenest, el culto, el tesoro robado, el portal, el goblin que lo venció en el camino.
+}}
+
+{{wide
+Talis dice entonces lo que quiere: enderezar el mal del mundo y ver muerto a un tal **Varram** — nombre que ninguno reconoce —, y si **Rezmir** cayera en el proceso, mejor que mejor. Amidamaru pone sobre la mesa un libro de hechizos que dice haber arrebatado a un Mago Rojo, y los ojos de Talis lo miran con otro brillo. Se lo cambia por dos encargos: aniquilar a los Nashkag para ganarse las contraseñas y la vía al **Castillo en las Nubes**, y sabotear después el cargamento de Rezmir. Lo que encuentren será para ellos; Trepsin, el troll de cuatro brazos a sus órdenes, los acompañará como escolta y guardián. El dragón blanco, añade con reverencia, se llama **Glazhael**, y mientras no les guarde rencor nada les hará. Arriba, mientras tanto, Mialee pasa del tejado al cuarto de Talis, revienta un arcón y se lleva una bolsa de monedas y una cota de malla que irradia su propia luz pálida; cuando oye voces al otro lado se descuelga por el alero y rodea la casa para reunirse con los suyos en la puerta.
+}}
+
+{{wide
+Más de una hora los ancla el fármaco a las sillas, y cuando por fin cede Trepsin los pone en pie con un cachete al goliath — *"estás bien"* —, y en el escalón se para a sacudirse del pie la ofrenda que Sinsong había dejado la noche antes y sobre la que había pisado al entrar. Saca dos dracos del establo y los lleva al norte: dos horas de ascenso por un bosque helado tan silencioso como el troll que los guía, a Mialee se le entumecen los dedos y Nuberroca la mete bajo sus pieles. Entre los pinos aparece el primer brillo de ojos, luego otros muchos, hasta distinguir las puntas verdes de las orejas de un goblin. Ella y Amidamaru acuerdan en susurros dejar que ellos abran la pelea y, mejor aún, convencerlos de que caigan directamente sobre Trepsin. El troll se da la vuelta y les avisa: los goblins están cerca.
+}}
+
+{{wide
+Mialee traza en el aire sobre Trepsin una flecha de luz con un rótulo que sólo se lee desde arriba — *"goblins, atacadlo"* —, y a su lado Amidamaru dibuja unas pisadas de goblin en la nieve; el troll se detiene, las olfatea y se pone a rastrearlas. Un cuerno retumba, y le cae encima una lluvia de frascos encendidos: las llamas le corren por el cuerpo, pero cierra la capa y las sofoca como si nada. *"La capa lo escuda del fuego"*, informa Mialee a los suyos, mientras un frasco alcanza a Fenrir y le abrasa el pelo. Entonces distingue entre los árboles al que lidera a los arqueros — **Sohey**, el goblin que había tumbado a Nuberroca el día anterior — y le murmulla mágicamente al oído: también ellos quieren muerto al troll, que les ayude. La respuesta vuelve por el mismo hilo: *"demuéstralo"*. Y, cuando Eguzkilore dispara contra la bestia de cuatro brazos, la voz de Sohey se alza por encima del clamor — *"no son cultistas, matad al carnicero"* — y todas las flechas goblin se centran en el troll.
+}}
+
+{{wide
+Kaelthar carga sobre Fenrir y la espada corta profundo, pero Trepsin se vuelve y lo deja inconsciente a zarpazos, llamándolo traidor. Nuberroca le arrima una poción a los labios y los ojos del paladín se abren justo cuando Fenrir, destrozado, se desvanece con un aullido. Entra entonces el goliath con la alabarda, y al segundo tajo le cercena a Trepsin uno de los cuatro brazos, que cae al suelo y se le agarra a la bota. Mientras tanto, Sohey aparece a espaldas del troll y le entra con la cimitarra, obligando al monstruo a repartir la atención entre delante y detrás. Trepsin se abalanza sobre Eguzkilore en una lluvia de garras — una abre surcos profundos en una roca a su lado —, pero el elfo aguanta por los pelos y retrocede. **Afianzado entre dos rocas, suelta cuatro flechas en un solo aliento, y la última le atraviesa la garganta al troll.** Antes de que se regenere, el goliath grita y con forma de nube se posiciona a su espalda; con Trepsin de rodillas, le hunde la lanza en la nuca y la punta sale por el cuello. Desde la maleza, Sohey alza el pulgar al bárbaro. Amidamaru prende el cadáver con un dardo de fuego, Kaelthar invoca de nuevo a Fenrir, mientras los goblins estallan en una danza de victoria.
+}}
+
+{{pageNumber,auto}}
+{{footnote Tiranía de Dragones | Sesión 56}}
+
+\page
+
+# Sesión 57 {{float:"right" 8 Noviembre 2026}}
+{wide}
+
+{{wide _17 Hammer 1490 DR_ }}
+
+{{wide
+De la pira aún tibia, Mialee extrae de los restos del troll abatido un colgante que le resulta familiar y claramente mágico. Sohey, ante los suyos, hace cuenta: treinta y seis guerreros caídos a manos del carnicero, los dos de hoy incluidos. Luego se lanza al norte con una velocidad inhumana, y vuelve del oeste cuarenta minutos después, sin aliento, para devolver lo que los suyos habían robado — entre otras cosas la cuerda mágica de Nyx, que la halfling recibe con una leve extrañeza. Repara entonces en el colgante de Mialee: *hermano cercano del que ella misma lleva al cuello*. Entrega Sohey otros dos obsequios a los que saben de letras — anteojos para Mialee, pluma para Eguzkilore —, y la elfa le pide dos días de tregua y una prueba para los cultistas; el goblin asiente y sale disparado hacia el este. Mientras tanto, Sinsong intenta curar el ardor del pecho de Eguzkilore y al toque le brotan ronchas nuevas sobre el torso, se le cae el pelo a mechones y le salen ampollas por la cabeza. Hay enfermedades que rechazan la magia, recuerda el enano de las viejas historias: el mal cede solo tras unos días. Medio calvo y escocido, Eguzkilore atrapa al enano por el cuello: *"¿Y ahora cómo voy a ligar?"*
+}}
+
+{{wide
+Sohey vuelve del sur con un tótem al hombro, casi tan alto como él, prueba de su visita al poblado. Nuberroca le pide lecciones y se ofrece a quedarse atrás como falso caído; los demás exigen la primera clase allí mismo. **El goliath comienza con una carga de alabarda imparable, y pese a las piruetas imposibles del goblin, la punta roza su mejilla y le saca sangre. *"Vaya, eres bueno."*** Entonces Sohey baila: esquiva un ataque mortal, golpea al bárbaro con su propia arma en el costado, y lo lee golpe a golpe hasta que Sinsong corta el combate con el goliath medio deshecho. Una botella de ron ofrecida por el goliath le llega como si fuera oro — *"¡Hace años que no cato una!"* —, y a cambio el goblin deja un frasco cerámico como los que sus guerreros usaron contra Trepsin. Mialee le entrega unas figuritas talladas; Sohey promete ir cuando el grupo esté listo, para luchar contra todos a la vez, y les avisará con una piedra que manda mensajes. Nuberroca llama a su dios y un resplandor azul le cierra las heridas.
+}}
+
+{{wide
+En el camino de vuelta, Nyx los guía a través de la nieve gracias a sus propias marcas hasta el humo del pabellón de caza. Al llegar reparten los papeles: Kaelthar llevará el tótem y el diálogo, Amidamaru se oculta para no mostrar la capa del troll, y Mialee no entrará. Un kóbold corre a la casa; Nuberroca encuentra a los demás, todos armados para el combate. Se abre entonces la puerta: Talis sale con Kushpia al exterior, dos mercenarios detrás con las espadas desenvainadas. *"Talis, Nyx querría unas palabras contigo,"* dice Sinsong. La semielfa envaina y los invita a pasar, siempre que dejen las armas fuera; Sinsong y Kaelthar cruzan el umbral, Nyx se queda en la antesala — *"No vamos a entrar aquí a que nos apuñalen"* — y Eguzkilore suspira y entra a su lado. Talis se lleva los dedos a los labios y silba.
+}}
+
+{{wide
+Dos virotes brotan del muro este y se clavan en Nyx, mientras una bola de hielo de Talis revienta sobre Kaelthar; el dracónido y el clérigo son apresados. Nyx invoca un área de silencio sobre el fondo del vestíbulo cuando Kaelthar escupe un cono de llamas sobre los kóbolds, calcinando a dos. Nuberroca se une al combate con un alabardazo sobre Kushpia, a la que Mialee cose a flechas desde la distancia. **Atado por un vínculo mágico, Sinsong siente la lanza de Talis acercarse al pecho de Nyx y aparece a su lado en el instante del impacto: el frío lo envuelve a él en su lugar, mientras Talis lo mira sorprendida.** Mialee acaba con Kushpia por la espalda cuando Nuberroca exige a la semielfa que se desarme — *"¡Suelta la lanza, dámela y te perdono la vida"* — atacándola antes de que pueda responder. Herida, Talis invoca un enjambre de avispas. Sinsong y Eguzkilore caen sin sentido — la cicatriz de la nuca del enano destella un instante — mientras los demás aguantan a duras penas. La maga intenta escapar pero su propio enjambre la derriba antes del umbral; Talis cae y las avispas se deshacen en humo. **Nuberroca lanza la alabarda como una jabalina al otro extremo del vestíbulo: atraviesa el visor y el cráneo de Sorvic, que sale despedido y termina clavado al muro norte.** En el mismo movimiento, recoge la lanza caída: *Dragongleam*, el arma mágica que Talis le había arrebatado esa mañana.
+}}
+
+{{wide
+El ventanal sur revienta en una lluvia de cristal y madera: un troll sale y cae sobre Fenrir, y Kaelthar siente el vínculo quebrarse cuando el lobo se disuelve en aire. Eguzkilore le da a Sinsong una baya y se incorpora, juntando fuerzas. **Sinsong se alza con una hueste de guardianes feéricos: las formas etéreas se cuelan por las aspilleras y los gemidos de los ballesteros vuelven por las rendijas; once kóbolds caen en silencio a su paso por el recibidor.** Un tajo de Dragongleam acaba con Wessic, pero poco después Nyx cae ante dos gárgolas. Mialee entra con prisas gritando *"¡Troll!"* y la magia de las armaduras la congela en el umbral. Nuberroca carga, atraviesa el arco de escarcha y le hunde Dragongleam al monstruo; el elfo lo remata y lo prende con una antorcha. Un segundo troll arranca la ventana de la antesala y abre al elfo un tajo entre las piedras. Sinsong avanza contra un tercero; **cuando este golpea al enano, Kaelthar es arrastrado por el vínculo y recibe el daño en su lugar; un segundo zarpazo derriba también al clérigo.** Nuberroca lo reanima con una poción. Y desde el corredor oeste, Fenwick el cocinero sale al frente de un puñado de siervos armados: *"¡Pero qué cojones! ¿Talis ha muerto? ¡A por ellos!"*
+}}
+
+{{pageNumber,auto}}
+{{footnote Tiranía de Dragones | Sesión 57}}

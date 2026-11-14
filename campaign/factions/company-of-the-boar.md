@@ -14,7 +14,7 @@ A rival adventuring company encountered on the Trade Way during the party's cara
 
 ## Reputation
 
-Self-advertised at *El Reposo en el Camino* as having killed a good count of trolls, a lich in the Realms of the Dead, and a giants-threat in the mountains. The pitch is a hire-on-the-spot sales line delivered to the assembled merchants.
+Self-advertised at *The Wayside Rest* as having killed a good count of trolls, a lich in the Realms of the Dead, and a giants-threat in the mountains. The pitch is a hire-on-the-spot sales line delivered to the assembled merchants.
 
 ## Members in the campaign
 
@@ -25,7 +25,7 @@ Self-advertised at *El Reposo en el Camino* as having killed a good count of tro
 
 ## Party stance
 
-Rival / competitive, hostile after S20. First contact at *El Reposo en el Camino* on 11 Uktar 1489 DR (S18).
+Rival / competitive, hostile after S20. First contact at *The Wayside Rest* on 11 Uktar 1489 DR (S18).
 
 ## Campaign notes
 

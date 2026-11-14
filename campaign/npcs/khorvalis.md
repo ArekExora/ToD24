@@ -38,7 +38,7 @@ Not defined.
 
 ## Campaign notes
 
-- 11 Uktar 1489 DR (S18) — At *El Reposo en el Camino* with the Company of the Boar. Declined Nuberroca's pre-dinner brawl challenge, saying he reserves his strength for real enemies; when Nuberroca invoked his goliath Large Form, Khorvalis stayed put and remarked he does not use dirty tricks like magic to look stronger or frighten companions.
+- 11 Uktar 1489 DR (S18) — At *The Wayside Rest* with the Company of the Boar. Declined Nuberroca's pre-dinner brawl challenge, saying he reserves his strength for real enemies; when Nuberroca invoked his goliath Large Form, Khorvalis stayed put and remarked he does not use dirty tricks like magic to look stronger or frighten companions.
 - 22 Uktar 1489 DR (S21) — Killed by trolls after fleeing the troll-ambush camp on 17 Uktar. His severed hand and his axe found by Nyx at a churned patch of ground west of the Trade Way, along with a bloody scrap of his clothing the hoof of a devoured horse.
 
 ## Notes

@@ -1,6 +1,12 @@
 # Campaign timeline
 {wide}
 
+<style>
+  table { table-layout: fixed; width: 100%; }
+  table th:nth-child(1), table td:nth-child(1) { width: 4em; }
+  table th:nth-child(2), table td:nth-child(2) { width: 5em; }
+</style>
+
 {{runeTable,wide,frame
   {{note
   ## Greenest in flames
@@ -53,7 +59,7 @@ The cult has dispersed with the stolen cargo. The party must catch them.
 ### Uktar 1489 DR
 | Date    | Session  | Event                      |
 |:--------|:---------|:---------------------------|
-| 1       | S12      | Party arrived at **Elturel** and met **Ontharr Frume** at the A Pair of Black Antlers tavern. |
+| 1       | S12      | Party arrived at **Elturel** and met **Ontharr Frume** at the **A Pair of Black Antlers** tavern. |
 | 2       | S12      | **Ontharr** and **Leosin** tasked the party with tracing the cult's stolen cargo to uncover their plans. |
 | 2       | S12      | **Nuberroca** sworn into the **Order of the Gauntlet** by Ontharr. |
 }}
@@ -86,7 +92,7 @@ A long caravan journey up the Trade Way, with the party riding alongside the sus
 |:--------|:---------|:---------------------------|
 | 6       | S14      | Party hired on as caravan guards bound for **Waterdeep**. |
 | 6       | S15      | Party departed **Baldur's Gate** up the **Trade Way** with the caravan; **Sinsong** left behind in the city. |
-| 11      | S18      | Party met the **Company of the Boar** at **El Reposo en el Camino**. |
+| 11      | S18      | Party met the **Company of the Boar** at **The Wayside Rest**. |
 | 11      | S18      | **Mialee** lifted a bloodied golden chalice from a cultist cart, confirming cult loot in the caravan. |
 | 12      | S19      | Party fired from caravan contracts; **Company of the Boar** hired in their place. |
 | 17      | S20      | **Company of the Boar** deserted the caravan and stole four horses during a troll attack. |

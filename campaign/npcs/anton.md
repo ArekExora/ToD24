@@ -38,7 +38,7 @@ Not defined.
 
 ## Campaign notes
 
-- 12 Uktar 1489 (S19) — Travelling with Darla and Gus the humble on their cart when the party was fired at *El Reposo en el Camino*; the family takes Nuberroca on as guard for a share of their food.
+- 12 Uktar 1489 (S19) — Travelling with Darla and Gus the humble on their cart when the party was fired at *The Wayside Rest*; the family takes Nuberroca on as guard for a share of their food.
 
 ## Notes
 

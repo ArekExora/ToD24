@@ -40,7 +40,7 @@ Not defined.
 
 ## Campaign notes
 
-- 11 Uktar 1489 DR (S18) — Met at *El Reposo en el Camino*; climbed on a table to announce the company. Sold Nyx the "troll trick" for one gold piece, revealing the tusk pendant.
+- 11 Uktar 1489 DR (S18) — Met at *The Wayside Rest*; climbed on a table to announce the company. Sold Nyx the "troll trick" for one gold piece, revealing the tusk pendant.
 
 ## Notes
 

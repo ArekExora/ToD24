@@ -21,7 +21,7 @@ locations:
 ## 1 - The chalice revealed
 _~08:00, 12 Uktar 1489 DR_
 
-1. Morning in **Olver**'s *El Reposo en el Camino*. The heavy rain that broke over the roof the night before is still coming down. The party gather in the privacy of their upstairs room and Mialee shows what she lifted the previous night. A **golden chalice**, its interior crusted with old blood, from the chest she had picked aboard the cultist wagon. Along with it a bundle of other valuables of the same cut — plate, buckle-work, a short knife with chased hilt — read by the party as loot that could as easily have come out of **Greenest** weeks before.
+1. Morning in **The Wayside Rest**, **Olver**'s inn. The heavy rain that broke over the roof the night before is still coming down. The party gather in the privacy of their upstairs room and Mialee shows what she lifted the previous night. A **golden chalice**, its interior crusted with old blood, from the chest she had picked aboard the cultist wagon. Along with it a bundle of other valuables of the same cut — plate, buckle-work, a short knife with chased hilt — read by the party as loot that could as easily have come out of **Greenest** weeks before.
 2. The chalice is treated as confirmation of what the party has long suspected about the three merchant wagons at the front of the caravan: cultists in the convoy, from the same operation that burned Greenest. The question in the room shifts from *are they* to *how do we move on it before Waterdeep*.
 
 ## 2 - A matter of horses

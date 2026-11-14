@@ -38,7 +38,7 @@ Not defined.
 
 ## Campaign notes
 
-- 11 Uktar 1489 DR (S18) — At *El Reposo en el Camino* with the Company of the Boar; named in Jorath Vexundar's hire-on-the-spot pitch as the lich-slayer of the Fields of the Dead.
+- 11 Uktar 1489 DR (S18) — At *The Wayside Rest* with the Company of the Boar; named in Jorath Vexundar's hire-on-the-spot pitch as the lich-slayer of the Fields of the Dead.
 
 ## Notes
 

@@ -581,7 +581,17 @@ def compose_arc_events_block(
 
 
 def compose_timeline(arcs: Dict[str, Arc], events: List[Event], footer: List[str]) -> str:
-    out: List[str] = ["# Campaign timeline", "{wide}", ""]
+    # Inline CSS pins the Date and Session column widths so every event table
+    # across every page lines up visually, regardless of its own content width.
+    # All tables in this brew are event tables with the same three columns.
+    style_block = [
+        "<style>",
+        "  table { table-layout: fixed; width: 100%; }",
+        "  table th:nth-child(1), table td:nth-child(1) { width: 4em; }",
+        "  table th:nth-child(2), table td:nth-child(2) { width: 5em; }",
+        "</style>",
+    ]
+    out: List[str] = ["# Campaign timeline", "{wide}", ""] + style_block + [""]
     grouped = group_events_by_arc_month(events)
     arc_order = sorted(arcs.values(), key=lambda a: a.opened_sort)
 

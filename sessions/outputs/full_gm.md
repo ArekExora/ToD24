@@ -1364,7 +1364,7 @@ None this session.
 {{descriptive
 #### Summary
 - **Hobgoblin ambush defeated** — Oyn Evenmor saved on the road; disciplined hobgoblin retreat after their captain fell.
-- **Company of the Boar** — met at the wayside tavern "El Reposo en el Camino".
+- **Company of the Boar** — met at the wayside tavern *The Wayside Rest*.
 
 }}
 
@@ -1376,7 +1376,7 @@ None this session.
 - ~08:30 (11 Uktar) — Amidamaru re-summons Munin; Sulesdeg downs an exotic bird mid-march with crossbow bolts.
 - ~11:00 — Routed a hobgoblin/bugbear ambush on a merchant's wagon; Eguzkilore drops the fleeing captain.
 - Rescued Oyn Evenmor, exotic-bird merchant bound for Waterdeep; cages mended, guards healed.
-- ~20:00 — Caravan reaches El Reposo en el Camino; the Company of the Boar is already there.
+- ~20:00 — Caravan reaches *The Wayside Rest*; the Company of the Boar is already there.
 - Mialee leaves an illusory double at the table, slips invisible to the cultist wagon, picks the chest; findings undisclosed.
 - Long rest. Heavy rain overnight.
 
