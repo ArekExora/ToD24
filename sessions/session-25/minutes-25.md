@@ -39,20 +39,28 @@ _~14:00, 21 Nightal 1489 DR_
 3. **Beyd**'s instruction is that the party should prove the goods are what they say. Sulesdeg sets his sword into the lid of one of the crates and splits it open; what spills is what the party has been saying — chalices, religious icons in precious metal, bags of gems prised from temple statues, a few pieces smeared with old blood. The four lead merchants — **Edhelri**, **Noohar**, Lai, and Beyd — pull apart from the rest and talk it over.
 4. Beyd's first proposal, overheard, is to bury the cultists on the road and share the plunder among the surviving merchants and guards. Amidamaru cuts in — the gold has to go back to the villages it was taken from, through the Order of the Gauntlet; Nyx steps up behind him with the same line — they have tracked these cultists all the way from Greenest and will not see the loot broken up at the roadside.
 5. ***[EPIC]*** As Amidamaru's words carry — *the Order of the Gauntlet* — Nuberroca stands tall and lets his frame grow to giant size behind him; he hauls the furs off his shoulders and shows the great fist blazoned on the breastplate underneath.
-6. Nuberroca rounds on the merchants — the Company of the Boar they had hired for protection bolted the night the trolls came, the party and the caravan guards paid for it, and now these same merchants want to carve up stolen gold between them. Mialee opens the door a crack to gifting the humble family a coin or two, but no more than that. Lai sides with the party against the carve-up — pack the crates into two carts, abandon the third for parts, run the whole load to Waterdeep, and let the city's justice resolve the ownership.
-7. Searching the wagons for papers Amidamaru turns up a note that names the destination as ***Carnath***; the party learns the name is a roadhouse along the Trade Way past Waterdeep. Mialee adds that she remembers a *Castle Naerytar* as destination, though no one in the party can place where it is. Amidamaru also prises three or four rubies and small stones from the loot for his own scroll work.
-8. The practical work takes the rest of the daylight. Amidamaru patches the broken family wagon out of parts cannibalised from the one being abandoned. Nuberroca brings the humble family forward — **Gus** and **Darla**, with **Anton** travelling with them — and moves their wagon to third position so he can keep eyes on both the family and the cultists at once.
-9. **Paco** — the cultist guard Amidamaru had grown fond of, scorched during the fight — is laid out apart from the others at the tortle's insistence. Amidamaru closes his eyes and covers him with a blanket. Nuberroca — still large from the breastplate moment — heaps the other two cultist dead in a pile and sets the surviving suspect propped against one of them, *"we'll talk later, criminal"*.
+6. Nuberroca rounds on the merchants — the Company of the Boar they had hired for protection bolted the night the trolls came, the party and the caravan guards paid for it, and now these same merchants want to carve up stolen gold between them. Mialee opens the door a crack to gifting the humble family a coin or two, but no more than that.
+7. Lai sides with the party against the carve-up — pack the crates into two carts, abandon the third for parts, run the whole load to Waterdeep, and let the city's justice resolve the ownership.
 
-## 3 - A cultist in the ground
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 25}}
+\page
+
+## 3 - Papers of the dead
+
+1. Searching the wagons for papers Amidamaru turns up a note that names the destination as ***Carnath***, a roadhouse along the Trade Way past Waterdeep. Mialee remembers *Castle Naerytar* as destination, though no one in the party can place where it is. Amidamaru also prises three or four rubies and small stones from the loot for his own scroll work.
+2. The practical work takes the rest of the daylight. Amidamaru patches the broken family wagon out of parts cannibalised from the one being abandoned. Nuberroca brings the humble family forward — **Gus** and **Darla**, with **Anton** travelling with them — and moves their wagon to third position so he can keep eyes on both the family and the cultists at once.
+3. **Paco** — the cultist guard Amidamaru had grown fond of, scorched during the fight — is laid out apart from the others at the tortle's insistence. Amidamaru closes his eyes and covers him with a blanket. Nuberroca — still large from the breastplate moment — heaps the other two cultist dead in a pile and sets the surviving suspect propped against one of them, *"we'll talk later, criminal"*.
+
+## 4 - A buried cultist
 _~16:00, 21 Nightal 1489 DR_
 
 1. The party splits into two groups to work on the four live captives. Nuberroca, Mialee, and Eguzkilore take the apparent leader — the one Mialee had on the ground — out past the carts; Amidamaru, Kaelthar, and Nyx take the other three to the opposite side.
 2. Eguzkilore digs a pit and the three of them put the lead cultist in it up to the neck, blindfolded with a strip torn off his own shirt. Nuberroca lies down face to face with him and asks whether he would rather speak now and die with honour or die like the rat he is. The cultist's answer comes level: *"Tiamat's kingdom will come soon, and my sacrifices will not be in vain. I have no fear of death"*.
-3. Nuberroca lets the fury take him to scare the prisoner — but the cultist's fanaticism holds against fear and intimidation both; the man answers only with the long speech of his order — the world will be a better place under the dragons. Nuberroca plants the lance a few inches from the cultist's face: *"you are this close to your goddess, right now"*. The cultist does not break.
+3. Nuberroca lets the fury take him to scare the prisoner — but the cultist holds against fear and intimidation both; he answers only with the dogma of his cult — the world will be a better place under the dragons. Nuberroca plants the lance a few inches from the cultist's face: *"you are this close to your goddess, right now"*. The cultist does not break.
 4. ***[EPIC]*** Mialee sets a small wooden chest down on the ground beside the cultist's head and conjures an illusion out of it — four scorpions, clambering over the rim and walking toward his bound-eyed face. Nyx, as the illusion carries them in, lays a sound of her own under it — the dry rasp of claws on gravel, so close the cultist feels it on his cheek. The cultist breaks. The caravan's destination was always to cross Waterdeep and go on a little further to Carnath Roadhouse; the goods were for the Lady Dragon, whose colour he gives as black.
 
-## 4 - The pendant trick
+## 5 - The pendant trick
 
 1. On the other side of the camp Amidamaru hangs the cultists' dragon pendant around his own neck, slaps the prisoners awake, and casts a charm across all three of them at once; two shake it off, the third — the sergeant — settles into looking at Amidamaru like a friend. Amidamaru leans into the role, pendant forward, and asks the sergeant who he is supposed to meet at Carnath Roadhouse.
 2. The sergeant has nothing to give him. He is not a cultist at all — a mercenary hired out of Baldur's Gate to run with the caravan as far as Waterdeep, no questions asked about who paid him or what the cargo was. He has watched his companions die, he does not want to go the same way, and he asks only to be released and allowed to walk to the next town on his own feet. The sense of him sits sincere, so the party lets him go.
@@ -60,7 +68,11 @@ _~16:00, 21 Nightal 1489 DR_
 4. Nyx takes the last of the three aside and asks him in a low voice what he can offer for his life. His answers come back the same as his companion's — the goods are for the Lady Dragon, colour black. Kaelthar, close enough to listen in, asks the dragon's name and the cultist reluctantly answers: **Rezmir**; he then asks whether they are guarding sacred eggs for the lady, and the cultist tells him no — he would consider that an enormous honour. Nyx slaps the cultist once across the face and leaves it there.
 5. At dusk, with the interrogations wrapped and the prisoners tied behind the carts, the three dead cultists burn under Kaelthar's dragon-breath — the two in the pile and Paco where he had been laid apart — so nothing comes back out of the mountain at night. Amidamaru shapes a small glowing stone to mark Paco's resting place.
 
-## 5 - Throats cut in the night
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 25}}
+\page
+
+## 6 - Throats cut
 _~19:00, 21 Nightal 1489 DR_
 
 1. The caravan agrees, with some reluctance, to stay with the party; they can tell from the way the merchants look at them now that something has shifted. The convoy is too far behind to reach the next town before dark and makes a cold camp off the road halfway in. The watch is organised badly — Amidamaru first, Nyx second, Eguzkilore for the long end, Nuberroca, Kaelthar, and Mialee not actually on the rotation at all because the decanting of hours did not get worked through properly.
@@ -68,14 +80,20 @@ _~19:00, 21 Nightal 1489 DR_
 3. Nyx walks the ground around the cart as the camp wakes. She can read the trace of someone who came up on the carts well before her patrol passed, and the patrol tracks that walked across those tracks afterwards — her own, going by — but the ground is bare stone and the trail does not carry beyond that. Kaelthar casts his sense out for any undead or celestial lingering nearby and finds nothing. Nobody saw anything on any of the watches.
 4. Mialee goes around the camp while people are breaking fast, looking for blood on anyone's clothes. She finds a smear on the sole of Eguzkilore's shoe — a single mark, nowhere else on him. He claims he must have stepped in it while looking at the body. The sense of him sits uncertain, but she lets it rest.
 
-## 6 - Daggerford
+\column
+
+## 7 - Daggerford
 _~13:00, 22 Nightal 1489 DR_
 
 1. The caravan makes Daggerford four hours after breakfast, where the merchants settle to lose the day in town and set out again the next morning. Sulesdeg and a knot of guards stay with the parked carts. Nuberroca has the surviving cultist tied against his chest facing outwards all the way in — like a baby in a sling, so the prisoner has to look at everything Nuberroca looks at — mouth gagged at Mialee's insistence. Mialee stays close while Nuberroca carries him into the tavern and drinks beer in his face, drool falling on him: *"you thought death was the worst thing that could happen to you"*. Every eye in the place is on them.
 2. The errands move quickly. Eguzkilore buys arrows at a stall but otherwise sticks close to the carts; Amidamaru fills Mialee's order for incense and takes a few extra for his own work; Nuberroca asks after rope and Nyx hands him hers off her belt — she has plenty. Amidamaru also asks after a smith in town for a commission he intends to settle.
 3. Nyx passes Eguzkilore the magical longbow she has carried since the golden stag crossed their path and takes his ordinary longbow in exchange; neither of them makes a fuss about it, the trade is just quietly done over a drink.
 
-## 7 - The elf at the gate
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 25}}
+\page
+
+## 8 - The elf at the gate
 _~09:00, 23 Nightal 1489 DR_
 
 1. The next morning the caravan goes out light. The noble with his mage and his guard are stopping in Daggerford for their own business; the mercenary hired by the cult has walked off before the caravan rolled out; and the two sisters — **Arietta** and **Zelina** — are gone. Nobody saw them leave and nobody remembers when they last saw them. Nuberroca jokes that it might have been the sisters who did the cultist in the night.
