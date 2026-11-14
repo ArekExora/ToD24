@@ -1,5 +1,5 @@
 {
-  "generated_at": "13/11/2026",
+  "generated_at": "14/11/2026",
   "campaign": {
     "pdfs": {
       "saga": "sessions/outputs/Saga.pdf",
@@ -335,7 +335,7 @@
       "pdfs": {
         "saga": null,
         "gm": null,
-        "minutes": null
+        "minutes": "sessions/session-25/outputs/S25 - Minutes.pdf"
       }
     },
     {
