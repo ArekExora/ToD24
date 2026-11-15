@@ -160,7 +160,7 @@ The per-session file carries the **data layer only** — arc title(s), month sub
 
 - **H1 title:** `# Session NN timeline` — single H1, zero-padded `NN`, blank line after.
 - **Arc title.** `## <Title>` (H2). Must match a `##` heading in [`campaign/arcs.md`](../../../campaign/arcs.md) exactly. No "Arc:" prefix. No description, no date-range line, no Homebrewery frame — those live in `arcs.md` and are added by the build script when rendering the campaign timeline. One arc section per arc the session touches (usually one).
-- **Month sub-header.** `### <FullMonth> <YYYY> DR` — month name from the `Full` column of [`campaign/calendar.md`](../../../campaign/calendar.md). One per in-fiction month the session touches; most sessions touch only one. A fresh event table starts under each sub-header.
+- **Month sub-header.** `### <FullMonth> <YYYY> DR` — month name from the `Full` column of [`campaign/calendar-of-harptos.md`](../../../campaign/calendar-of-harptos.md). One per in-fiction month the session touches; most sessions touch only one. A fresh event table starts under each sub-header.
 - **Event table.** Markdown table with three left-aligned columns directly below each month sub-header:
 
   ```
@@ -174,7 +174,7 @@ The per-session file carries the **data layer only** — arc title(s), month sub
   - single day: `22`
   - range within one month: `22 - 23`
   - range crossing months: write the crossing month explicitly on the far side of the range (`30 - 2 Uktar`). The row still sits under the earlier month's sub-header. Use sparingly.
-  - **intercalary day** (no day number): render with the **full name** per [`campaign/calendar.md`](../../../campaign/calendar.md), e.g. `Feast of the Moon`. Place the row under whichever `### <Month>` sub-header is semantically closest; when in doubt, use the month **before** the intercalary.
+  - **intercalary day** (no day number): render with the **full name** per [`campaign/calendar-of-harptos.md`](../../../campaign/calendar-of-harptos.md), e.g. `Feast of the Moon`. Place the row under whichever `### <Month>` sub-header is semantically closest; when in doubt, use the month **before** the intercalary.
   - No month name unless the range crosses months. No year. No `DR`. No `~HH:MM` time prefix.
 - **Session cell.** `S<NN>` only — no parentheses, no prefix. Zero-padded to two digits (`S01`, `S07`, `S12`). The explicit session cell lets a row be copy-pasted or merged into `campaign/timeline.md` without losing its session anchor.
 - **Event cell.** The event text. One short clause, not a sentence with multiple clauses. Prefer merging a death and its same-session resurrection into a single clause over splitting. If the event text runs to more than ~20 words, re-grain it: either it bundles distinct events (split and reconsider which qualify), or it carries tactical colour that belongs in the minutes (trim).
@@ -218,7 +218,7 @@ Print a one-line status (file written + arc count + event count) and stop.
 ## Reference
 
 - **Arcs registry:** [`campaign/arcs.md`](../../../campaign/arcs.md) — single source of truth for arc title, description, open date, close date. GM-maintained manually. The skill reads but never writes.
-- **Calendar:** [`campaign/calendar.md`](../../../campaign/calendar.md) — authoritative source for FR month names, abbreviations (used in event lines), and intercalary days. **Do not inline month names in this file or rely on memory — the calendar file is the single source of truth.**
+- **Calendar:** [`campaign/calendar-of-harptos.md`](../../../campaign/calendar-of-harptos.md) — authoritative source for FR month names, abbreviations (used in event lines), and intercalary days. **Do not inline month names in this file or rely on memory — the calendar file is the single source of truth.**
 - **Minutes schema:** [`sessions/templates/minutes-template.md`](../../../sessions/templates/minutes-template.md).
 - **Campaign build script:** `build_full_timeline.py` (planned sibling of `build_full_gm.py` / `build_full_saga.py`) composes `campaign/timeline.md` from per-session files + `arcs.md`. Additive by design — preserves manual GM edits to `campaign/timeline.md` (e.g. page breaks) and only inserts new events as sessions are added. Per-session files are the data layer; `arcs.md` is the arc metadata; `campaign/timeline.md` is the rendered output.
 - Memory: [feedback_gloss_budget.md](../../memory/feedback_gloss_budget.md), [feedback_no_invention.md](../../memory/feedback_no_invention.md), [feedback_quote_anchor.md](../../memory/feedback_quote_anchor.md).

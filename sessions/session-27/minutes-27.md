@@ -5,14 +5,14 @@ in_fiction_date: 25 Nightal 1489 DR?, ~09:00? → 29 Nightal, ~09:30?
 party_present:
   - Amidamaru
   - Eguzkilore
+  - Mialee
   - Nuberroca
   - Nyx
 party_absent:
   - Kaelthar
-  - Mialee
   - Sinsong
 locations:
-  - Caravan road
+  - Trade Way
 ---
 
 NOTE: Review dates again, possible mismatch of the end date
@@ -21,7 +21,7 @@ NOTE: Review dates again, possible mismatch of the end date
 {wide}
 
 ## 1 - The doppelganger unmasked
-_~09:00?, 25 Nightal 1489 DR?_
+_~09:00?, 25 Nightal 1489 DR_
 
 1. The combat is already running — someone (**Mialee**, by what the group later confirms) had already thrown a whisper across the camp to the real Nyx, and the halfling in front of them had not been the one who answered [Td:261-272]. Amidamaru casts his own whisper now, north-east towards the family wagon, and the real Nyx answers from somewhere inside [Td:3-16]. He dashes into that wagon, slips behind the family's trunks [Td:17-21], and prises the biggest chest open: **Darla** is curled inside, unresponsive, immobile [Td:51-56].
 2. The fake Nyx will not drop the act. She shouts at the party that *"vuestra falsa compañera no sobrevivirá si me hacéis daño"* [Td:164-167] and turns her bow on Nuberroca, who is out of rage and takes two shots clean [Td:85-89, Td:183-186]. Eguzkilore crosses the camp, catches her bodily and drops her speed to zero, then punches her in the face: *"¿dónde estáis?"* [Td:107-137, Td:144-146].
@@ -51,25 +51,25 @@ Murder most foul -> This should happen the 27th
 5. The hooded man who travels alone — until this moment silent — speaks up for the first time: if there are no witnesses, let the gods take vengeance on the guilty [Td:1088-1092]. The guards drop it and resume their posts [Td:1101-1104]. On the way back to his wagon Eguzkilore passes the two tied captives — **Checo** and **Mane** — and the wolf's tail swats them in the face as he goes [Td:1116-1121].
 6. Nuberroca puts the whole thing to rest from the box of his cart: *"vuestro intelecto y vuestras palabras no sirven para resolver los problemas"* [Td:1105]; they will keep moving to Waterdeep [Td:1106].
 
-## 4 - Janma the Harper
+## 4 - Jamna the Harper
 _~07:00?, 27 Nightal 1489 DR_
 
-1. The day on the road passes without incident; by next morning the caravan has Waterdeep in sight on the horizon, about two days from the gates [Td:1136-1138]. On the road, Amidamaru goes forward to the small gnome woman from Daggerford — the Harper the party will come to know as **Janma** — and introduces himself over breakfast [Td:1213-1218]. He apologises for Sinsong's suspicion the day before [Td:1217-1219]. She accepts the apology — awkwardly, she does not know him — and asks how she can help [Td:1221-1224].
+1. The day on the road passes without incident; by next morning the caravan has Waterdeep in sight on the horizon, about two days from the gates [Td:1136-1138]. On the road, Amidamaru goes forward to the small gnome woman from Daggerford — the Harper the party will come to know as **Jamna** — and introduces himself over breakfast [Td:1213-1218]. He apologises for Sinsong's suspicion the day before [Td:1217-1219]. She accepts the apology — awkwardly, she does not know him — and asks how she can help [Td:1221-1224].
 2. She lays it out: *"tenemos diferentes jefes pero mismos objetivos"* [Td:1225-1227]. She was in the caravan to pick out the Cult of the Dragon operators and neutralise them, and the party has already done that work for her [Td:1227-1230].
-3. The party confirms Castle Naerytar as the destination Amidamaru overheard the cultist soldiers name [Td:1245-1246]. Janma has heard of it too — she believes it is in the Marismas, the Mere of Dead Men, from an older reference tying it to the Order of the Astrologers' holdings there [Td:1235-1250]. She knows the party belong to the Order of the Gauntlet — all except Mialee and Nyx, who name themselves as Harpers [Td:1256-1261]. She is a Harper herself; different cells of the same organisation [Td:1266-1278].
+3. The party confirms Castle Naerytar as the destination Amidamaru overheard the cultist soldiers name [Td:1245-1246]. Jamna has heard of it too — she believes it is in the Marismas, the Mere of Dead Men, from an older reference tying it to the Order of the Astrologers' holdings there [Td:1235-1250]. She knows the party belong to the Order of the Gauntlet — all except Mialee and Nyx, who name themselves as Harpers [Td:1256-1261]. She is a Harper herself; different cells of the same organisation [Td:1266-1278].
 4. She confirms the handler: *"Si no me confundo, **Leosin** será el que ha hablado"* [Td:1278-1281]. Amidamaru confirms Leosin sent them after this caravan [Td:1282].
-5. The plan: when the caravan reaches Waterdeep in two days, Janma will take the chests on to Leosin and the Order of the Gauntlet, with a positive report of the party [Td:1286-1289]. The party should go straight for the north gate and head on to the **Posada de Carnath** — a roadhouse on the road to Neverwinter which Janma believes is the cultists' handover point and which is seeing new foot traffic because *Lord Neverember* is rebuilding it after a catastrophe over the Winter [Td:1291-1306]. She has not been able to confirm it directly; her last cultist caravan — brought in by one *Bael* — was lost before it reached the point [Td:1312-1315]. Beyond Carnath they always lose the thread [Td:1316-1320].
+5. The plan: when the caravan reaches Waterdeep in two days, Jamna will take the chests on to Leosin and the Order of the Gauntlet, with a positive report of the party [Td:1286-1289]. The party should go straight for the north gate and head on to the **Posada de Carnath** — a roadhouse on the road to Neverwinter which Jamna believes is the cultists' handover point and which is seeing new foot traffic because *Lord Neverember* is rebuilding it after a catastrophe over the Winter [Td:1291-1306]. She has not been able to confirm it directly; her last cultist caravan — brought in by one *Bael* — was lost before it reached the point [Td:1312-1315]. Beyond Carnath they always lose the thread [Td:1316-1320].
 
 ## 5 - The heart in the mage's pocket
 
 1. The party's attention lands on the other hooded figure in the caravan — the one who had spoken for them that morning. Nyx walks the caravan apologising to the merchants about her strange behaviour the previous days — *"no era yo, ¿sabéis?"* — using the crowd as cover [Td:1502-1511], while Mialee works an unseen hand into the hooded man's pocket from the far side [Td:1512, Td:1521-1528]. The pocket holds an insane weight of coins, more than fits in a jacket [Td:1532-1535].
 2. Below the coins she finds something fist-sized, soft, that gives under her fingers [Td:1538-1540]; a small pouch with pellets inside [Td:1540-1542]; and two folded scraps of parchment, inked in a script none of them read, more sigil than letter [Td:1583-1587]. She lifts one of the parchments on the hand up over the crowd [Td:1581-1583]. The man is beginning to notice [Td:1580].
 3. Mialee cleans the hand off when it comes back [Td:1546-1548]. They whisper across to Nyx about the fist-sized thing: it is a heart — too big for a halfling, perhaps human, perhaps pig [Td:1552-1559].
-4. They go to Janma with what they have. She confirms it: Red Wizards of Thay are usually bald and tattooed, and the daggers they carry leave wounds no magic will close [Td:1644-1646]. She cannot place the heart [Td:1649]. If this really is **Azbara Jos** [Td:1676] — a name the party does not catch cleanly — then he is one of the most powerful mages alive, and the party is to be very careful of him [Td:1687-1689]. Nuberroca presses the group for a reason to attack if they are not sure he is the villain; the party does not commit [Td:1691-1694].
+4. They go to Jamna with what they have. She confirms it: Red Wizards of Thay are usually bald and tattooed, and the daggers they carry leave wounds no magic will close [Td:1644-1646]. She cannot place the heart [Td:1649]. If this really is **Azbara Jos** [Td:1676] — a name the party does not catch cleanly — then he is one of the most powerful mages alive, and the party is to be very careful of him [Td:1687-1689]. Nuberroca presses the group for a reason to attack if they are not sure he is the villain; the party does not commit [Td:1691-1694].
 
 ## 6 - What the blue dwarf left in Nuberroca
 
-1. Later on the road Nuberroca pulls Nyx, Mialee, and Eguzkilore aside, out of Janma's earshot [Td:1733-1735], and tells them a secret. Since the blue dwarf hurt his head and showed him the vision of the undead walking into his village, something has been changing in him [Td:1737-1746].
+1. Later on the road Nuberroca pulls Nyx, Mialee, and Eguzkilore aside, out of Jamna's earshot [Td:1733-1735], and tells them a secret. Since the blue dwarf hurt his head and showed him the vision of the undead walking into his village, something has been changing in him [Td:1737-1746].
 2. ***[EPIC]*** He opens his fist. The veins across his hand turn from blue to black [Td:1741]; a dark halo of smoke peels off the knuckles [Td:1742-1743]. He bends and brushes a wildflower by the roadside with the back of his hand and the flower blackens, withers, and crumbles [Td:1797-1798].
 3. He tells them he does not know what it is. Something guides his anger now, and when Sinsong once put a note on his back something inside him pushed out and tried to tear it off [Td:1763-1766].
 4. Amidamaru pats him on the shoulder and feels him for any magic held or lingering — nothing [Td:1771-1773]. Eguzkilore tells Nuberroca that when they reach Waterdeep he should have someone look at it [Td:1782-1783]. Nuberroca agrees but names the darkness in himself as something he does not like [Td:1784-1785].

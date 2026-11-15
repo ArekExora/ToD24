@@ -70,8 +70,8 @@ Within-day cadence on an ordinary travel day. Camp attacks, forced marches, and 
 - **12th ⭑** Everything has a price & wolves attack in the evening.
 - **15th ⭑** Contraband at The Way Inn (fortified).
 - **21st ⭑** Recognized! — Nuberroca's cart almost falls; fight breaks out within the caravan.
-- **22nd ⭑** Reach Daggerford — **Janma** and **Azbara** join.
-- **23rd ⭑** Unwanted attention — Janma is looking at them.
+- **22nd ⭑** Reach Daggerford — **Jamna** and **Azbara** join.
+- **23rd ⭑** Unwanted attention — Jamna is looking at them.
 - **25th ⭑** Who's your friend? — bones in the breakfast.
 - **27th ⭑** Murder most foul.
 - **28th ⭑** Bandit assault.
@@ -114,8 +114,8 @@ Within-day cadence on an ordinary travel day. Camp attacks, forced marches, and 
 
 ### Joining at Daggerford (Nightal 22nd)
 
-- **Janma** — pays unwanted attention to the party from Nightal 23rd onward.
-- **Azbara** — joins alongside Janma.
+- **Jamna** — pays unwanted attention to the party from Nightal 23rd onward.
+- **Azbara** — joins alongside Jamna.
 
 ## Destination roster — hunting lodge / cultist stronghold (S33+)
 

@@ -47,7 +47,7 @@ SESSIONS_DIR = ROOT / "sessions"
 OUT_PATH = ROOT / "sessions" / "outputs" / "timeline.md"
 
 # ---------------------------------------------------------------------------
-# Calendar (mirrors `campaign/calendar.md` — Full column, in order)
+# Calendar (mirrors `campaign/calendar-of-harptos.md` — Full column, in order)
 # ---------------------------------------------------------------------------
 
 MONTHS_FULL: List[str] = [
@@ -517,11 +517,27 @@ def _parse_date_end(day_text: str, default_month: str) -> Tuple[int, str]:
     return 0, default_month
 
 
+_ARC_DATE_WITH_SESSION = re.compile(r"^(.+?)\s*(\(S\d+\))\s*$")
+
+
+def _bold_arc_date(s: str) -> str:
+    """Bold the FR date portion of an arc-header `<date> (S<NN>)` string,
+    leaving the session tag plain so the date reads like a heading date and
+    the session anchor stays visually subordinate."""
+    if not s:
+        return s
+    m = _ARC_DATE_WITH_SESSION.match(s)
+    if m:
+        return f"**{m.group(1).strip()}** {m.group(2)}"
+    return f"**{s.strip()}**"
+
+
 def format_arc_frame(arc: Arc, closed: str) -> List[str]:
+    opened_bold = _bold_arc_date(arc.opened)
     if closed:
-        date_range = f"{arc.opened} → {closed}"
+        date_range = f"{opened_bold} → {_bold_arc_date(closed)}"
     else:
-        date_range = f"{arc.opened} → "
+        date_range = f"{opened_bold} → "
     return [
         "{{runeTable,wide,frame",
         "  {{note",

@@ -10,7 +10,7 @@
 {{runeTable,wide,frame
   {{note
   ## Greenest in flames
-  22 Marpenoth 1489 DR (S01) → 26 Marpenoth 1489 DR (S10)
+  **22 Marpenoth 1489 DR** (S01) → **26 Marpenoth 1489 DR** (S10)
   }}
 Greenest is burning, bandits and a blue dragon are raiding the town. The cult of the dragon must be stopped.
 }}
@@ -46,7 +46,7 @@ Greenest is burning, bandits and a blue dragon are raiding the town. The cult of
 {{runeTable,wide,frame
   {{note
   ## Catching the Cult
-  27 Marpenoth 1489 DR (S11) → 5 Uktar 1489 DR (S14)
+  **27 Marpenoth 1489 DR** (S11) → **5 Uktar 1489 DR** (S14)
   }}
 The cult has dispersed with the stolen cargo. The party must catch them.
 }}
@@ -82,7 +82,7 @@ The cult has dispersed with the stolen cargo. The party must catch them.
 {{runeTable,wide,frame
   {{note
   ## The Trade Way
-  6 Uktar 1489 DR (S14) → 
+  **6 Uktar 1489 DR** (S14) → 
   }}
 A long caravan journey up the Trade Way, with the party riding alongside the suspected cultists.
 }}

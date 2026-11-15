@@ -73,7 +73,7 @@ Textual-evidence hints (verify by ear against contiguous cluster chunks per the 
 - `Betxo` (`[01:51:23]`) — unknown, possibly an NPC or wolf name.
 - `Dalga` (`[00:41:03]`) — a Darla variant one-off.
 - `Miale` (many lines) vs. `Mia` (frontmatter nickname) vs. `Mialee` (canonical) — GM and players alternate; treat all as Mialee.
-- `Bluhoose` (`[01:30:49]`) / `Hanma` (`[01:45:45]`) / `Han` (`[02:07:53]`) / `Yemna Janma` (`[02:07:08]`) / `la llama maestra` (`[01:30:14]`) — all likely one NPC: the hooded Harper contact who reveals herself over `[01:29:00]-[01:41:58]`.
+- `Bluhoose` (`[01:30:49]`) / `Hanma` (`[01:45:45]`) / `Han` (`[02:07:53]`) / `Yemna Jamna` (`[02:07:08]`) / `la llama maestra` (`[01:30:14]`) — all likely one NPC: the hooded Harper contact who reveals herself over `[01:29:00]-[01:41:58]`.
 - `Abbad` (`[02:35:17]`) — enemy villain (the hooded mage attacking the caravan); not in campaign files, may need creation.
 - `Bael` (`[01:39:11]`) — mentioned in Harper NPC dialogue; possibly *Bael* the villain or a garble.
 - `Berenber` (`[01:38:53]`) — "el enorme Berenber está intentando reconstruirla"; unknown, in NPC's exposition about Waterdeep-area politics.

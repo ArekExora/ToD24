@@ -24,7 +24,7 @@ _~09:30?, 29 Nightal 1489 DR_
 
 1. The caravan picks itself up on the road to Waterdeep [Td:1-10]. **Anton** has gone with their wagon and the horses have only just been brought in; the two prisoners are dead in their bindings; the merchants are intact and want to move. The bodies will be left on the pile the party has already been dragging behind them [Td:21-24]. Mialee levels a long glare at **Miguel** and **Fenwir**, the two Greenest guards who had been talking the day before about her stealing the cart; neither answers it [Td:13-18].
 2. Nobody has horses to chase the stolen wagon with [Td:50]. Amidamaru sends his familiar **Munin** forward along the road to find where the wagon goes [Td:73-82]; when the gates are in sight later the bird is nowhere above the carts queued at the arch [Td:589-590].
-3. On the move again, the party rakes over the plan — deliver the chests to the Harpers in Waterdeep, press north to the roadhouse at **Carnath** [Td:140-165]. Mialee fumbles trying to recover the handler's name — *"Eloísi... Erosin"* — the elf monk Janma had named in S27 [Td:181-186].
+3. On the move again, the party rakes over the plan — deliver the chests to the Harpers in Waterdeep, press north to the roadhouse at **Carnath** [Td:140-165]. Mialee fumbles trying to recover the handler's name — *"Eloísi... Erosin"* — the elf monk Jamna had named in S27 [Td:181-186].
 
 ## 2 - A quiet word with Nyx
 
@@ -61,14 +61,14 @@ _~12:30?_
 
 1. Guards at the arch stop the first merchants and ask their business [Td:971-984]. Mialee gives them **Nyx**'s name — *"Soy Nyx, somos una caravana de comerciantes desde Baldur's Gate"* [Td:977-981]. Guards count the carts, do not press, wave them in [Td:994-998].
 2. Eguzkilore stops at Darla's cart on the way through for the two large empty chests that had held her and the real Nyx [Td:1003-1025]. A guard asks what is in them; Eguzkilore gives the only honest answer available: *"no, están vacíos"* [Td:1022-1023]. The guard half-helps, half-shrugs, and waves him through [Td:1030-1033].
-3. Inside the arch Janma presses up to Mialee one more time — the gold on the cart is for the Harpers and she does not trust Mialee to hand it off herself; she will walk with the cart to see the drop made [Td:1035-1053]. Mialee agrees to witnesses.
+3. Inside the arch Jamna presses up to Mialee one more time — the gold on the cart is for the Harpers and she does not trust Mialee to hand it off herself; she will walk with the cart to see the drop made [Td:1035-1053]. Mialee agrees to witnesses.
 4. The caravan dissolves at the gate — each merchant collects what is owed and goes [Td:1054-1056].
 
 ## 7 - A knife on the orphanage road
 _~13:30?_
 
-1. ***[EPIC]*** On the way out of the plaza with the cart Mialee feels a long tear across the ribs — a short-sword in from behind [Td:1290-1292]. A second swing follows and misses [Td:1293]. **Janma** has the blade: *"este oro es para los arpistas, y no confío en ti lo más mínimo"* — the gold is for the Harpers, and the party will not be the ones delivering it [Td:1298-1299].
-2. Mialee pulls her reserved turn out of her sleeve. *"Has cometido un error"* — and she blinks away in a step to a different position on the street [Td:1537-1540]. On her next pass she comes back on Janma with sneak and dagger, non-lethal; the gnome drops at the cart's wheel [Td:1655-1683 ?ord].
+1. ***[EPIC]*** On the way out of the plaza with the cart Mialee feels a long tear across the ribs — a short-sword in from behind [Td:1290-1292]. A second swing follows and misses [Td:1293]. **Jamna** has the blade: *"este oro es para los arpistas, y no confío en ti lo más mínimo"* — the gold is for the Harpers, and the party will not be the ones delivering it [Td:1298-1299].
+2. Mialee pulls her reserved turn out of her sleeve. *"Has cometido un error"* — and she blinks away in a step to a different position on the street [Td:1537-1540]. On her next pass she comes back on Jamna with sneak and dagger, non-lethal; the gnome drops at the cart's wheel [Td:1655-1683 ?ord].
 3. Mialee strips her: a short sword and eight hidden daggers [Td:1848-1849 ?ord]; a few gold pieces in a purse; and tucked away in a bag, several of the cult coins that had been in the chests the caravan was escorting [Td:1839-1842 ?ord]. The Harper story was a cover of some kind. Mialee binds her, gags her, and shuts her into one of the empty chests Darla had just handed over; moves the cart on toward the plaza [Td:1824-1853 ?ord].
 
 ## 8 - The elf finds Sinsong
