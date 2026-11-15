@@ -51,6 +51,10 @@ Exorcise the planar corruption from her mind and return to the Haldanites as the
 
 ---
 
+## Notes
+
+- 25 Nightal 1489 DR (S27) — Freed from a chest aboard the Trade Way caravan after being held captive and drugged for several days.
+
 ## Signature
 
 Goodberry, Hunter's Mark, Archery fighting style (Longbow).

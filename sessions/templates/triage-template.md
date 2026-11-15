@@ -32,7 +32,7 @@ PRIORITY TAXONOMY — bold prefix immediately after the checkbox:
   - [P1] blocks-saga : resolve before /saga runs (date/continuity
     confirmations, derived-beat confirmations).
   - [P2] post-publication : campaign/* file edits after the recap
-    (timeline.md, NPC sheets, faction docs, location sheets, calendar).
+    (NPC sheets, faction docs, location sheets, calendar).
   - [P3] informational : already resolved or audit trail (closed STT
     garbles, completed Spanish dispositions, no-discrepancy audits).
 
@@ -213,11 +213,10 @@ post-publication.
 ## 8. File updates needed
 
 1. - [ ] **[P2]** PC `Current state`: Mialee — Honor +1 (keep defence); Eguzkilore — gained the *Tankard of Sobriety* (magic item).
-2. - [ ] **[P2]** `campaign/timeline.md` — append session entry (create if missing)
-3. - [ ] **[P2]** NPC files: create Miguel, Leosin Erlanthar
-4. - [ ] **[P2]** Location files: create Berdusk, Candlekeep, southern defile
-5. - [ ] **[P2]** Faction: `campaign/factions/cult-of-the-dragon.md` — append ideology + alert state (create if missing)
-6. - [ ] **[P2]** `sessions/inputs/calendar.md` — correct date / mapping if needed
+2. - [ ] **[P2]** NPC files: create Miguel, Leosin Erlanthar
+3. - [ ] **[P2]** Location files: create Berdusk, Candlekeep, southern defile
+4. - [ ] **[P2]** Faction: `campaign/factions/cult-of-the-dragon.md` — append ideology + alert state (create if missing)
+5. - [ ] **[P2]** `sessions/inputs/calendar.md` — correct date / mapping if needed
 
 <!--
 SECTION 9 — Trace audit (APPENDED BY /draft'S TRACE-AUDIT SUBAGENT)

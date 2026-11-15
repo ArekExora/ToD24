@@ -18,7 +18,7 @@ Greenest is burning, bandits and a blue dragon are raiding the town. The cult of
 ### Marpenoth 1489 DR
 | Date    | Session  | Event                      |
 |:--------|:---------|:---------------------------|
-| 22      | S01      | Party arrived at **Greenest** during a raid. |
+| 22      | S01      | Party formed at **Greenest** during a raid. |
 | 22      | S01      | **Tarbaw Nighthill** tasked the party with clearing the keep's old tunnel. |
 | 22      | S01      | **Sinsong** killed by a spider swarm in the tunnel, resurrected at the keep by a cleric. |
 | 22      | S02      | Party rescued the civilians sheltering in the **Chauntea** temple at Tarbaw's direction. |
@@ -105,9 +105,12 @@ A long caravan journey up the Trade Way, with the party riding alongside the sus
 |:--------|:---------|:---------------------------|
 | 1       | S22      | **Sinsong** flew north on Targutai to pursue the **Company of the Boar**. |
 | 11      | S23      | Party clashed with **Lord Zelan** at a roadside tavern and freed a tiny blue sage from his lamp. |
+| 13      | S23      | Sisters **Arietta Innevar** and **Zelina Innevar** joined the caravan. |
 | 21      | S24      | Nuberroca's cart sabotaged on the **Delimbiyr** pass; a cultist driver was the suspect, and the fight began. |
 | 21      | S25      | Party defeated the cultists at the **Delimbiyr** pass and seized their loot. |
 | 21      | S25      | Cultists revealed under interrogation that the cargo was bound for **Rezmir** via **Carnath Roadhouse**. |
+| 22      | S25      | Caravan arrived at **Daggerford**, where sisters **Arietta Innevar** and **Zelina Innevar** left unseen. |
+| 25      | S26      | **Nyx** revealed kidnapped and replaced by a Doppelganger. |
 }}
 
 {{pageNumber,auto}}

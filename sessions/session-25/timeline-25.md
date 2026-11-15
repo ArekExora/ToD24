@@ -7,3 +7,4 @@
 |:--------|:---------|:---------------------------|
 | 21      | S25      | Party defeated the cultists at the **Delimbiyr** pass and seized their loot. |
 | 21      | S25      | Cultists revealed under interrogation that the cargo was bound for **Rezmir** via **Carnath Roadhouse**. |
+| 22      | S25      | Caravan arrived at **Daggerford**, where sisters **Arietta Innevar** and **Zelina Innevar** left unseen. |

@@ -206,6 +206,21 @@ factions:
 status: alive
 ---
 
+## Jamna
+
+---
+name: Jamna
+full_name: Jamna Gleamsilver
+nicknames: []
+gender: Female
+species: Gnome
+background:
+class:
+factions:
+  - Zhentarim
+status: alive
+---
+
 ## Jorath
 
 ---
@@ -455,7 +470,7 @@ background:
 class:
 factions:
   - Cult of the Dragon
-status: alive
+status: dead
 ---
 
 ## Tarbaw

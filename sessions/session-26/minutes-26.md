@@ -1,7 +1,7 @@
 ---
-status: drafted
+status: accepted
 date: 2025-11-02 17:30 - 20:50
-in_fiction_date: 23 Nightal 1489 DR, ~12:00 → 25 Nightal, ~18:00?
+in_fiction_date: 23 Nightal 1489 DR, ~12:00 → 25 Nightal, ~20:00
 party_present:
   - Eguzkilore
   - Mialee
@@ -21,10 +21,10 @@ locations:
 ## 1 - Guards underpaid
 _~12:00, 23 Nightal 1489 DR_
 
-1. The convoy has been moving north since Daggerford, **Elodin's** gallop still somewhere ahead on the road — the elf rode out hunting Sinsong, and the merchants have not stopped scanning the road ahead. Nuberroca carries the surviving cultist strapped to his chest, mouth gagged. **Jamna** the small gnome and the hooded man who speaks to no one travel in the gaps left by **Arietta** and **Zelina's** night-time departure.
+1. The convoy has been moving north since Daggerford, **Elodin's** gallop still somewhere ahead on the road — the elf rode out hunting Sinsong, and the merchants have not stopped scanning the road ahead. Nuberroca carries **Enki**, the surviving cultist, strapped to his chest, mouth gagged. **Jamna** the small gnome and the hooded man who speaks to no one travel in the gaps left by **Arietta** and **Zelina's** night-time departure.
 2. A uniformed company closes the road ahead — polearms grounded, shields up. They move like drilled troops; a sergeant works the line from the back, calling fresh positions and the squad shifting on the word. He calls a toll for the passage and will not take no for an answer.
 3. The purses do not open fast enough for his taste. The sergeant gives the word and the first crossbow bolts whip past the lead horses. Nuberroca is already over the cart-shaft and down the slope, halberd low, roaring at the nearest shield to brace — he reaches the line in two strokes and the point man is dead in the dust by the third.
-4. The strapped cultist bounces against his breastplate every step of the charge, shrieking through the gag at every stroke — the swings shave past his face, and by the end he carries a handful of shallow cuts across his ribs and forearms from stray edges.
+4. Enki bounces against his breastplate every step of the charge, shrieking through the gag at every stroke — the swings shave past his face, and by the end he carries a handful of shallow cuts across his ribs and forearms from stray edges.
 5. Mialee throws her fog down onto the guards — a thick grey bank over the formation, cutting the sergeant from his rank in front — and walks straight into it with blades out. Two of the troops she passes inside the bank do not stand again; the sergeant, blind to his own line in the murk, shouts a correction at shapes he cannot see.
 6. Eguzkilore has worked up the far verge to a rise clear of the fog, and from the flank he puts two arrows through the sergeant's throat before the word can land. Nyx looses from the cart-tail and every shot goes wide. Amidamaru works the party's rank close behind, healing cuts before they open deeper.
 7. Deprived of its leader the line comes apart quickly. Those still on their feet drop their weapons; the ones who break for the hills get run down. The convoy is still on its wheels when the exchange ends.
@@ -36,8 +36,8 @@ _~12:00, 23 Nightal 1489 DR_
 
 1. Through the quiet stretch after the fight the party catches Jamna watching them — openly, steadily, from her seat in the convoy. The moment she thinks they have noticed she lets her eye slide off, as if she had been studying the road, but the break comes a half-beat too late to read as casual.
 2. Later in the day **Targutai** cuts down out of the sky overhead and Sinsong slides off the saddle to the road — back with the party after the long stretch away in the north.
-3. Amidamaru does not let him draw breath. Before Sinsong is even fully settled the tortle is at him for everything he learned up north about the **Company of the Boar**. Sinsong's answer is plain: he never got eyes on them. The trail went cold before he could close.
-4. Eguzkilore has heard something. Someone in Daggerford had told him the Company had gone past the city a few days back, moving north on the Trade Way ahead of the caravan.
+3. Amidamaru is on him before he has fully drawn breath, pressing for everything he learned up north about the **Company of the Boar**. Sinsong has an answer. He caught sight of them from afar, travelling with another caravan northbound on the same road, a few days ahead of the party's own convoy.
+4. Eguzkilore has something that fits. Someone in Daggerford had told him another caravan had left the city the day before they arrived — moving north up the Trade Way ahead of them.
 5. Then Nuberroca brings him the worst of it. A tattooed elf, Elodin by name, had ridden down on the convoy out of Daggerford asking after the dwarf named Sinsong and openly threatening to hunt him. The colour goes out of Sinsong's face. He turns on the group hard — all of them, be careful with that one, very careful: he can kill them all.
 
 {{pageNumber,auto}}
@@ -54,7 +54,7 @@ _~08:00, 24 Nightal 1489 DR_
 5. Targutai obeys and settles, and Amidamaru works along the string tending the cuts. The merchants watch the party with dark looks, and Jamna's eye lingers a beat too long on them again.
 6. Later on the stretch, with Sinsong called away to something else, the griffon takes his opening. He is up off the ground and gone, climbing out of sight above the trees. He does not come back.
 
-/column
+\column
 
 ## 4 - Dangerous breakfast
 _~08:00, 25 Nightal 1489 DR_
@@ -71,24 +71,49 @@ _~08:00, 25 Nightal 1489 DR_
 \page
 
 ## 5 - Whispers from a box
-_~19:00, 25 Nightal 1489 DR_
+_~19:30, 25 Nightal 1489 DR_
 
-1. At nightfall Mialee and Sinsong walk out to Jamna's appointed spot. The gnome keeps it short and plain. She has two questions. The lead two wagons of the convoy, which she has been watching since Daggerford: what rides in them, and how they came into the party's hands. And the man strapped to the goliath's chest: who he is, how he came to be carried like that, what the party means to do with him.
-2. Sinsong does not answer the question. Instead he begins on Targutai. The griffon has been gone a day and the dwarf is not ready to let it lie. He opens on the beast's loyalty, on the trust built between them up north, on the bond a chosen must share with his mount if he is to be worthy of any following at all. Jamna tries three times to bring him back to the wagons. Sinsong keeps going.
-3. Mialee gives it a moment, and when the moment does not break she sends a magical message to Nyx: a simple invitation to join them. The halfling across the camp does not seem to hear it. And then a reply reaches Mialee: *I'm trapped in some kind of box.*
-4. Mialee is puzzled by the reply. She pushes another whisper after it, asking what has happened. The voice comes back at once: *I was kidnapped.*
-5. That is enough for her. Mialee cuts Sinsong's monologue short and pulls him away from Jamna by the elbow. As soon as they are off a few paces she sends another message, this time to Nuberroca: the halfling at the camp is not Nyx.
+1. At nightfall Mialee and Sinsong walk out beyond the camp to Jamna's appointed spot, in the cold dark a short way off the convoy. The gnome opens plain. She knows the convoy has cultists infiltrated, and she wants what the party knows. The lead two wagons: what rides in them, how they came into the party's hands. The man strapped to the goliath's chest: who he is, whether he is one of them, what the party means to do with him.
+2. Sinsong answers by casting a Zone of Truth around them. Jamna recognises the magic the moment it lands; whatever trust she had brought with her out of the camp goes out of her face at the same time. She clams up. The answers she gives after that are a sentence long and tell nobody anything.
+3. Sinsong, with nothing coming back out of her, turns to Targutai instead. The griffon has been gone a day and the dwarf is not ready to let it lie. He opens on the beast's loyalty, on the trust built between them up north, on the bond a chosen must share with his mount if he is to be worthy of any following at all. Jamna tries three times to bring him back to her questions. Sinsong keeps going.
+4. ***[EPIC]*** Mialee gives it a moment, and when the moment does not break she sends a magical message aimed at Nyx across the camp, a simple invitation to join them. The halfling at the camp-circle does not react. A reply comes back a bit later: *I'm trapped in some kind of box.*
+5. Mialee is puzzled. She pushes another Message after it, asking what has happened. The voice comes back at once: *I was kidnapped.*
+6. That is enough for her. Mialee cuts Sinsong's monologue short and pulls him away from Jamna by the elbow. As soon as they are off a few paces she throws another Message, this time to Nuberroca across the camp: the halfling in front of you is not Nyx.
 
 \column
 
-## 6 - Darla's scream
+## 6 - A shackled halfling
 
-1. Nuberroca is up and driving at Nyx before the message is halfway through. The halfling turns to run; the barbarian catches her, forces her to the ground, snaps shackles on her wrists, and hauls her back to Mialee and Sinsong to be put to the question.
-2. Between the two of them the false Nyx gives it up — a shapechanger in Nyx's shape — and the real Nyx whispers back through Mialee again that she is inside some kind of box, somewhere in the wagons. The impostor opens her mouth and lets out a shrill scream meant to put fear into them; it does not land.
-3. Then **Darla** — the wife from the humble family wagon Nuberroca has been riding guard on — walks up to the group and lets out a scream of her own. A second shapechanger, come to pull the first one free. Combat opens on both of them.
-4. Nuberroca is on Darla with the halberd. **Gus**, her husband, throws himself between the barbarian and his wife — not knowing what she is — and the backswing catches him clean. Gus dies on his own doorstep, accidentally this time, under Nuberroca's blade.
-5. Sinsong throws his voice across to Nuberroca — a short murmured word — and the barbarian's shoulders drop; he slumps flat on the ground, asleep where he knelt, his grip on the shackled halfling going slack. The false Nyx twists loose and tears away into the dark; Sinsong is up and after her, pale light flaring around him.
-6. Eguzkilore does not move through any of it — he stays on his heels, watching, holding his hand for something stranger. Nuberroca — when he has the breath for it — tells Sinsong to his face to stop throwing spells at him; he is through with magic landing on his own skin. The scene breaks there — Nuberroca down, Gus dead, the doppelganger running into the dark.
+1. Nuberroca is up and moving before Mialee's Message has fully landed. He catches the halfling, forces her to the ground, claps shackles on her wrists, and hauls her back out of the camp toward Mialee, Sinsong, and Jamna at the meeting spot.
+2. The halfling protests her innocence the whole way. She is Nyx, her party is mistreating her for no reason, the shackles must come off. By the time Nuberroca has her back the caravan has come out of the wagons to see what is going on. The whole convoy is ringed around the four of them now, curious at first, then some of them openly angry at the treatment of the kind halfling.
+3. **Darla** is the most vocal of them; she pushes to the front of the ring and starts defending the shackled halfling, accusing the party of cruelty, demanding they let Nyx go.
+4. The act gets no traction. The party holds their ground. The shackled halfling drops the innocent voice then and turns to threats: if anything happens to her, "your friend" will die. She repeats it. The party does not blink. When the threats do not land either, she drops them too and shrieks, a blood-freezing cry meant to put the party down with fear.
+5. The shriek surprises the party, but does not frighten them. It does land on Enki however, the gagged cultist still strapped to Nuberroca's chest; the man starts to whine and moan through the gag, scared out of what little wit he has left.
+6. Sinsong casts a spell of heroism on Nuberroca, to help the barbarian shrug the effects of such screams and endure the mental pain.
+7. Darla tries once more to sway the party to no avail, and lets out a shriek of her own, but the spell on Nuberroca protects him and the rest manage to endure its effects. She then forcefully tries to free the halfling, attacking the barbarian with bare fists.
+
+{{pageNumber,auto}}
+{{footnote Tyranny of Dragons | Session 26}}
+\page
+
+## 7 - Collateral damage
+
+1. The shackled halfling twists under the barbarian grapple, lashes out with the chains of her shackles as a cudgel and with her teeth, catches Mialee across the forearm and splits the skin open.
+2. Mialee draws her scimitars and goes at the halfling. Nuberroca turns from the halfling onto Darla with the halberd. Jamna steps back and lets the camp handle the situation, while **Carlon** the harpist, at the ringed edge of the crowd, observes the situation wide eyed.
+3. Watching his wife in danger, **Gus** pushes through the ring toward Darla to protect her. He steps between the barbarian and the halberd, trying to shield her from Nuberroca's swings. The goliath's backswing catches him clean, and Gus dies bleeding in the dust, under Nuberroca's blade.
+4. Darla keeps swinging on Nuberroca, impervious to Gus's body. She carves several deep gashes into the goliath before Sinsong casts a healing spell at him and the worst of them close.
+5. The halfling fights in her shackles. She keeps twisting at the chain Nuberroca has her by, working for the slack she needs to pull loose, and snaps back at Mialee between pulls with teeth and short vicious kicks when the elf closes with the scimitars.
+6. Sinsong casts slumber over the halfling, but in his rush he catches Nuberroca and Mialee inside too, and only the goliath goes down to it. His shoulders drop, his grip on the shackled halfling slackens, and he slumps face-down to the ground on top of Enki. The cultist is pinned there beneath the barbarian's weight, still conscious, still making his frightened sounds through the gag.
+7. The fake Nyx twists loose from the slackened grip and tears away into the dark, shackled. Sinsong is up and after her, pale light flaring around him as he runs, followed by a host of tiny angelic guardians.
+
+\column
+
+## 8 - Eguzkilore acts
+
+1. Nuberroca comes back to himself fast, shakes the Sleep off, rolls off Enki and gets back on his feet. Darla had turned onto Mialee the moment he went down; now that he is standing he puts himself between them and takes her attention back.
+2. Sinsong, at a run, extends a hand toward the fleeing halfling and commands her to *come.* The spell lands on her mid-flight, and her feet stop for a moment.
+3. Eguzkilore has not moved through any of this. He has been waiting, through the interrogation, through the shrieks, through the slaughter of Gus, through the goliath going down, for a sign the situation has reached the standard he keeps for intervention. When the halfling rips loose and bolts, that standard is met. He breaks his stance and starts out after her to grapple.
+4. While fending off Darla, Mialee casts Message aimed at the first of the wagons, searching for the real Nyx. There is no reply from that cart. She casts Message again, aimed at the next one over. There is no reply from that one either.
 
 {{pageNumber,auto}}
 {{footnote Tyranny of Dragons | Session 26}}

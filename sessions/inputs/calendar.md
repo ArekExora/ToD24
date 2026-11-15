@@ -12,141 +12,113 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### January 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-01-19 (Sun) | 00 | No game | Character creation |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-01-19 (Sun) | 00 | No game       | Character creation   |
 | 2025-01-26 (Sun) | 01 | 10:00 - 14:20 | 22 Marpenoth 1489 DR; **no audio**; **Level up to 2** |
 
 ### February 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
 | 2025-02-02 (Sun) | 02 | 17:00 - 21:10 | 22 Marpenoth 1489 DR; **no audio** |
 | 2025-02-09 (Sun) | 03 | 17:00 - 19:00 | 23 Marpenoth 1489 DR |
 | 2025-02-16 (Sun) | 04 | 17:00 - 19:10 | 23 Marpenoth 1489 DR |
-| 2025-02-23 (Sun) | - | No game | - |
+| 2025-02-23 (Sun) | -  | No game       | -                    |
 
 ### March 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
 | 2025-03-02 (Sun) | 05 | 17:00 - 20:40 | 23 Marpenoth 1489 DR; **Level up to 3** |
 | 2025-03-09 (Sun) | 06 | 17:00 - 20:20 | 24 Marpenoth 1489 DR |
 | 2025-03-16 (Sun) | 07 | 17:00 - 20:30 | 25 Marpenoth 1489 DR |
 | 2025-03-23 (Sun) | 08 | 17:30 - 20:40 | 26 Marpenoth 1489 DR |
-| 2025-03-30 (Sun) | - | No game | - |
+| 2025-03-30 (Sun) | -  | No game       | -                    |
 
 ### April 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
 | 2025-04-06 (Sun) | 09 | 17:30 - 21:20 | 26 Marpenoth 1489 DR |
 | 2025-04-13 (Sun) | 10 | 17:00 - 20:30 | 26 Marpenoth 1489 DR; **Level up to 4** |
-| 2025-04-20 (Sun) | - | No game | - |
+| 2025-04-20 (Sun) | -  | No game       | -                    |
 | 2025-04-27 (Sun) | 11 | 17:00 - 20:40 | 27 Marpenoth 1489 DR |
 
 ### May 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-05-04 (Sun) | - | No game | - |
-| 2025-05-11 (Sun) | - | No game | - |
-| 2025-05-18 (Sun) | - | No game | - |
-| 2025-05-25 (Sun) | 12 | 17:00 - 19:10 | 1 Uktar 1489 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-05-04 (Sun) | -  | No game       | -                    |
+| 2025-05-11 (Sun) | -  | No game       | -                    |
+| 2025-05-18 (Sun) | -  | No game       | -                    |
+| 2025-05-25 (Sun) | 12 | 17:00 - 19:10 | 1 Uktar 1489 DR      |
 
 ### June 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-06-01 (Sun) | 13 | 17:00 - 19:40 | 2 Uktar 1489 DR |
-| 2025-06-08 (Sun) | - | No game | - |
-| 2025-06-15 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-06-01 (Sun) | 13 | 17:00 - 19:40 | 2 Uktar 1489 DR      |
+| 2025-06-08 (Sun) | -  | No game       | -                    |
+| 2025-06-15 (Sun) | -  | No game       | -                    |
 | 2025-06-22 (Sun) | 14 | 17:00 - 20:10 | 5 Uktar 1489 DR; **Kaelthar** joins |
-| 2025-06-29 (Sun) | 15 | 17:00 - 18:50 | 6 Uktar 1489 DR |
+| 2025-06-29 (Sun) | 15 | 17:00 - 18:50 | 6 Uktar 1489 DR      |
 
 ### July 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-07-06 (Sun) | - | No game | - |
-| 2025-07-13 (Sun) | 16 | 10:00 - 13:40 | 7 Uktar 1489 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-07-06 (Sun) | -  | No game       | -                    |
+| 2025-07-13 (Sun) | 16 | 10:00 - 13:40 | 7 Uktar 1489 DR      |
 | 2025-07-20 (Sun) | 17 | 17:00 - 21:10 | 9 Uktar 1489 DR; **Level up to 5** |
-| 2025-07-27 (Sun) | - | No game | - |
+| 2025-07-27 (Sun) | -  | No game       | -                    |
 
 ### August 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-08-03 (Sun) | - | No game | - |
-| 2025-08-10 (Sun) | 18 | 17:00 - 20:20 | 10 Uktar 1489 DR |
-| 2025-08-17 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-08-03 (Sun) | -  | No game       | -                    |
+| 2025-08-10 (Sun) | 18 | 17:00 - 20:20 | 10 Uktar 1489 DR     |
+| 2025-08-17 (Sun) | -  | No game       | -                    |
 | 2025-08-19 (Tue) | 19 | 17:00 - 19:30 | 12 Uktar 1489 DR; off-cadence; **no audio** |
-| 2025-08-24 (Sun) | 20 | 17:00 - 20:10 | 14 Uktar 1489 DR |
-| 2025-08-31 (Sun) | - | No game | - |
+| 2025-08-24 (Sun) | 20 | 17:00 - 20:10 | 14 Uktar 1489 DR     |
+| 2025-08-31 (Sun) | -  | No game       | -                    |
 
 ### September 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-09-07 (Sun) | 21 | 17:10 - 20:30 | 17 Uktar 1489 DR |
-| 2025-09-14 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-09-07 (Sun) | 21 | 17:10 - 20:30 | 17 Uktar 1489 DR     |
+| 2025-09-14 (Sun) | -  | No game       | -                    |
 | 2025-09-21 (Sun) | 22 | 17:00 - 21:20 | 27 Uktar 1489 DR; **no audio** |
-| 2025-09-28 (Sun) | 23 | 17:50 - 20:30 | 11 Nightal 1489 DR |
+| 2025-09-28 (Sun) | 23 | 17:50 - 20:30 | 11 Nightal 1489 DR   |
 
 ### October 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
 | 2025-10-05 (Sun) | 24 | 17:15 - 20:40 | 13 Nightal 1489 DR; **no audio** |
-| 2025-10-12 (Sun) | - | No game | - |
-| 2025-10-19 (Sun) | - | No game | - |
-| 2025-10-26 (Sun) | 25 | 17:40 - ? | - |
-
-#### October 2025 Events
-
-- **2025-10-05** (S24) — 17:15–~20:40
-  - Missing: Sinsong & Nyx
-  - Kaelthar joined at 18:00; Pablo committed to leaving by 21:00 "vivo o muerto"
-  - Big fight: **cultists vs caravan guards vs party**
-  - **Paco** (caravan guard) killed (Pablo: "Hoy honramos a Paco!")
-  - Someone sabotaged a wagon wheel (nails pulled); Kaelthar flew down and destroyed the cultist wagon in retaliation, got surrounded and beaten (Javi: "Kaelthar estaba rodeado y solo")
-  - Nuberroca joined to defend Kaelthar; **Sulesdeg** (guard captain) charged Nuberroca trying to reduce/arrest him — Nuberroca impaled him with the alabarda in defence, escalating into party-vs-cultists-vs-guards melee
-  - Nuberroca downed at session end (cliffhanger)
-  - **Craig failed**; Pablo recorded low-quality audio via OBS instead (matches "recorded but files unreachable — no audio")
-- **2025-10-26** (S25) — 17:40
-  - Missing: Sinsong. Simba confirmed later: "Coño pero podías haber jugado??!! Joder te entendí como el culo tío"
-  - Kaelthar joined at 18:00; Pablo had a hard 21:00 exit
-  - GM rebuilt guard/cultist stat-blocks in Foundry pre-game for 2024-edition compatibility (six guard tiers: novato, entrenado, veterano, sargento, teniente, comandante)
-  - Direct continuation of S24 combat cliffhanger (Sulesdeg vs Nuberroca still mid-fight at start)
-  - Two cultist prisoners taken and interrogated; **both dead by session end** — party suspects suicide / self-silencing (Alfonso: "porque cojones han muerto los dos cultistas?"; Javi: "si les tratamos con respeto tampoco les gusta y se matan solos")
-  - Amidamaru rolled a session-defining epic tirada (Simba: "Fue epiquísima tu tirada si")
-  - **Tiamat** mentioned in-fiction by the cultists during interrogation
-  - Cliffhanger ending — some NPC(s) shown to be looking for Sinsong, purpose unclear ("como las series con el gancho al final")
+| 2025-10-12 (Sun) | -  | No game       | -                    |
+| 2025-10-19 (Sun) | -  | No game       | -                    |
+| 2025-10-26 (Sun) | 25 | 17:40 - 20:40 | 21 Nightal 1489 DR   |
 
 ### November 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-11-02 (Sun) | 26 | 17:30 - ? | **no audio** |
-| 2025-11-09 (Sun) | 27 | 17:30 - ? | - |
-| 2025-11-16 (Sun) | 28 | 17:00 - ~20:55 | - |
-| 2025-11-23 (Sun) | - | - | No game |
-| 2025-11-30 (Sun) | 29 | 17:15 - ~21:10 | Simba pushed start from 17:00 to 17:15 that morning |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-11-02 (Sun) | 26 | 17:30 - 20:50 | 23 Nightal 1489 DR; **no audio** |
+| 2025-11-09 (Sun) | 27 | 17:30 - 20:30 | 25 Nightal 1489 DR   |
+| 2025-11-16 (Sun) | 28 | 17:00 - 20:55 | -                    |
+| 2025-11-23 (Sun) | -  | No game       | -                    |
+| 2025-11-30 (Sun) | 29 | 17:15 - 21:10 | -                    |
 
 #### November 2025 Events
 
-- **2025-11-02** (S26) — 17:30–~20:50
-  - Missing: Amidamaru (arrived late ~18:30–19:00; "Yo si llego será para las 18:30 o 19"); Kaelthar
-  - **Sinsong returns to play** after summer absence ("este domingo regresara el gran Sinsong")
-  - **Heroic Overexertion optional rule added** (voluntary exhaustion for overcasting)
-  - **Nyx doppelganger discovered** — the fake Nyx (controlled by Víctor on the sly) cast Sending; Simba realised Sending targets a *specific* mind and would reach the *real* Nyx, exposing the swap (Víctor: "cayó Diego en la cuenta de que si mandas el mensaje en una dirección y a una persona en particular, le llega a la de verdad"). False Nyx cast Suggestion on Nuberroca then fled; Sinsong pursued with Command + Spirit Guardians (15 dmg/turn), inflicted 2 exhaustion levels on the doppelganger
-  - Nuberroca Suggestion-ed and slept during pursuit
-  - Sinsong extorted a gnome NPC post-fight
-  - Sinsong discloses in-session to Eguzkilore that the **Compañía del Jabalí is still alive**, ahead of the party on the same road — ⚠ Richy noted on 2025-11-03 WA that Simba retracted this in a private whisper ("me envió un privado diciendo que no podía y que esperara al día siguiente"); disclosure effectively postponed
+- **2025-11-09** (S27) — 17:30–~20:55
   - **Mialee opens 2 of 3 chests** during the doppelganger scene — Darla found drugged in the biggest chest, the real Nyx drugged in the second; third chest never opened
   - **Combat vs "calvo tatuado" mago** at the end of the chase; party barely wins — mage escapes through a plane-cut after declaring "**Rezmir escuchará de esto**" (first Rezmir name-drop since the Greenest arc)
   - **Session cliffhanger** — Antón vanishes overnight with a wagon + horses; survival rolls recover the horses (~1.5 h) but the wagon is gone; party ends ~4 h out from Waterdeep gates
-- **2025-11-09** (S27) — 17:30–~20:55
+- **2025-11-16** (S28)
   - Session start pushed late by Simba's return trip; Javi (Kaelthar) entered at 18:05
   - Sinsong-the-PC off-screen in-fiction (Gonzalo: "Yo no entro, pero me quedo concentrado en el Spirit guardians") — Gonzalo monitored from text and surfaced via Sending for key beats
   - **Arrival at outskirts of Waterdeep** (~4 h from the city — Richy: "Estamos a 4 horas de viaje de la ciudad")
@@ -158,7 +130,6 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
   - Elodin teleports away; alive at end. Sinsong's fire spells + Nuberroca near-crit not enough
   - Sinsong prone on a rooftop with pigeons for most of combat (comedy centrepiece)
   - Mia failed to read a pergamino found
-- **2025-11-16** (S28)
   - Missing: Kaelthar (arrived 18:00)
   - Sinsong reveals his stones = petrified villagers from his home village; Elodin wants revenge for the village
 - **2025-11-30** (S29) — 17:15–~21:10
@@ -173,12 +144,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### December 2025
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2025-12-07 (Sun) | 30 | 17:00 - ? | - |
-| 2025-12-14 (Sun) | 31 | 18:00 - ? | - |
-| 2025-12-21 (Sun) | 32 | 17:00 - ? | - |
-| 2025-12-28 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2025-12-07 (Sun) | 30 | 17:00 - ?     | -                    |
+| 2025-12-14 (Sun) | 31 | 18:00 - ?     | -                    |
+| 2025-12-21 (Sun) | 32 | 17:00 - ?     | -                    |
+| 2025-12-28 (Sun) | -  | No game       | -                    |
 
 #### December 2025 Events
 
@@ -204,12 +175,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### January 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-01-04 (Sun) | 33 | 17:30 - ? | - |
-| 2026-01-11 (Sun) | - | No game | - |
-| 2026-01-18 (Sun) | 34 | 17:00 - ? | - |
-| 2026-01-25 (Sun) | 35 | 17:00 - ? | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-01-04 (Sun) | 33 | 17:30 - ?     | -                    |
+| 2026-01-11 (Sun) | -  | No game       | -                    |
+| 2026-01-18 (Sun) | 34 | 17:00 - ?     | -                    |
+| 2026-01-25 (Sun) | 35 | 17:00 - ?     | -                    |
 
 #### January 2026 Events
 
@@ -238,12 +209,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### February 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-02-01 (Sun) | 36 | 17:00 - ? | - |
-| 2026-02-08 (Sun) | 37 | 17:00 - ? | - |
-| 2026-02-15 (Sun) | 38 | 17:00 - ? | - |
-| 2026-02-22 (Sun) | 39 | 17:00 - 21:00 | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-02-01 (Sun) | 36 | 17:00 - ?     | -                    |
+| 2026-02-08 (Sun) | 37 | 17:00 - ?     | -                    |
+| 2026-02-15 (Sun) | 38 | 17:00 - ?     | -                    |
+| 2026-02-22 (Sun) | 39 | 17:00 - 21:00 | -                    |
 
 #### February 2026 Events
 
@@ -274,14 +245,14 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### March 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-03-01 (Sun) | 40 | 17:00 - ? | session backtracked |
-| 2026-03-08 (Sun) | - | No game | - |
-| 2026-03-15 (Sun) | 41 | 17:00 - ? | session backtracked |
-| 2026-03-17 (Tue) | ? | ? (unknown) | Off-cadence Sinsong+Kaelthar private interrogation session (has own audio + transcript); ⚠ unlogged — new-session-number decision deferred to GM |
-| 2026-03-22 (Sun) | 42 | 17:00 - ? | session backtracked |
-| 2026-03-29 (Sun) | 43 | 17:00 - ? | session backtracked |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-03-01 (Sun) | 40 | 17:00 - ?     | session backtracked  |
+| 2026-03-08 (Sun) | -  | No game       | -                    |
+| 2026-03-15 (Sun) | 41 | 17:00 - ?     | session backtracked  |
+| 2026-03-17 (Tue) | -  | No game       | -                    |
+| 2026-03-22 (Sun) | 42 | 17:00 - ?     | session backtracked  |
+| 2026-03-29 (Sun) | 43 | 17:00 - ?     | session backtracked  |
 
 #### March 2026 Events
 
@@ -315,12 +286,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### April 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-04-05 (Sun) | - | No game | - |
-| 2026-04-12 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-04-05 (Sun) | -  | No game       | -                    |
+| 2026-04-12 (Sun) | -  | No game       | -                    |
 | 2026-04-19 (Sun) | 44 | 17:00 - 19:40 | Gonzalo leaves the group |
-| 2026-04-26 (Sun) | - | No game | - |
+| 2026-04-26 (Sun) | -  | No game       | -                    |
 
 #### April 2026 Events
 
@@ -334,14 +305,14 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### May 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
 | 2026-05-01 (Fri) | 45 | 16:00 - 20:20 | 15 Hammer 1490 DR; off-cadence; In game time (EOS): Hammer 15, 1490, 16:21 |
-| 2026-05-03 (Sun) | - | No game | - |
-| 2026-05-10 (Sun) | - | No game | - |
-| 2026-05-17 (Sun) | - | No game | - |
-| 2026-05-24 (Sun) | - | No game | - |
-| 2026-05-31 (Sun) | - | No game | - |
+| 2026-05-03 (Sun) | -  | No game       | -                    |
+| 2026-05-10 (Sun) | -  | No game       | -                    |
+| 2026-05-17 (Sun) | -  | No game       | -                    |
+| 2026-05-24 (Sun) | -  | No game       | -                    |
+| 2026-05-31 (Sun) | -  | No game       | -                    |
 
 #### May 2026 Events
 
@@ -354,12 +325,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### June 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-06-07 (Sun) | - | No game | - |
-| 2026-06-14 (Sun) | - | No game | - |
-| 2026-06-21 (Sun) | 46 | 17:00 - ? | 15 Hammer 1490 DR |
-| 2026-06-28 (Sun) | - | No game | - |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-06-07 (Sun) | -  | No game       | -                    |
+| 2026-06-14 (Sun) | -  | No game       | -                    |
+| 2026-06-21 (Sun) | 46 | 17:00 - ?     | 15 Hammer 1490 DR    |
+| 2026-06-28 (Sun) | -  | No game       | -                    |
 
 #### June 2026 Events
 
@@ -373,12 +344,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### July 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-07-05 (Sun) | - | No game | - |
-| 2026-07-12 (Sun) | 47 | 17:00 - ? | 15 Hammer 1490 DR |
-| 2026-07-19 (Sun) | - | No game | - |
-| 2026-07-26 (Sun) | 48 | 17:00 - ? | 16 Hammer 1490 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-07-05 (Sun) | -  | No game       | -                    |
+| 2026-07-12 (Sun) | 47 | 17:00 - ?     | 15 Hammer 1490 DR    |
+| 2026-07-19 (Sun) | -  | No game       | -                    |
+| 2026-07-26 (Sun) | 48 | 17:00 - ?     | 16 Hammer 1490 DR    |
 
 #### July 2026 Events
 
@@ -398,14 +369,14 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### August 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-08-02 (Sun) | - | No game | - |
-| 2026-08-04 (Tue) | 49 | 18:45 - ? | 16 Hammer 1490 DR; off-cadence |
-| 2026-08-09 (Sun) | - | No game | - |
-| 2026-08-16 (Sun) | - | No game | - |
-| 2026-08-23 (Sun) | 50 | 18:30 - ? | 16 Hammer 1490 DR |
-| 2026-08-30 (Sun) | 51 | 17:30 - ? | 16 Hammer 1490 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-08-02 (Sun) | -  | No game       | -                    |
+| 2026-08-04 (Tue) | 49 | 18:45 - ?     | 16 Hammer 1490 DR; off-cadence |
+| 2026-08-09 (Sun) | -  | No game       | -                    |
+| 2026-08-16 (Sun) | -  | No game       | -                    |
+| 2026-08-23 (Sun) | 50 | 18:30 - ?     | 16 Hammer 1490 DR    |
+| 2026-08-30 (Sun) | 51 | 17:30 - ?     | 16 Hammer 1490 DR    |
 
 #### August 2026 Events
 
@@ -431,12 +402,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### September 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-09-06 (Sun) | - | No game | - |
-| 2026-09-13 (Sun) | - | No game | - |
-| 2026-09-20 (Sun) | 52 | 17:15 - ? | 16 Hammer 1490 DR |
-| 2026-09-27 (Sun) | 53 | 17:15 - ? | 16 Hammer 1490 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-09-06 (Sun) | -  | No game       | -                    |
+| 2026-09-13 (Sun) | -  | No game       | -                    |
+| 2026-09-20 (Sun) | 52 | 17:15 - ?     | 16 Hammer 1490 DR    |
+| 2026-09-27 (Sun) | 53 | 17:15 - ?     | 16 Hammer 1490 DR    |
 
 #### September 2026 Events
 
@@ -449,12 +420,12 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### October 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-10-04 (Sun) | 54 | 17:00 - ? | 16 Hammer 1490 DR |
-| 2026-10-11 (Sun) | 55 | 17:00 - 20:10 | 16 Hammer 1490 DR |
-| 2026-10-18 (Sun) | - | No game | - |
-| 2026-10-25 (Sun) | 56 | 17:00 - 20:30 | 17 Hammer 1490 DR |
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-10-04 (Sun) | 54 | 17:00 - ?     | 16 Hammer 1490 DR    |
+| 2026-10-11 (Sun) | 55 | 17:00 - 20:10 | 16 Hammer 1490 DR    |
+| 2026-10-18 (Sun) | -  | No game       | -                    |
+| 2026-10-25 (Sun) | 56 | 17:00 - 20:30 | 17 Hammer 1490 DR    |
 
 #### October 2026 Events
 
@@ -463,12 +434,8 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 ### November 2026
 
-| Date | Session | Play time | Notes |
-|---|---|---|---|
-| 2026-11-01 (Sun) | - | No game | - |
-| 2026-11-08 (Sun) | 57 | 17:45 - 21:00 | TBD |
-
-#### November 2026 Events
-
-- **2026-11-08** (S57)
-  - **SECRET:** Korga and Bragda fighting 1 troll and 4 drakes in the east wing (fight noises)
+| Date             | S# | Play time     | Notes                |
+|:-----------------|:---|:--------------|:---------------------|
+| 2026-11-01 (Sun) | -  | No game       | -                    |
+| 2026-11-08 (Sun) | 57 | 17:45 - 21:00 | -                    |
+| 2026-11-15 (Sun) | -  | No game       | -                    |
