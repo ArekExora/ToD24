@@ -8,13 +8,14 @@ Inputs accepted (filename pattern determines PDF name):
     sessions/session-NN/saga-NN.md           → outputs/S<NN> - Saga.pdf
     sessions/session-NN/outputs/gm-hb-NN.md  → outputs/S<NN> - GM.pdf
     sessions/session-NN/minutes-NN.md        → outputs/S<NN> - Minutes.pdf
+    sessions/session-NN/resumen-NN.md        → outputs/S<NN> - Resumen.pdf
     sessions/outputs/full_saga.md            → sessions/outputs/Saga.pdf
     sessions/outputs/full_gm.md              → sessions/outputs/GM.pdf
     sessions/outputs/full_minutes.md         → sessions/outputs/Minutes.pdf
     sessions/outputs/timeline.md             → sessions/outputs/Timeline.pdf
 
-Minutes files have their YAML frontmatter stripped before upload; saga and
-gm-hb files are uploaded verbatim.
+Minutes files have their YAML frontmatter stripped before upload; saga,
+gm-hb, and resumen files are uploaded verbatim.
 
 Each run POSTs a fresh anonymous brew to Homebrewery, renders the PDF via
 headless Chromium, then DELETEs the brew. No state is persisted — the brew
@@ -67,6 +68,7 @@ ROLE_PATTERNS = [
     (re.compile(r"^saga-(\d+)\.md$"), ("saga", "Saga", False)),
     (re.compile(r"^gm-hb-(\d+)\.md$"), ("gm", "GM", False)),
     (re.compile(r"^minutes-(\d+)\.md$"), ("minutes", "Minutes", True)),
+    (re.compile(r"^resumen-(\d+)\.md$"), ("resumen", "Resumen", False)),
 ]
 
 FULL_PATTERN = re.compile(r"^full_(saga|gm|minutes)\.md$")
@@ -134,7 +136,7 @@ def classify(src: Path, wip: bool = False) -> Target:
         )
     raise ValueError(
         f"filename does not match saga-NN.md, gm-hb-NN.md, minutes-NN.md, "
-        f"full_(saga|gm|minutes).md, or timeline.md: {src.name}"
+        f"resumen-NN.md, full_(saga|gm|minutes).md, or timeline.md: {src.name}"
     )
 
 

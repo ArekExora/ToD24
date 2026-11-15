@@ -85,7 +85,7 @@ _~19:30, 25 Nightal 1489 DR_
 ## 6 - A shackled halfling
 
 1. Nuberroca is up and moving before Mialee's Message has fully landed. He catches the halfling, forces her to the ground, claps shackles on her wrists, and hauls her back out of the camp toward Mialee, Sinsong, and Jamna at the meeting spot.
-2. The halfling protests her innocence the whole way. She is Nyx, her party is mistreating her for no reason, the shackles must come off. By the time Nuberroca has her back the caravan has come out of the wagons to see what is going on. The whole convoy is ringed around the four of them now, curious at first, then some of them openly angry at the treatment of the kind halfling.
+2. The halfling protests her innocence the whole way. She IS Nyx, her party is mistreating her for no reason, the shackles must come off. By the time Nuberroca has her back the caravan has come out of the wagons to see what is going on. The whole convoy is ringed around the four of them now, curious at first, then some of them openly angry at the treatment of the kind halfling.
 3. **Darla** is the most vocal of them; she pushes to the front of the ring and starts defending the shackled halfling, accusing the party of cruelty, demanding they let Nyx go.
 4. The act gets no traction. The party holds their ground. The shackled halfling drops the innocent voice then and turns to threats: if anything happens to her, "your friend" will die. She repeats it. The party does not blink. When the threats do not land either, she drops them too and shrieks, a blood-freezing cry meant to put the party down with fear.
 5. The shriek surprises the party, but does not frighten them. It does land on Enki however, the gagged cultist still strapped to Nuberroca's chest; the man starts to whine and moan through the gag, scared out of what little wit he has left.
@@ -104,7 +104,7 @@ _~19:30, 25 Nightal 1489 DR_
 4. Darla keeps swinging on Nuberroca, impervious to Gus's body. She carves several deep gashes into the goliath before Sinsong casts a healing spell at him and the worst of them close.
 5. The halfling fights in her shackles. She keeps twisting at the chain Nuberroca has her by, working for the slack she needs to pull loose, and snaps back at Mialee between pulls with teeth and short vicious kicks when the elf closes with the scimitars.
 6. Sinsong casts slumber over the halfling, but in his rush he catches Nuberroca and Mialee inside too, and only the goliath goes down to it. His shoulders drop, his grip on the shackled halfling slackens, and he slumps face-down to the ground on top of Enki. The cultist is pinned there beneath the barbarian's weight, still conscious, still making his frightened sounds through the gag.
-7. The fake Nyx twists loose from the slackened grip and tears away into the dark, shackled. Sinsong is up and after her, pale light flaring around him as he runs, followed by a host of tiny angelic guardians.
+7. Nyx twists loose from the slackened grip and tears away into the dark, shackled. Sinsong is up and after her, pale light flaring around him as he runs, followed by a host of tiny angelic guardians.
 
 \column
 

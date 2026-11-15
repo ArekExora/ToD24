@@ -27,7 +27,7 @@
 - 25 Nightal — At breakfast Jamna lifts a thorn-ring from Nuberroca's porridge and names an attempted murder.
 - Nightfall meeting with Jamna; **Mialee's Message cantrip reveals the real Nyx is trapped and kidnapped**.
 - Fake Nyx shackled at the camp ring; Darla defends her and attacks Nuberroca when the party holds its ground.
-- Camp melee — **Gus killed by Nuberroca**; Sinsong's Sleep catches the barbarian; shackled fake-Nyx bolts into the dark.
+- Camp melee — **Gus killed by Nuberroca**; Sinsong's Sleep catches the barbarian; shackled Nyx bolts into the dark.
 - Eguzkilore breaks stance to pursue; Mialee's Messages into the wagons draw no reply.
 
 :::::
