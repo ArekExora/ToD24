@@ -28,7 +28,7 @@ _~12:00, 23 Nightal 1489 DR_
 5. Mialee throws her fog down onto the guards — a thick grey bank over the formation, cutting the sergeant from his rank in front — and walks straight into it with blades out. Two of the troops she passes inside the bank do not stand again; the sergeant, blind to his own line in the murk, shouts a correction at shapes he cannot see.
 6. Eguzkilore has worked up the far verge to a rise clear of the fog, and from the flank he puts two arrows through the sergeant's throat before the word can land. Nyx looses from the cart-tail and every shot goes wide. Amidamaru works the party's rank close behind, healing cuts before they open deeper.
 7. Deprived of its leader the line comes apart quickly. Those still on their feet drop their weapons; the ones who break for the hills get run down. The convoy is still on its wheels when the exchange ends.
-8. Two of them live long enough to be questioned. Their story comes back thin: city guards whose coin had stopped coming long enough that they had taken to working the road themselves — stopping convoys on the pretence of a toll and pressing travellers for what would be handed over sooner than fought for. The party leaves them where they fell.
+8. Two of them, **Cheko** and **Mane**, are taken alive and questioned. Their story comes back thin: city guards whose coin had stopped coming long enough that they had taken to working the road themselves — stopping convoys on the pretence of a toll and pressing travellers for what would be handed over sooner than fought for. The party keeps them bound and brings them along.
 
 \column
 
