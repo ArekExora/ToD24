@@ -59,6 +59,15 @@ FILE-LEVEL CONVENTIONS
       as <scene>.<beat> (e.g. "3.5 needs fixing"). NO BLANK LINE between
       consecutive beats — they sit one after another. The blank line
       appears only before the next scene header or the closing block.
+    - BEAT GRANULARITY: one beat = one actor, one action, one
+      consequence. Rule of thumb: ≤2 citation spans, ≤1 semicolon
+      joining distinct events. If the beat needs "and then" / "X; Y;
+      Z" to describe it, split into separate beats. Compound beats
+      bundle claims under wide citations, break addressability
+      (scene.beat refs become ambiguous), and hide the dawn- /
+      egg-pattern failures the audit is designed to catch. When in
+      doubt, over-split on first draft — merging is cheap at GM
+      review, splitting is expensive.
     - Closing block: "{{pageNumber,auto}}" + "{{footnote Tyranny of Dragons
       | Session NN}}" at the file end (same NN substitution as the H1).
       Homebrewery page-footer pair; renders harmlessly elsewhere. GM
