@@ -246,7 +246,7 @@ def main() -> int:
         key=lambda p: int(p.name.split("-")[1]),
     )
 
-    header = ["Session #", "Transcript", "Minutes", "Outputs", "start", "end", "delta"]
+    header = ["S#", "Trasnc.", "Minutes", "PDFs", "start", "end", "delta"]
     rows: list[list[str]] = []
     prev_end: Optional[dict] = None
 
@@ -265,27 +265,40 @@ def main() -> int:
         ])
         prev_end = end
 
-    # Emoji glyphs render as two cells wide in most monospace editors;
-    # VS16 (U+FE0F) is invisible. Everything else is one cell.
+    # Pad on *visual* width (not codepoints): ✅ and ⚠️ both render as 2
+    # cells in monospace, but ⚠️ carries a VS16 that costs a codepoint
+    # without adding a visible cell. Codepoint-based padding would leave
+    # ⚠️ rows visually one cell narrower than ✅ rows. Minimum 3 per GFM.
     WIDE = {"✅", "❌", "⚠"}
 
     def visual_len(s: str) -> int:
         w = 0
         for ch in s:
-            if ch == "️":          # VS16 (invisible)
+            if ch == "️":    # VS16 (invisible)
                 continue
             w += 2 if ch in WIDE else 1
         return w
 
-    floors = [9, 11, 8, 8, 15, 15, 10]
-    widths = [max(floors[i], max(visual_len(r[i]) for r in [header, *rows])) for i in range(7)]
+    widths = [max(3, max(visual_len(r[i]) for r in [header, *rows])) for i in range(7)]
 
     def pad(s: str, width: int) -> str:
         return s + " " * (width - visual_len(s))
 
-    row = lambda cells: "| " + " | ".join(pad(cells[i], widths[i]) for i in range(7)) + " |"
-    sep = "| " + " | ".join("-" * w for w in widths) + " |"
-    table = [row(header), sep, *(row(r) for r in rows)]
+    # Per-column extra padding applied to data rows only (header stays at
+    # widths[i]). Compensates for IDE-specific emoji rendering drift — the
+    # Minutes column's ✅ / ⚠️ render ~1 cell narrower than the header in
+    # practice, so an extra trailing space brings the visual cell edge
+    # back in line.
+    row_extra = [0, 0, 1, 0, 0, 0, 0]
+
+    def build_row(cells, extra=None):
+        extra = extra or [0] * 7
+        return "| " + " | ".join(
+            pad(cells[i], widths[i] + extra[i]) for i in range(7)
+        ) + " |"
+
+    sep = "|" + "".join(f":{'-' * w} |" for w in widths)
+    table = [build_row(header), sep, *(build_row(r, row_extra) for r in rows)]
 
     current = STATUS_FILE.read_text()
     marker = "## Status\n"

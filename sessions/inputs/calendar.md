@@ -114,10 +114,6 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 #### November 2025 Events
 
-- **2025-11-09** (S27) — 17:30–~20:55
-  - **Mialee opens 2 of 3 chests** during the doppelganger scene — Darla found drugged in the biggest chest, the real Nyx drugged in the second; third chest never opened
-  - **Combat vs "calvo tatuado" mago** at the end of the chase; party barely wins — mage escapes through a plane-cut after declaring "**Rezmir escuchará de esto**" (first Rezmir name-drop since the Greenest arc)
-  - **Session cliffhanger** — Antón vanishes overnight with a wagon + horses; survival rolls recover the horses (~1.5 h) but the wagon is gone; party ends ~4 h out from Waterdeep gates
 - **2025-11-16** (S28)
   - Session start pushed late by Simba's return trip; Javi (Kaelthar) entered at 18:05
   - Sinsong-the-PC off-screen in-fiction (Gonzalo: "Yo no entro, pero me quedo concentrado en el Spirit guardians") — Gonzalo monitored from text and surfaced via Sending for key beats
