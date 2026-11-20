@@ -108,19 +108,13 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |:-----------------|:---|:--------------|:---------------------|
 | 2025-11-02 (Sun) | 26 | 17:30 - 20:50 | 23 Nightal 1489 DR; **no audio** |
 | 2025-11-09 (Sun) | 27 | 17:30 - 20:30 | 25 Nightal 1489 DR   |
-| 2025-11-16 (Sun) | 28 | 17:00 - 20:55 | -                    |
+| 2025-11-16 (Sun) | 28 | 17:30 - 20:50 | 29 Nightal 1489 DR   |
 | 2025-11-23 (Sun) | -  | No game       | -                    |
 | 2025-11-30 (Sun) | 29 | 17:15 - 21:10 | -                    |
 
 #### November 2025 Events
 
 - **2025-11-16** (S28)
-  - Session start pushed late by Simba's return trip; Javi (Kaelthar) entered at 18:05
-  - Sinsong-the-PC off-screen in-fiction (Gonzalo: "Yo no entro, pero me quedo concentrado en el Spirit guardians") — Gonzalo monitored from text and surfaced via Sending for key beats
-  - **Arrival at outskirts of Waterdeep** (~4 h from the city — Richy: "Estamos a 4 horas de viaje de la ciudad")
-  - **Elodin arc opens** — the elf hunting Sinsong is confirmed present in Waterdeep; Sinsong panics
-  - Sinsong-to-Amidamaru Sending: offer to heal Nyx if Amidamaru "joins his faithful" — Pablo rejects
-  - Prisoners murdered during a watch; **Anton** (cultist who stole the party's cart) implicated as topo, escapes (party initially thought Anton dead — Gonzalo WA "Anton muerto" — but S34 confirms he escaped)
   - Encounter with **Elodin** in Waterdeep — party attempts to hide Sinsong; **Nuberroca literally points to Sinsong** instead of hiding him
   - Elodin casts **Suggestion (5th-level slot)** on Nuberroca; Nuberroca complies
   - Elodin teleports away; alive at end. Sinsong's fire spells + Nuberroca near-crit not enough

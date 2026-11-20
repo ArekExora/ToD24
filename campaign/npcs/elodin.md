@@ -40,6 +40,7 @@ Kill Sinsong.
 ## Campaign notes
 
 - 23 Nightal 1489 DR (S25) — Rode up to the Daggerford traffic hunting a dwarf with a tree tattoo (Sinsong). Did not stay with the caravan despite Nuberroca's invitation; left a message asking the party to tell Sinsong that *Elodin* is looking for him.
+- 29 Nightal 1489 DR (S28) — Caught up to the party at Waterdeep's south gate; Suggestion-ed Nuberroca and walked him across the central plaza to flush Sinsong out; killed a Waterdeep city guard with a green poison ray; downed by Kaelthar's charge and Eguzkilore's volley; plane-cut escape using *Kal Ort Por* (same incantation as Azbara Jos at Daggerford, S27). Alive, at large.
 
 ## Notes
 
