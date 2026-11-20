@@ -26,7 +26,7 @@ _~09:30, 29 Nightal 1489 DR_
 2. The horses have only just been brought in after Anton spooked them.
 3. The two guard prisoners are dead in their bindings; the bodies are left where they lay.
 4. The merchants are intact and want to move on, eager to reach **Waterdeep** around noon.
-5. Mialee levels a long glare at **Miguel** and **Fenwir**, the two guards who had been talking the day before about her stealing the cart; neither answers it.
+5. Mialee levels a long glare at **Miguel** and **Fenwir**, the two guards who had been talking some days ago about her stealing the cart; neither answers it.
 6. Nobody can spare horses to chase the stolen wagon, so Amidamaru sends his familiar **Munin** forward along the road to find it.
 7. The party rakes over the plan — deliver the chests to the Harpers in Waterdeep, press north to the roadhouse at **Carnath**.
 8. Nuberroca pulls up a name he had half-forgotten — **Elodin**, the elf who had ridden up to the Daggerford traffic hunting Sinsong; the dwarf's hunter may be waiting for them in Waterdeep. Sinsong panics visibly.
@@ -62,7 +62,7 @@ _~13:00, 29 Nightal 1489 DR_
 5. Amidamaru lays a hand on his shoulder and the dwarf disappears — the spell should hold about an hour.
 6. Sinsong climbs down into the family cart and pulls the blanket over himself. Amidamaru whispers across his mind to stay not only silent, but still.
 7. Nuberroca, who is told only that they are hiding Sinsong, tells the dwarf to stay calm — he does not know this game but he will follow it.
-8. He grapples Amidamaru from behind, waits for the tortle to tuck inside his own shell, then ties a cord round his own chest to hold the shell against him, just as he had carried the dead cultist the night before.
+8. He grapples Amidamaru from behind, waits for the tortle to tuck inside his own shell, then ties a cord round his own chest to hold the shell against him, just as he had carried the cultist some days ago.
 9. The merchants look on without surprise — they are used to the party's ways by now.
 10. Nuberroca declares the legend of the heroes of the Mansken grows — a voice from inside corrects him: *"Los fieles de Sinsong..."*.
 11. Munin, sent ahead to track the stolen wagon, is nowhere above the carts at the arch nor visible anywhere close.
@@ -117,7 +117,7 @@ _~13:30, 29 Nightal 1489 DR_
 2. Nyx introduces herself; Mialee greets the guards and explains they are a merchant caravan from Baldur's Gate, delivering goods and moving north within a day or two.
 3. The guard asks what is in the carts; Mialee lists food, wood, Beyd's beer, varied goods, and settlers joining the city.
 4. The guards count eight carts and wave them through.
-5. Darla's cart is held at the back of the queue; at Mialee's prompt, Eguzkilore goes back and asks for the two empty chests that had held the doppelganger and Nyx.
+5. Darla's cart is held at the back of the queue; at Mialee's prompt, Eguzkilore goes back and asks for the two empty chests that had held Darla and Nyx.
 6. A guard asks what is in them; Mialee answers: nothing, they are empty.
 7. The guard shrugs and waves them through; the party loads the chests and enters.
 8. As they pass through, **Jamna** draws Mialee aside — glancing strangely at Elodin — and offers to deliver the gold to the Harpers herself so the party can move north faster.
