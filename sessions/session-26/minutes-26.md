@@ -99,7 +99,7 @@ _~19:30, 25 Nightal 1489 DR_
 ## 7 - Collateral damage
 
 1. The shackled halfling twists under the barbarian grapple, lashes out with the chains of her shackles as a cudgel and with her teeth, catches Mialee across the forearm and splits the skin open.
-2. Mialee draws her scimitars and goes at the halfling. Nuberroca turns from the halfling onto Darla with the halberd. Jamna steps back and lets the camp handle the situation, while **Carlon** the harpist, at the ringed edge of the crowd, observes the situation wide eyed.
+2. Mialee draws her scimitars and goes at the halfling. Nuberroca turns from the halfling onto Darla with the halberd. Jamna steps back and lets the camp handle the situation, while **Carlon** the Harper, at the ringed edge of the crowd, observes the situation wide eyed.
 3. Watching his wife in danger, **Gus** pushes through the ring toward Darla to protect her. He steps between the barbarian and the halberd, trying to shield her from Nuberroca's swings. The goliath's backswing catches him clean, and Gus dies bleeding in the dust, under Nuberroca's blade.
 4. Darla keeps swinging on Nuberroca, impervious to Gus's body. She carves several deep gashes into the goliath before Sinsong casts a healing spell at him and the worst of them close.
 5. The halfling fights in her shackles. She keeps twisting at the chain Nuberroca has her by, working for the slack she needs to pull loose, and snaps back at Mialee between pulls with teeth and short vicious kicks when the elf closes with the scimitars.

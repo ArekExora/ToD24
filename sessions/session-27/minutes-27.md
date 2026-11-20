@@ -59,7 +59,7 @@ _~20:00, 25 Nightal 1489 DR_
 _~08:00, 26 Nightal 1489 DR_
 
 1. By morning Darla's shackles are empty on the ground; not forced, simply slipped. 
-2. By the chest wagon lies **Carlon** the harpist, dead on the ground, a single puncture in the back from behind. The party recalls that the doppelganger worked with its fists; this is someone else.
+2. By the chest wagon lies **Carlon** the Harper, dead on the ground, a single puncture in the back from behind. The party recalls that the doppelganger worked with its fists; this is someone else.
 3. The question of who was on watch snaps around the camp — Mialee is first to voice it, *"Eguzkilore, again?"*, and the elf bristles that he was watching.
 4. **Eldkin** comes over and examines the body — the man was leaning into the treasure wagon when it was done — then turns her attention openly to Mialee and the short sword hanging from her belt.
 5. **Miguel** and **Fenwir** are already saying it aloud to the other guards: the elf stabbed Carlon to keep the treasure; these adventurers won't hand a coin to the **Order of the Gauntlet**. Mialee works the crowd but finds the murmur unled — nobody is directing it.
@@ -139,9 +139,9 @@ _~06:00, 29 Nightal 1489 DR_
 9. Mialee climbs up onto Nuberroca's shoulder to get a line on the mage.
 10. Nyx fires back — her shot was well aimed, but the arrow rebounds off a wall of light at the mage's chest.
 11. Nuberroca steps out from behind a cart, flashes across the camp in a step of cloud to land in front of him, and his first swing meets a magical barrier and slides off.
-12. ***[EPIC]*** Nuberroca gives in to the dark aura. The blue lines along his body darken; black smoke runs down the lance; the point drives in and the mage grasps at his own chest, shrieking.
-13. The mage holds himself upright, meets Nuberroca's eye, and tells them they are stronger than he thought, but they have more enemies than they know; **Rezmir** will hear of this, and he will see them again.
-14. A plane-cut opens between them like a strip of millimetre film, closes a breath later, and the mage is gone.
+12. ***[EPIC]*** Nuberroca gives in to the dark aura. The blue lines along his body darken; black smoke runs down the lance; the point drives in and Azbara Jos grasps at his own chest, shrieking.
+13. The wizard holds himself upright, meets Nuberroca's eye, and tells them they are stronger than he thought, but they have more enemies than they know; **Rezmir** will hear of this, and he will see them again.
+14. A plane-cut opens between them like a strip of millimetre film, closes a breath later, and Azbara is gone.
 
 \column
 

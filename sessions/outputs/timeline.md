@@ -48,7 +48,7 @@ Greenest is burning, bandits and a blue dragon are raiding the town. The cult of
   ## Catching the Cult
   **27 Marpenoth 1489 DR** (S11) → **5 Uktar 1489 DR** (S14)
   }}
-The cult has dispersed with the stolen cargo. The party must catch them.
+The cult has dispersed with the stolen cargo. The party tries to find them.
 }}
 {{wide
 ### Marpenoth 1489 DR
@@ -84,7 +84,7 @@ The cult has dispersed with the stolen cargo. The party must catch them.
   ## The Trade Way
   **6 Uktar 1489 DR** (S14) → 
   }}
-A long caravan journey up the Trade Way, with the party riding alongside the suspected cultists.
+A long caravan journey up the Trade Way, with the heroes riding alongside the suspected cultists.
 }}
 {{wide
 ### Uktar 1489 DR
@@ -110,7 +110,10 @@ A long caravan journey up the Trade Way, with the party riding alongside the sus
 | 21      | S25      | Party defeated the cultists at the **Delimbiyr** pass and seized their loot. |
 | 21      | S25      | Cultists revealed under interrogation that the cargo was bound for **Rezmir** via **Carnath Roadhouse**. |
 | 22      | S25      | Caravan arrived at **Daggerford**, where sisters **Arietta Innevar** and **Zelina Innevar** left unseen. |
-| 25      | S26      | **Nyx** revealed kidnapped and replaced by a Doppelganger. |
+| 25      | S26      | **Nyx** revealed kidnapped and replaced by a doppelganger. |
+| 25      | S27      | **Nyx** rescued, the doppelganger impersonating her killed. |
+| 26      | S27      | **Carlon Amoffel** the Harper killed overnight. |
+| 29      | S27      | **Anton** fled with a wagon of the cult treasure. |
 }}
 
 {{pageNumber,auto}}

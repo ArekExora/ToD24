@@ -46,11 +46,11 @@ Emitted on every page immediately before `\page`. The build script reads the lit
 
 ## Catching the Cult
 - **Opened:** 27 Marpenoth 1489 DR (S11)
-- **Description:** The cult has dispersed with the stolen cargo. The party must catch them.
+- **Description:** The cult has dispersed with the stolen cargo. The party tries to find them.
 - **Page breaks after:** 
     - 2 Uktar 1489 DR, S12, 2
 
 ## The Trade Way
 - **Opened:** 6 Uktar 1489 DR (S14)
-- **Description:** A long caravan journey up the Trade Way, with the party riding alongside the suspected cultists.
+- **Description:** A long caravan journey up the Trade Way, with the heroes riding alongside the suspected cultists.
 - **Page breaks after:** (none)
