@@ -35,8 +35,8 @@ from pathlib import Path
 # The leading space (if any) is consumed so no double space is left before
 # the terminating punctuation (period, comma, question mark, etc.).
 CITATION_RE = re.compile(
-    r" ?\[(?:T:[0-9-]+|Td:[0-9-]+|GM|derived:[^\]]+)"
-    r"(?:,\s*(?:T:[0-9-]+|Td:[0-9-]+|GM|derived:[^\]]+))*"
+    r" ?\[(?:T:[0-9-]+(?:\s*\?ord)?|Td:[0-9-]+(?:\s*\?ord)?|GM|derived:[^\]]+)"
+    r"(?:,\s*(?:T:[0-9-]+(?:\s*\?ord)?|Td:[0-9-]+(?:\s*\?ord)?|GM|derived:[^\]]+))*"
     r"\]"
 )
 
