@@ -1,7 +1,7 @@
 ---
 status: drafted
 date: 2025-11-30 17:20 - 21:10
-in_fiction_date: 29 Nightal 1489 DR, ~14:30? → 30 Nightal, ~06:00?
+in_fiction_date: 29 Nightal 1489 DR, ~15:00 → 30 Nightal, ~06:00?
 party_present:
   - Eguzkilore
   - Kaelthar
@@ -19,7 +19,7 @@ locations:
 {wide}
 
 ## 1 - After Elodin
-_~14:30?, 29 Nightal 1489 DR_
+_~15:00, 29 Nightal 1489 DR_
 
 1. Still in the Waterdeep square where **Elodin** cut the air and vanished, the party takes stock. The combat ended with the elf immobilised and gone through a thin white line, a spell none of them placed save that the word *"Kal Ort Por"* carried through it — the same phrase **Azbara** had used on the Daggerford road [Td:3-9].
 2. The square is thick with guards now. The dead man Elodin melted into the stones in the fight is a Waterdeep uniform, and the patrols along the walls have doubled — not pressing the party, just walking [Td:27-37].
@@ -38,7 +38,7 @@ _~14:30?, 29 Nightal 1489 DR_
 2. Nuberroca accepts and lets Jorath go on his word; the barbarian plants himself at a wall with a beer and watches [Td:402-411]. Jorath goes back to his table and resumes the show, the price now floated at 200 gold for both companies to ride the Baldur's Gate run that very night [Td:370-378].
 
 ## 4 - A window and a chase
-_~15:30?_
+_~15:30?, 29 Nightal 1489 DR_
 
 1. Jorath, thirsty, calls for the barman's attention without paying and climbs the stairs toward the toilets, saying his throat is dry [Td:549-561]. Nyx goes up behind him; Kaelthar takes the stairs; Nuberroca stays below [Td:562-576].
 2. From the landing Nyx hears a shutter bang open and no footstep after; the door is locked. She breaks it with her shoulder on the second try and finds the window swinging and the man gone over the sill, climbing down the back wall [Td:609-635, Td:657-662]. She throws herself after him [Td:670].
@@ -60,14 +60,15 @@ _~15:30?_
 7. The barman, still back at the tavern, leans out of the broken window and bellows at the empty street about his door; nobody answers him and he gives up on it [Td:972-978]. Nyx permits herself a quiet satisfaction [Td:978].
 
 ## 6 - Rooftop watchers
-_~16:30?_
+_~16:30?, 29 Nightal 1489 DR_
 
 1. The party trickles together on the street — Nuberroca walking back from his beer with his head tilted at the eaves, convinced a friend of his in the city has warned him to watch the roofs; Mialee drifting in from the north with word from her people [Td:987-1000, Td:1011].
 2. Mialee carries it: her little birds at the orphanage put a watcher on a rooftop during the fight with Elodin earlier that day, and the word on the street is that someone is paying good coin to put the party in the ground. No name, no face. Watch the roofs [Td:1017-1030].
 3. Nuberroca mentions he is short a weapon — the elf cut his lance in two in the square. Mialee produces the great sword she walked out of the arrest circle in the aftermath of that fight, no longer carrying the black light but still a well-made length of steel, and hands it to him; the goliath takes it and sets it on his shoulder [Td:1037-1055].
+4. The wagon itself is already at the orphanage: Mialee left it with **Navad** — a Harper there — for the cult goods to go on to Greenest, or to be sold for what the children need. **Jamna**, she adds, is alive and no further trouble [Td:1071-1088].
 
 ## 7 - At the Plaza del Pueblo
-_~17:00?_
+_~17:00?, 29 Nightal 1489 DR_
 
 1. The party moves to the market square to spend what little coin they have — herbalist, potions, armoury, jeweller, all under one plaza [Td:1112-1116]. Nuberroca sells Elodin's sword for 25 gold and buys a lance for 2, keeping the balance; the pike would have been eighteen pounds and the breastplate he eyes is sixty gold he does not have [Td:1193-1270].
 2. Mialee buys one greater and two basic healing potions for 300 gold [Td:1332-1334]; Kaelthar counts his purse and buys nothing, muttering that all of them here are poor as rats [Td:1375-1377]. The talk turns to a diamond for revivify, 300 gold the minimum and the jeweller only carries 100-piece and 1000-piece cuts — split a thousand and perhaps three of three hundred come out, perhaps not [Td:1382-1456].
@@ -77,7 +78,7 @@ _~17:00?_
 6. Mialee reaches for a word of suggestion to put a crack in the man; the jeweller catches the shape of the spell forming and asks them, not in his magic shop, please, to leave [Td:1591-1602].
 
 ## 8 - Three errands at dusk
-_~18:00?_
+_~18:00?, 29 Nightal 1489 DR_
 
 1. The party splits for the two hours of daylight remaining [Td:1699-1711]. Mialee and Sinsong to the tavern tables for dice; Nuberroca and Kaelthar to the fighting-pits for prize-fights; Nyx and Eguzkilore to the north quarter to look for the cult.
 2. At the tables Mialee plays a guard straight and takes thirty gold off him across two rounds — bet ten, won outright, took the double-or-nothing [Td:1757-1795]. Nobody else at the table will play her after that [Td:1795-1800].
@@ -91,7 +92,7 @@ _~18:00?_
 2. The split comes out at two diamonds of 400 gold apiece and 200 gold worth of diamond dust — no third stone of 300, the labour did what the labour could [Td:2059-2068]. Sinsong takes custody; the diamonds live in his belt-pouch, since he is the only one of them who can call them to work [Td:2062-2064, Td:2134-2143].
 
 ## 10 - A bolt from the dark
-_~22:00?_
+_~22:00?, 29 Nightal 1489 DR_
 
 1. ***[EPIC]*** The five of them — Eguzkilore still at the wagon-watch — are back on the street talking out where to sleep when the first bolt comes out of the dark. It takes Nuberroca through the shoulder and the burn in it is not steel — an unfamiliar venom that reaches deep [Td:2178-2185, Td:2412].
 2. A second bolt follows at the throat; the goliath drops in the street without seeing his attacker [Td:2199-2203].
