@@ -110,18 +110,10 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | 2025-11-09 (Sun) | 27 | 17:30 - 20:30 | 25 Nightal 1489 DR   |
 | 2025-11-16 (Sun) | 28 | 17:30 - 20:50 | 29 Nightal 1489 DR   |
 | 2025-11-23 (Sun) | -  | No game       | -                    |
-| 2025-11-30 (Sun) | 29 | 17:15 - 21:10 | -                    |
+| 2025-11-30 (Sun) | 29 | 17:15 - 21:10 | 29 Nightal 1489 DR   |
 
 #### November 2025 Events
 
-- **2025-11-16** (S28)
-  - Encounter with **Elodin** in Waterdeep — party attempts to hide Sinsong; **Nuberroca literally points to Sinsong** instead of hiding him
-  - Elodin casts **Suggestion (5th-level slot)** on Nuberroca; Nuberroca complies
-  - Elodin teleports away; alive at end. Sinsong's fire spells + Nuberroca near-crit not enough
-  - Sinsong prone on a rooftop with pigeons for most of combat (comedy centrepiece)
-  - Mia failed to read a pergamino found
-  - Missing: Kaelthar (arrived 18:00)
-  - Sinsong reveals his stones = petrified villagers from his home village; Elodin wants revenge for the village
 - **2025-11-30** (S29) — 17:15–~21:10
   - Missing: Amidamaru (disappears the first Waterdeep night without goodbye; player out until end of January)
   - Gonzalo (Sinsong) returned to the table (present from ~17:26)

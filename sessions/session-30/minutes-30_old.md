@@ -1,7 +1,7 @@
 ---
 status: drafted
 date: 2025-12-07 17:00 - 19:50
-in_fiction_date: 30 Nightal 1489 DR, ~09:00? → 1 Hammer 1490 DR, ~12:00?
+in_fiction_date: 30 Nightal 1489 DR, ~09:00? → 2 Hammer 1490 DR, ~12:00
 party_present:
   - Eguzkilore
   - Kaelthar
@@ -15,11 +15,6 @@ locations:
   - Waterdeep
   - High Road
 ---
-
-NOTES: Deadwinter does not exist (Claude hallucination). Seems like I made a mistake and added a day that should not be there, review thoroughly and merge in the narration. Start and end dates should be preserved.
-Describe briefly end of year festivities.
-Review fully, possibly Claude hallucinations everywhere
-Also, possibly span until Hammer 2 to reach the start of S31 and make it match (to compensate for the removed day)
 
 # Session 30 {{float:"right" 2025-12-07}}
 {wide}
@@ -65,14 +60,14 @@ _~09:00?, 30 Nightal 1489 DR_
 
 ## 6 - The caravan heads north
 
-1. Noon of 30 Nightal — the last day of 1489 DR [Td:600-604, Td:616, Td:1198-1199, Td:1264]. Six wagons move out onto the High Road, the party among them — six escorts, twenty-four construction workers, all under the High Road Company's banner [Td:1198-1211, Td:354-357]. The three who had seen the Greenest cave-camp close faces on the drivers and workers as they come up; none triggers a memory [Td:1226-1236]. Waterdeep at their backs is drawing in for the turn of the year — braziers kindling in the squares, shutters half-closed, families focused on the long night ahead [GM]. The caravan's departure is quiet against it — a few farewell their men, most do not [Td:1237-1241].
+1. Noon of 30 Nightal — the last day of 1489 DR [Td:600-604, Td:616]. Six wagons move out onto the High Road, the party among them — six escorts, twenty-four construction workers, all under the High Road Company's banner [Td:1198-1211, Td:354-357]. The three who had seen the Greenest cave-camp close faces on the drivers and workers as they come up; none triggers a memory [Td:1226-1236]. Waterdeep at their backs is drawing in for the turn of the year — shutters half-closed, kitchens warming cider and broth for the long evening ahead, maps already spread on tables for the Wintershield talk tomorrow [GM]. A few families farewell their men at the lot; most do not [Td:1237-1241].
 2. The road is paved and patrolled; the travel runs to eight or nine days up to the Carnath station [Td:426, Td:1262, Td:1272-1275]. The caravan has no leader; thirty-six people walking the same road toward the same work [Td:1292-1310].
-3. The first day passes without incident. Company barrels of food and water, no cook. The party camps for the night [Td:1309-1324].
+3. The half-day's travel ends at dusk and the party camps with the caravan [Td:1290-1292]. Overnight the year turns — 1 Hammer dawns on them already on the road. For Waterdeep behind them it is *Wintershield*, the new-year holiday, but the High Road Company has paid no bonus for the lost day and the caravan rolls on [Td:1264-1265]. The day passes without incident: company barrels of food and water, no cook, no formal leader among the thirty-six. The party camps for a second night [Td:1309-1324].
 
 ## 7 - A hand in the pocket
-_~10:00?, 1 Hammer 1490 DR_
+_~mid-morning?, 2 Hammer 1490 DR_
 
-1. Second morning on the road. Nuberroca takes a turn driving one of the wagons — his hand with horses is well above the ask and he puts flourishes on the harness, swerving the small bumps on the paved road while the actual driver dozes under his hood [Td:1326-1342, Td:1349-1355].
+1. The caravan rises on 2 Hammer. Nuberroca takes a turn driving one of the wagons — his hand with horses is well above the ask and he puts flourishes on the harness, swerving the small bumps on the paved road while the actual driver dozes under his hood [Td:1326-1342, Td:1349-1355].
 2. Mid-morning, Nuberroca feels a hand on his pocket [Td:1380-1385]. He checks his pack — a small object has appeared he does not recognise [Td:1389-1392].
 3. He pinches it in his thumb and flicks it like a chip toward Sinsong's bald head further down the wagon [Td:1393-1395]. Sinsong catches it before it lands — *"¡Qué buen culo! Si quieres algo de mí, tendrás que reconquistarme"* [Td:1395-1398].
 4. Sinsong confesses the game — he had tried to put a conjured spark on Nuberroca's weapon so he would have a lantern after dark. He touches the lance; it brightens in Nuberroca's hand with a steady light [Td:1435-1446]. The glow holds for an hour, and the sun is high, so the gift mostly amuses the rest of the caravan [Td:1450-1452].
@@ -88,8 +83,8 @@ _~10:00?, 1 Hammer 1490 DR_
 1. A bellow from the slope above and a boulder tumbles down the mountain at the wagons [Td:1577-1582]. Nuberroca drags the horses forward in time and the wagon lives [Td:1583-1600]; Kaelthar's wolf leaps and lands atop the stone with a flourish [Td:1600-1601].
 2. An orc follows the boulder down the slope [Td:1607-1610]. Eguzkilore drops it with his bow before it reaches the road [Td:1611-1615].
 3. Two ogres follow with giant javelins that look more like young pines than throwing-weapons [Td:1641-1644]. The first lays a javelin into the wagon's wood — the shaft bites but Nuberroca holds — then roars and plants a second in him across the next breath [Td:1649-1660]. Nuberroca drops the reins and climbs down to meet them.
-4. Sinsong puts his back behind a wagon and reaches across the road with a word of compulsion aimed at both ogres at once — one shakes it off, the other turns and begins to retreat under Sinsong's *"huir, insensatos"* [Td:1957-1966].
-5. ***[EPIC]*** Eguzkilore crouches to his waist behind a horse, strings the bow, and lets fly with everything he has in the time he has — four arrows one after another, closing on the near ogre like a hail. The creature is left bristling with shafts and limping, barely upright [Td:1935-1950 ?ord].
+4. ***[EPIC]*** Eguzkilore crouches to his waist behind a horse, strings the bow, and lets fly with everything he has in the time he has — four arrows one after another, closing on the near ogre like a hail. The creature is left bristling with shafts and limping, barely upright [Td:1935-1950].
+5. Sinsong puts his back behind a wagon and reaches across the road with a word of compulsion aimed at both ogres at once — one shakes it off, the other turns and begins to retreat under Sinsong's *"huir, insensatos"* [Td:1957-1966].
 6. ***[EPIC]*** Nuberroca brings the halberd down twice across the same arc — the first attacker at his flank drops to the first swing, and his own god's dark fury carries into the follow-through to take the next [Td:1980-1996]. As he swings, dark-light tendrils climb his veins and the wounds across his chest close under his skin. *"De nada por creer en Sinsong"* [Td:2005-2012].
 7. The distant ogre throws javelins back. The first takes Nuberroca deep across the chest and the second lands close behind [Td:2155-2165]. He is heavily wounded now.
 8. Nuberroca sets down the halberd, picks up a crossbow and tries to put a bolt into the ogre at range. The first bolt catches it for a sliver; the second fumbles cold [Td:2173-2237].
