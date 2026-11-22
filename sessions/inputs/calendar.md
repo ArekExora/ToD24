@@ -110,11 +110,11 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | 2025-11-09 (Sun) | 27 | 17:30 - 20:30 | 25 Nightal 1489 DR   |
 | 2025-11-16 (Sun) | 28 | 17:30 - 20:50 | 29 Nightal 1489 DR   |
 | 2025-11-23 (Sun) | -  | No game       | -                    |
-| 2025-11-30 (Sun) | 29 | 17:15 - 21:10 | 29 Nightal 1489 DR   |
+| 2025-11-30 (Sun) | 29 | 17:15 - 20:20 | 29 Nightal 1489 DR   |
 
 #### November 2025 Events
 
-- **2025-11-30** (S29) — 17:15–~21:10
+- **2025-11-30** (S29)
   - Missing: Amidamaru (disappears the first Waterdeep night without goodbye; player out until end of January)
   - Gonzalo (Sinsong) returned to the table (present from ~17:26)
   - **Assassin ambush on Nuberroca** — ~70 hp across TWO crossbow bolts (not three — Simba clarified: "70hp en DOS flechazos, el tercero solo te dio un fallo a la tirada de muerte"); **Nuberroca downed in one round** without a turn
@@ -135,7 +135,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 #### December 2025 Events
 
-- **2025-12-07** (S30) — 17:00–~19:50
+- **2025-12-07** (S30)
   - Missing: Amidamaru; Mialee; Kaelthar (arrived late at ~18:00)
   - Sergio from 17:00; Simba+Richy in Discord from 17:00; Gonzalo joined ~17:26
   - **Party leaves Waterdeep** in the morning (per Simba's 2025-12-08 WA recap)
@@ -196,7 +196,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | 2026-02-01 (Sun) | 36 | 17:00 - ?     | -                    |
 | 2026-02-08 (Sun) | 37 | 17:00 - ?     | -                    |
 | 2026-02-15 (Sun) | 38 | 17:00 - ?     | -                    |
-| 2026-02-22 (Sun) | 39 | 17:00 - 21:00 | -                    |
+| 2026-02-22 (Sun) | 39 | 17:00 - ?     | -                    |
 
 #### February 2026 Events
 
@@ -249,8 +249,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
   - **Kaelthar killed** then reborn/stabilised ("es un dragón legendario")
   - Castle retreat — **Sinsong and Kaelthar captured**; Sinsong trades own capture for Nuberroca's survival with Spirit Guardians rearguard
   - Mia destroys the alarm drum
-- **2026-03-17 (Tue, ⚠ unlogged)**
-  - Off-cadence private session — Sinsong (Gonzalo) interrogated by cultist captors; Kaelthar parallel interrogation
+  - Private session afterwards — Sinsong (Gonzalo) interrogated by cultist captors; Kaelthar parallel interrogation
   - Sinsong "escapes" without knowing how — implied enemy-cast curse, cleansed next morning by Remove Curse
   - Captors confiscate Sinsong's armour/weapons/staff; Sinsong keeps a diamond pouch
   - **Kaelthar loses an arm** during his interrogation ("me cortaron el brazo por la espalda") — canonical wound going forward

@@ -26,7 +26,8 @@ gender: Male
 species:
 background:
 class:
-factions: []
+factions:
+  - Cult of the Dragon
 status: alive
 ---
 

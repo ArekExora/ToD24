@@ -126,6 +126,8 @@ _~13:30, 29 Nightal 1489 DR_
 11. Mialee agrees; Nyx and Eguzkilore welcome more witnesses.
 12. The caravan dissolves at the gate — each merchant settles with their hired guards, who collect their fee and go.
 13. Sinsong, still invisible, slips through the arch alongside the carts.
+14. The streets are full of children jostling for purses; they catch sight of Mialee, bob a short greeting, and part in a wide arc around the party.
+15. Mialee tosses them a couple of gold coins as the carts pass.
 
 {{pageNumber,auto}}
 {{footnote Tyranny of Dragons | Session 28}}
@@ -191,26 +193,27 @@ _~14:15, 29 Nightal 1489 DR_
 7. The sergeant turns on them. A man has been killed in his square today, and the elf is the one he wants for it.
 8. Nuberroca gives him the sketch — an elf who looked powerful, hunting the dwarf, he does not know why.
 9. The sergeant presses Sinsong next; Sinsong fills in that Elodin is a mad warlock who wants him dead, reason unknown.
-10. The sergeant tells them the Waterdeep guard will keep an eye out, then takes the dead man and goes.
+10. He tells them the Waterdeep guard will keep an eye out, then takes the dead man and goes.
 
 \column
 
 ## 11 - Melectite
 
-1. The guards leave the plaza; the party gathers in a side-street. Sinsong, down from the roof at last, opens the cloth bundle at his belt and unwraps a small dark stone — enough that the others can see, no further; nobody is to touch it.
-2. Fifteen days to turn to stone, no cure known. Half his village stands petrified.
-3. His old master tried to solve the curse himself and touched the stone — petrified with the rest.
-4. He gives the long version at last. The stone was turned up deep in one of the Far Hills mines, brought out because it was beautiful; the curse came fifteen days after.
-5. He rode to Candlekeep looking for a cure, and found a plant said to lift it — but no indication of where to find it.
-6. He rode on to the elf hold at **Myth Drannor** and took the hospitality of an elf called **Elodin**, whom he met on the way there; they found the plant in the field and learnt it had to be smoked.
-7. Elodin touched the stone experimenting; the weed was not the right one, and within a tenday he was petrifying from the waist down.
-8. The next night Sinsong saw a female figure in the dark cutting a deal with Elodin for his life.
-9. The deal reversed Elodin's petrification; his eyes went red and the figure sent him after Sinsong.
-10. Elodin fired a blast of purple energy at Sinsong as he fled through the house; the brand on Sinsong's bald scalp dates from that strike.
-11. Nyx admits she had searched his pack many tendays ago, seen the stone, and so believed him; she did not touch it.
-12. Nuberroca takes a pinch of grit from his pouch — the dust of Sinsong's own stone, the one he smashed a while ago — and lets it fall through his fingers like salt. What matters, he tells the dwarf, is keeping one's friends.
-13. Sinsong hands Kaelthar a platinum for the save in the fight.
-14. He holds the thanks back from Nuberroca.
+1. The guards leave the plaza; the party gathers in a side-street. Sinsong comes down from the roof at last.
+2. Nyx presses — what is Sinsong going to do about the village, will they always chase him?
+3. Sinsong opens the cloth bundle at his belt and unwraps a small dark stone — enough that the others can see, no further; nobody is to touch it.
+4. Fifteen days to turn to stone, no cure known. Half his village stands petrified.
+5. His old master tried to solve the curse himself and touched the stone — petrified with the rest.
+6. He gives the long version at last. The stone was turned up deep in one of the Far Hills mines, brought out because it was beautiful; the curse came fifteen days after.
+7. He rode to Candlekeep looking for a cure, and found a plant said to lift it — but no indication of where to find it.
+8. He rode on to the elf hold at **Myth Drannor** and took the hospitality of an elf called **Elodin**, whom he met on the way there; they found the plant in the field and learnt it had to be smoked.
+9. Elodin touched the stone experimenting; the weed was not the right one, and within a tenday he was petrifying from the waist down.
+10. The next night Sinsong saw a female figure in the dark cutting a deal with Elodin for his life.
+11. The deal reversed Elodin's petrification; his eyes went red and the figure sent him after Sinsong.
+12. Elodin fired a blast of purple energy at Sinsong as he fled through the house; the brand on Sinsong's bald scalp dates from that strike.
+13. Nyx admits she had searched his pack many tendays ago, seen the stone, and so believed him; she did not touch it.
+14. Nuberroca lectures Sinsong — with so many people after him, the dwarf should work harder at making friends; Sinsong retorts he has many, like Kaelthar, turns to find the dragonborn and does not see him.
+15. Nuberroca takes a pinch of grit from his pouch — the dust of Sinsong's own stone, the one he smashed a while ago — and lets it fall through his fingers like salt. Making new friends is easy, he tells the dwarf; keeping them is hard. Sinsong should change his attitude.
 
 {{pageNumber,auto}}
 {{footnote Tyranny of Dragons | Session 28}}

@@ -24,9 +24,11 @@ The audit-mode runs MUST be invoked in a fresh conversation. The whole point of 
   - `transcript-<NN>.txt` — primary witness (canonical speaker labels).
   - `transcript-dia-<NN>.txt` — secondary witness (raw `SPEAKER_NN` labels).
 
-  If both are missing, stop and tell the GM that `/transcribe`'s canonicalisation step hasn't run. Do not fall back to `raw/` or `external/`. Cross-reference rather than concatenate — treat them as multiple noisy witnesses of the same events.
+  At least one must be present. Use the primary when available; fall back to the secondary when the primary is absent. If both are missing, stop and tell the GM that `/transcribe` hasn't been run. Do not fall back to `raw/` or `external/`. When both are present, cross-reference rather than concatenate — treat them as multiple noisy witnesses of the same events.
 
-  **Trust order.** The primary is canonical (names normalised, hallucinations filtered) — trust it for content, speaker, and timing; cite `transcript-<NN>.txt` line/time references by default. Use the secondary to corroborate or fill gaps; when committing a dia line, infer the speaker from content context (does the line reference that PC's spells / actions / backstory?) and discard the `SPEAKER_NN` tag.
+  **Trust order.**
+  - **Primary available** (with or without the secondary) — the primary is canonical (names normalised, hallucinations filtered); trust it for content, speaker, and timing and cite `[T:N]` line references by default. When the secondary is also present, use it to corroborate or fill gaps; when committing a dia line, infer the speaker from content context (does the line reference that PC's spells / actions / backstory?) and discard the `SPEAKER_NN` tag.
+  - **Secondary only** — the dia file is the sole witness. Cite `[Td:N]` line references throughout. Infer the speaker for every committed beat from content context (PC-specific spells / abilities / backstory / established voice, NPC names and roles against `campaign/npcs/_context.md`); the `SPEAKER_NN` tag is advisory, not authoritative, and never carries into the minutes. Attribution confidence is lower than the canonical case — surface genuinely ambiguous speakers to triage *Mechanical / rules flags* with the candidate speakers listed, rather than committing a guess.
 
 ## Write mode
 
