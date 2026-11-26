@@ -98,7 +98,7 @@ _~19:30, 17 Hammer 1490 DR_
 
 10. Finding herself bleeding and ringed, Talis presses the spear tighter and steps a pace outside the silence to incant. Black motes stream from her mouth and bloom into a dense swarm of wasps that fills the chamber and blots out sight.
 11. The swarm catches most of them, leaving Sinsong and Eguzkilore unconscious — the scar at the back of the dwarf's neck flashing for an instant; Mialee, Nuberroca and Kaelthar grind their teeth and endure the swarm while they can.
-12. Talis breaks for the door — still bleeding from Nuberroca's wounds — but the swarm she conjured does not spare her, and she falls short of the door and does not rise. The wasps turn into mist as her soul abandons her body.
+12. ***[EPIC]*** Talis breaks for the door — bleeding from Nuberroca's halberd, her own swarm chewing at her back — but as she crosses Nyx's reach the ranger looses an arrow after her, and the shot takes her mid-stride. She falls short of the threshold and does not rise; the wasps turn into mist as her soul abandons her body.
 13. Rushing to her friend, Mialee drops one of Nyx's berries into Eguzkilore's mouth, waking him from the swarm's bite. From the east, the sound of the fight beside the lodge is redoubling.
 14. ***[EPIC]*** Nuberroca changes the hold on his halberd and hurls it like a javelin at Sorvic across the room. The polearm punches clean through visor and skull both, throwing the mercenary through the stair railings and pinning him against the north wall.
 15. In the same breath the barbarian stoops and takes up Talis's spear from where it has fallen — Dragongleam, the draconic-runed weapon she had reclaimed from him that morning, now back in his hands.

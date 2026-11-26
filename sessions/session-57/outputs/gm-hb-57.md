@@ -13,7 +13,7 @@
 #### Summary
 - **Nashkag agreement** — totem and no activity in a few days.
 - **Sohey vs Nuberroca** — exchange blows in a close match.
-- **Talis killed** — her own wasp swarm finishes her.
+- **Talis killed** — Nyx's shot drops her as she flees.
 - **Ambush triggered** — the full lodge rises against the party.
 
 }}
@@ -27,7 +27,7 @@
 - ~15:00 — The Nashkag totem is delivered, Nuberroca duels Sohey as farewell, and rum and a sealed ceramic jar change hands.
 - ~16:00 — The party treks three snowed-over hours; Nyx navigates by her own broken-branch markers back to the lodge.
 - ~19:00 — Talis greets them armed, Kushpia at her shoulder and two mercenaries in the hall; weapons stay drawn.
-- ~19:30 — **Ambush sprung** — Talis falls to her own wasp swarm; Kushpia and Sorvic killed; Nuberroca reclaims *Dragongleam*.
+- ~19:30 — **Ambush sprung** — Talis falls to Nyx's shot as she flees her own wasp swarm; Kushpia and Sorvic killed; Nuberroca reclaims *Dragongleam*.
 - A troll crashes through the east wing, killing Fenrir; Sinsong's fey guardians scythe eleven kobolds silently; Wessic falls.
 - **Three trolls converge** — one is killed and burned; Kaelthar drops shielding Sinsong; Fenwick emerges with armed kitchen staff.
 
@@ -38,16 +38,16 @@
 {{note
 ##### Epic moments
 - **Nuberroca** and **Sohey** trade blows; the goblin reads the barbarian minute by minute until he is nearly spent.
+- **Nyx**'s shot catches **Talis** mid-flight and drops her short of the door.
 - **Nuberroca** hurls his halberd like a javelin, punching clean through Sorvic's visor and pinning him to the wall.
 - **Sinsong** rises with fey guardians and drops eleven kobolds silently as he walks the hall.
 }}
 
-
-::::
+::
 
 ### NPCs
 - **Sohey** — Delivered totem and gifts, duelled Nuberroca, promised a sending-stone rematch.
-- **Talis the White** — Sprung the ambush; killed by her own wasp swarm.
+- **Talis the White** — Sprung the ambush; killed by Nyx's shot.
 
 ### Knowledge gained
 - **Eguzkilore's magic-rejecting affliction.** Sinsong recalls an old condition: flesh rejects the touch of magic, blistering on contact; cleared on its own after a few days, though some form of healing should be able to remove it.

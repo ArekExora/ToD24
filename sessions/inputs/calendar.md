@@ -229,7 +229,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 
 | Date             | S# | Play time     | Notes                |
 |:-----------------|:---|:--------------|:---------------------|
-| 2026-03-01 (Sun) | 40 | 17:00 - ?     | session backtracked  |
+| 2026-03-01 (Sun) | 40 | 17:00 - ?     | 15 Hammer 1490 DR; session backtracked |
 | 2026-03-08 (Sun) | -  | No game       | -                    |
 | 2026-03-15 (Sun) | 41 | 17:00 - ?     | session backtracked  |
 | 2026-03-17 (Tue) | -  | No game       | -                    |
@@ -271,7 +271,7 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 |:-----------------|:---|:--------------|:---------------------|
 | 2026-04-05 (Sun) | -  | No game       | -                    |
 | 2026-04-12 (Sun) | -  | No game       | -                    |
-| 2026-04-19 (Sun) | 44 | 17:00 - 19:40 | Gonzalo leaves the group |
+| 2026-04-19 (Sun) | 44 | 17:00 - 19:40 | 15 Hammer 1490 DR; Gonzalo leaves the group |
 | 2026-04-26 (Sun) | -  | No game       | -                    |
 
 #### April 2026 Events
@@ -418,5 +418,6 @@ Month-by-month log. Each row tracks one Sunday (or the rare off-cadence day). `S
 | Date             | S# | Play time     | Notes                |
 |:-----------------|:---|:--------------|:---------------------|
 | 2026-11-01 (Sun) | -  | No game       | -                    |
-| 2026-11-08 (Sun) | 57 | 17:45 - 21:00 | -                    |
+| 2026-11-08 (Sun) | 57 | 17:45 - 21:00 | 17 Hammer 1490 DR    |
 | 2026-11-15 (Sun) | -  | No game       | -                    |
+| 2026-11-22 (Sun) | 58 | 17:30 - 21:10 | 17 Hammer 1490 DR    |
