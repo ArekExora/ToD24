@@ -1,5 +1,5 @@
 {
-  "generated_at": "22/11/2026",
+  "generated_at": "26/11/2026",
   "campaign": {
     "pdfs": {
       "saga": "sessions/outputs/Saga.pdf",
@@ -9,6 +9,16 @@
     }
   },
   "sessions": [
+    {
+      "n": 58,
+      "real_date": "22/11/2026",
+      "in_fiction_date": "17 Hammer 1490 DR",
+      "pdfs": {
+        "saga": null,
+        "gm": null,
+        "minutes": null
+      }
+    },
     {
       "n": 57,
       "real_date": "08/11/2026",
